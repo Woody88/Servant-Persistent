@@ -1,0 +1,673 @@
+
+==================== FINAL INTERFACE ====================
+2017-12-16 06:26:18.573872 UTC
+
+interface servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Auth [orphan module] [family instance module] 8002
+  interface hash: ae9ed481e58377f89d369e7e0a324765
+  ABI hash: c70291dad848c05ac256644df208761a
+  export-list hash: 605295fe769f15d4155c66bff502f5bb
+  orphan hash: 9b2fce8a375c9a686f53eab8f5c58f41
+  flag hash: 1b5e6a544dd5dcc033483b603b383915
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Auth.authHandler
+  Auth.authHandler'
+  Auth.authServerContext
+  Auth.verifyToken
+  Auth.Auth
+module dependencies: Api.User Auth.Token Configs Models
+package dependencies: StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp
+                      aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      aeson-compat-0.3.6@aeson-compat-0.3.6-HFlClSgXxbU7TMoWqS5Yu4
+                      ansi-terminal-0.6.3.1@ansi-terminal-0.6.3.1-3RTqikoQf47ajVD9m8zgB
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      attoparsec-iso8601-1.0.0.0@attoparsec-iso8601-1.0.0.0-CiauZZhskHA6jYy7CqE2mZ
+                      auto-update-0.1.4@auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-LxClHUTiKUUAxWtvJ5Oeoy
+                      blaze-html-0.9.0.1@blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p
+                      blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob
+                      byteorder-1.0.4@byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      call-stack-0.1.0@call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+                      case-insensitive-1.2.0.10@case-insensitive-1.2.0.10-1D5OUKQ7UrJ7IpOe0di4Un
+                      charset-0.3.7.1@charset-0.3.7.1-8XzlqAFUmfXDSOZRmiDkgy
+                      comonad-5.0.2@comonad-5.0.2-Fq9Xy9jdx6uIyJZn00E6Yc
+                      conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i
+                      conduit-extra-1.1.17@conduit-extra-1.1.17-LHyPtC0nGlzDcgVxOcd4h4
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-29zF0Im431177ovfbHYCGv
+                      cryptonite-0.23@cryptonite-0.23-7aE9caGlGrwDnGcKBpfJ80
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.3.0.0@directory-1.3.0.0
+                      distributive-0.5.3@distributive-0.5.3-IX4kyVcHAyoH4uFYrsjY1R
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      easy-file-0.2.1@easy-file-0.2.1-rguMBNaECxLikt4CCDx0D
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      fast-logger-2.4.10@fast-logger-2.4.10-7GMVhEi1femFXwSQxV5ynm
+                      file-embed-0.0.10@file-embed-0.0.10-KWMmUDaNSRP7AxWSEHlrrK
+                      filepath-1.4.1.1@filepath-1.4.1.1
+                      foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf
+                      free-4.12.4@free-4.12.4-C2gBQV0m8J42HxqSLTFyVx
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      http-api-data-0.3.7.1@http-api-data-0.3.7.1-AT41KDpP9ayH63FPNXWrvF
+                      http-date-0.0.6.1@http-date-0.0.6.1-AkYFHBFn90lGSerD29arC9
+                      http-media-0.6.4@http-media-0.6.4-L2HKUvjwG4m4RLl78rlCa
+                      http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX
+                      lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW
+                      lifted-base-0.2.3.11@lifted-base-0.2.3.11-Ei0JSPdt7KOCD2HIA5jFqV
+                      memory-0.14.9@memory-0.14.9-DuHWmOqOt5MKvG5MS8KASe
+                      mime-types-0.1.0.7@mime-types-0.1.0.7-6b3z22GcDYZLEl2kkfCUAB
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l
+                      monad-logger-0.3.25.1@monad-logger-0.3.25.1-C5T06yv6lw54Umfdl3S8et
+                      monad-loops-0.4.3@monad-loops-0.4.3-ERCN4ZKCeeS5SRhwqXsLBP
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      natural-transformation-0.4@natural-transformation-0.4-1wekIVD0YQa62debXjfFg3
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      parsec-3.1.11@parsec-3.1.11-1aqiimsgq2dCv7eoaC8WuX
+                      path-pieces-0.2.1@path-pieces-0.2.1-Ap205zdHJCr3aorBcPaHM5
+                      persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q
+                      persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8
+                      persistent-template-2.5.3@persistent-template-2.5.3-Eo7SLuwZzwzIDXoxvwLBF1
+                      postgresql-libpq-0.9.3.1@postgresql-libpq-0.9.3.1-PNtzTLZ1kPBlp0W2VWiJp
+                      postgresql-simple-0.5.3.0@postgresql-simple-0.5.3.0-7wqiM7f7ESv7wSvmAjfLqt
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
+                      resource-pool-0.2.3.2@resource-pool-0.2.3.2-GmoeVeJ8L5Y51jMJ5dPk3U
+                      resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      semigroupoids-5.2.1@semigroupoids-5.2.1-Db8txM8kTsI6Y49CY6g5Jn
+                      servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs
+                      servant-foreign-0.10.1@servant-foreign-0.10.1-FIgbbIo2RQx17WgpgeFap1
+                      servant-js-0.9.3.1@servant-js-0.9.3.1-8O1faMH51RCAxnEoBHhg4B
+                      servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x
+                      silently-1.2.5@silently-1.2.5-HsbqnAAyIOA8viZ4Sccs0a
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      stm-chans-3.0.0.4@stm-chans-3.0.0.4-JX6Y7GVvdkg3BduVhEnPWu
+                      string-conversions-0.4.0.1@string-conversions-0.4.0.1-HK2T4drDKhqGigpJdBBdRG
+                      stringsearch-0.3.6.6@stringsearch-0.3.6.6-2soGORichTR6reHVhDqKip
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      th-lift-instances-0.1.11@th-lift-instances-0.1.11-A7sWuFC2KLsFTBmLagoRSX
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unix-2.7.2.1@unix-2.7.2.1
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-Ausmw6d7KIwA7sl52mzqxC
+                      unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uri-bytestring-0.2.3.3@uri-bytestring-0.2.3.3-Hc1wKsF7VwW2mAD17PrIxh
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vault-0.3.0.7@vault-0.3.0.7-FSJCPczyPWW8DwvwP76qt4
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+                      wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-7lzPCIcKJr41gr3SLmdLji
+                      wai-extra-3.0.20.2@wai-extra-3.0.20.2-FZIfwBninleKHm4gfrfwwi
+                      wai-logger-2.3.0@wai-logger-2.3.0-G2LMsBpHwLV49tDfVWxzX4
+                      word8-0.1.3@word8-0.1.3-9o1uWQQ6KysJq8GGsVHHit
+                      zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-template-2.5.3@persistent-template-2.5.3-Eo7SLuwZzwzIDXoxvwLBF1:Database.Persist.TH
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
+         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Experimental.Auth
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         th-lift-instances-0.1.11@th-lift-instances-0.1.11-A7sWuFC2KLsFTBmLagoRSX:Instances.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE:Data.UnixTime.Diff
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:Data.Functor.Rep
+                         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.BoxedArray
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Monad
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.MutableBuilder
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Nat
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.NonEmpty
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Numerical.Subtractive
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ASCII7
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF16
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF32
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.AsciiString
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.OffsetSize
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UTF8.Base
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Fix
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Sum
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Wrapped
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Conduit
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Pipe
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Bitmap
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Buildable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Element
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Keyed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Mutable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Tuple
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         http-api-data-0.3.7.1@http-api-data-0.3.7.1-AT41KDpP9ayH63FPNXWrvF:Web.Internal.FormUrlEncoded
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Day
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Yoneda
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.At
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Internal.Indexed
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Reified
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Tuple
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Wrapped
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Zoom
+                         monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l:Control.Monad.Trans.Control
+                         monad-logger-0.3.25.1@monad-logger-0.3.25.1-C5T06yv6lw54Umfdl3S8et:Control.Monad.Logger
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph:Network.URI
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistConfig
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Types.Internal
+                         persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8:Database.Persist.Postgresql
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT:Data.Profunctor.Rep
+                         resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource.Internal
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.ContentTypes
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.IsSecure
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Verbs
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.Utils.Links
+                         servant-foreign-0.10.1@servant-foreign-0.10.1-FIgbbIo2RQx17WgpgeFap1:Servant.Foreign.Internal
+                         servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Api.User
+                         servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Models
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Experimental.Auth
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.BasicAuth
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.Handler
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.RoutingApplication
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uri-bytestring-0.2.3.3@uri-bytestring-0.2.3.3-Hc1wKsF7VwW2mAD17PrIxh:URI.ByteString.Types
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.List ab8c4e523e6c479c549d3bcd5fc4a439
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString 43e99fdac51908da414a28958688da64
+import  -/  bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Char8 64661030f691dd1495e363eeda7a5344
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Error.Class 635294424a2da8269902789f5c8bbe99
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Experimental.Auth cb680ce0ff76b98651bfa7e34e172f1b
+import  -/  Api.User 415b3cbb3f4c4470e232ca6ae44ca345
+  exports: d00d5bb479ed2371845e4e37bf8fe94a
+import  -/  Auth.Token 850432bab7c3bf8386745b5e5738f9f1
+  exports: 72c309506d00300ce8d53e5c1c25cfe3
+  Token c430d3b771c3e31ef99ff79d56f609db
+import  -/  Configs 334c35832835bd00f48f15cbeff86846
+  exports: 5ba548e39009e48b0da18ab7e93924f4
+  Config 96249f2ad1bf7f8ea5fb7b5c3cbdf2c5
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant 73596c6288a7d315a682d7006ae39fb2
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server f68aafbbfb0a0b60ba05dffbcadd8b69
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Experimental.Auth 274fab3208b8de21c5f9b84a60bf3fee
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.Context e3cbda6756e777a149a6ed7d3a6f78ef
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.Handler 07eacaa7e3942dc5138efea15152acd6
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.ServantErr 46f2938c833315653ccfc80a1e87b7fe
+import  -/  wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C:Network.Wai 43c9d22c6cd2fa899c90fca75cdc02dd
+import  -/  wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C:Network.Wai.Internal eae883ec93d0a7be5c67711e4400ccad
+00b07c18ee70f29f7c902f081d31e730
+  $s$fEqCI ::
+    GHC.Classes.Eq
+      (Data.CaseInsensitive.Internal.CI
+         Data.ByteString.Internal.ByteString)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.CaseInsensitive.Internal.CI
+                       Data.ByteString.Internal.ByteString)
+                  Auth.$s$fEqCI_$s$fEqCI_$c==
+                  Auth.$s$fEqCI_$s$fEqCI_$c/= -}
+ebce18dad268ca5d67cdf9650c9dd774
+  $s$fEqCI_$s$fEqCI_$c/= ::
+    Data.CaseInsensitive.Internal.CI
+      Data.ByteString.Internal.ByteString
+    -> Data.CaseInsensitive.Internal.CI
+         Data.ByteString.Internal.ByteString
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LS(LLLS)),1*U(A,U(U,U,U,U))><S(LS(LLLS)),1*U(A,U(U,U,U,U))>,
+     Inline: INLINE (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Data.CaseInsensitive.Internal.CI
+                           Data.ByteString.Internal.ByteString)
+                   (y :: Data.CaseInsensitive.Internal.CI
+                           Data.ByteString.Internal.ByteString) ->
+                 GHC.Classes.not (Auth.$s$fEqCI_$s$fEqCI_$c== x y)) -}
+04aa761d3f6ac6280bc26816992f0da6
+  $s$fEqCI_$s$fEqCI_$c== ::
+    Data.CaseInsensitive.Internal.CI
+      Data.ByteString.Internal.ByteString
+    -> Data.CaseInsensitive.Internal.CI
+         Data.ByteString.Internal.ByteString
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LS(LLLS)),1*U(A,U(U,U,U,U))><S(LS(LLLS)),1*U(A,U(U,U,U,U))>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Data.CaseInsensitive.Internal.CI
+                             Data.ByteString.Internal.ByteString)
+                   (eta1 :: Data.CaseInsensitive.Internal.CI
+                              Data.ByteString.Internal.ByteString) ->
+                 case eta of wild { Data.CaseInsensitive.Internal.CI ds ds1 ->
+                 case ds1 of wild1 { Data.ByteString.Internal.PS dt dt1 dt2 dt3 ->
+                 case eta1 of wild2 { Data.CaseInsensitive.Internal.CI ds2 ds3 ->
+                 case ds3 of wild3 { Data.ByteString.Internal.PS dt4 dt5 dt6 dt7 ->
+                 case GHC.Classes.neInt
+                        (GHC.Types.I# dt3)
+                        (GHC.Types.I# dt7) of wild4 {
+                   GHC.Types.False
+                   -> case GHC.Classes.&&
+                             (GHC.ForeignPtr.$fEqForeignPtr_$c==
+                                @ GHC.Word.Word8
+                                (GHC.ForeignPtr.ForeignPtr @ GHC.Word.Word8 dt dt1)
+                                (GHC.ForeignPtr.ForeignPtr @ GHC.Word.Word8 dt4 dt5))
+                             (GHC.Classes.eqInt
+                                (GHC.Types.I# dt2)
+                                (GHC.Types.I# dt6)) of wild5 {
+                        GHC.Types.False
+                        -> GHC.Classes.$fEqOrdering_$c==
+                             (Data.ByteString.Internal.compareBytes wild1 wild3)
+                             GHC.Types.EQ
+                        GHC.Types.True -> GHC.Types.True }
+                   GHC.Types.True -> GHC.Types.False } } } } }) -}
+c7fcd6cb7e405a6fca9f055099cf7b95
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Auth.$trModule2 Auth.$trModule1) -}
+9119a76385fbb5aa1a8d69b35839a5aa
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Auth"#) -}
+2400e3d2a319292dc1070afd36b34853
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ"#) -}
+09372f05d4bfc09a1c1368b09cda3cdc
+  $wauthHandler' ::
+    Network.HTTP.Types.Header.RequestHeaders
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token #)
+  {- Arity: 2, Strictness: <S,1*U><S,U>, Inline: [0],
+     Unfolding: (\ (ww :: Network.HTTP.Types.Header.RequestHeaders)
+                   (w :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.List.lookup
+                        @ Network.HTTP.Types.Header.HeaderName
+                        @ Data.ByteString.Internal.ByteString
+                        Auth.$s$fEqCI
+                        Auth.authHandler12
+                        ww of wild {
+                   GHC.Base.Nothing -> (# w, Auth.authHandler8 #)
+                   GHC.Base.Just authKey
+                   -> case authKey of ww1 { Data.ByteString.Internal.PS ww2 ww3 ww4 ww5 ->
+                      let {
+                        token :: Auth.Token.Token
+                        = Data.ByteString.Internal.$wunpackAppendCharsLazy
+                            ww2
+                            ww3
+                            ww4
+                            ww5
+                            (GHC.Types.[] @ GHC.Types.Char)
+                      } in
+                      case GHC.Base.eqString token Auth.authHandler7 of wild1 {
+                        GHC.Types.False -> (# w, Auth.authHandler3 #)
+                        GHC.Types.True
+                        -> Servant.Server.Internal.Handler.$fMonadHandler1
+                             @ Auth.Token.Token
+                             token
+                             w } } }) -}
+5c663acb302678d799c4bbd27914e94a
+  type Auth = Servant.API.Experimental.Auth.AuthProtect "jwt-auth"
+720a37f8c5e324bc1e2994bd0c8b030d
+  axiom D:R:AuthServerDataAuthProtect::
+      Servant.Server.Experimental.Auth.AuthServerData
+        (Servant.API.Experimental.Auth.AuthProtect "jwt-auth")
+        = Auth.Token.Token
+24e6dc90421814d1caba6a715b15d83d
+  authHandler ::
+    Configs.Config
+    -> Servant.Server.Experimental.Auth.AuthHandler
+         Network.Wai.Internal.Request Auth.Token.Token
+  {- Arity: 3, Strictness: <L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Auth.authHandler1
+                  `cast`
+                (<Configs.Config>_R
+                 ->_R Trans
+                          (<Network.Wai.Internal.Request>_R
+                           ->_R Trans
+                                    (Sym (GHC.Types.N:IO[0]
+                                              <Data.Either.Either
+                                                 Servant.Server.Internal.ServantErr.ServantErr
+                                                 Auth.Token.Token>_R))
+                                    (Trans
+                                         (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                   <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                   <GHC.Types.IO>_R
+                                                   <Auth.Token.Token>_N))
+                                         (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <Auth.Token.Token>_N)))
+                          (Sym (Servant.Server.Experimental.Auth.N:AuthHandler[0]
+                                    <Network.Wai.Internal.Request>_R <Auth.Token.Token>_N))) -}
+2085eabb843ed0837451d44a3cc50a47
+  authHandler' ::
+    Network.Wai.Internal.Request
+    -> Servant.Server.Internal.Handler.Handler Auth.Token.Token
+  {- Arity: 2,
+     Strictness: <S(LLLLSLLLLLLLLLLL),1*U(A,A,A,A,1*U,A,A,A,A,A,A,A,A,A,A,A)><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Auth.authHandler2
+                  `cast`
+                (<Network.Wai.Internal.Request>_R
+                 ->_R Trans
+                          (Sym (GHC.Types.N:IO[0]
+                                    <Data.Either.Either
+                                       Servant.Server.Internal.ServantErr.ServantErr
+                                       Auth.Token.Token>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                         <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                         <GHC.Types.IO>_R
+                                         <Auth.Token.Token>_N))
+                               (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <Auth.Token.Token>_N))) -}
+fa5bd0a5dacede02d3ef99b66f948e3b
+  authHandler1 ::
+    Configs.Config
+    -> Network.Wai.Internal.Request
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token #)
+  {- Arity: 3, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (cfg :: Configs.Config)
+                   (eta :: Network.Wai.Internal.Request)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 Auth.authHandler2 eta eta1) -}
+ffd057c87127ee643d6432e92c28125c
+  authHandler10 :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Lazy.Internal.$wpackChunks1
+                   32#
+                   Auth.authHandler11) -}
+f1b564a8d9e24225721be642ec5a83ea
+  authHandler11 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "Missing auth header"#) -}
+8baf0ace096c7957b55445591e1f29a5
+  authHandler12 :: Network.HTTP.Types.Header.HeaderName
+  {- Unfolding: (case GHC.Prim.newMutVar#
+                        @ GHC.ForeignPtr.Finalizers
+                        @ GHC.Prim.RealWorld
+                        GHC.ForeignPtr.NoFinalizers
+                        GHC.Prim.realWorld# of ds1 { (#,#) ipv ipv1 ->
+                 let {
+                   addr# :: GHC.Prim.Addr# = "Authorization"#
+                 } in
+                 case {__pkg_ccall bytestring-0.10.8.1@bytestring-0.10.8.1 strlen GHC.Prim.Addr#
+                                                                                  -> GHC.Prim.State#
+                                                                                       GHC.Prim.RealWorld
+                                                                                  -> (# GHC.Prim.State#
+                                                                                          GHC.Prim.RealWorld,
+                                                                                        GHC.Prim.Word# #)}
+                        addr#
+                        ipv of wild { (#,#) ds3 ds4 ->
+                 let {
+                   ipv2 :: GHC.ForeignPtr.ForeignPtrContents
+                   = GHC.ForeignPtr.PlainForeignPtr ipv1
+                 } in
+                 let {
+                   ipv3 :: GHC.Prim.Int# = GHC.Prim.word2Int# ds4
+                 } in
+                 case Data.CaseInsensitive.Internal.$wfoldCaseBS
+                        addr#
+                        ipv2
+                        0#
+                        ipv3 of dt1 { Data.ByteString.Internal.PS ipv4 ipv5 ipv6 ipv7 ->
+                 Data.CaseInsensitive.Internal.CI
+                   @ Data.ByteString.Internal.ByteString
+                   (Data.ByteString.Internal.PS addr# ipv2 0# ipv3)
+                   dt1 } } }) -}
+4e237fbb83aefaf58e72f4434ca168e8
+  authHandler2 ::
+    Network.Wai.Internal.Request
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token #)
+  {- Arity: 2,
+     Strictness: <S(LLLLSLLLLLLLLLLL),1*U(A,A,A,A,1*U,A,A,A,A,A,A,A,A,A,A,A)><S,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Network.Wai.Internal.Request)
+                   (w1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case w of ww { Network.Wai.Internal.Request ww1 ww2 ww3 ww4 ww5 ww6 ww7 ww8 ww9 ww10 ww11 ww12 ww13 ww14 ww15 ww16 ->
+                 Auth.$wauthHandler' ww5 w1 }) -}
+22b04d644fb3e8a8cf49af6e209baf33
+  authHandler3 ::
+    Data.Either.Either
+      Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token
+  {- Unfolding: (Data.Either.Left
+                   @ Servant.Server.Internal.ServantErr.ServantErr
+                   @ Auth.Token.Token
+                   Auth.authHandler4) -}
+b29b26d9564ce46418465b2a15b41425
+  authHandler4 :: Servant.Server.Internal.ServantErr.ServantErr
+  {- Strictness: m,
+     Unfolding: (Servant.Server.Internal.ServantErr.ServantErr
+                   Servant.Server.Internal.ServantErr.err19
+                   Servant.Server.Internal.ServantErr.err18
+                   Auth.authHandler5
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)) -}
+b6a1d64a005a12c71b2a0158cceec69d
+  authHandler5 :: Data.ByteString.Lazy.Internal.ByteString
+  {- Unfolding: (Data.ByteString.Lazy.Internal.$wpackChunks1
+                   32#
+                   Auth.authHandler6) -}
+aee49d4f63610ddfd8913da62051c09f
+  authHandler6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Invalid Token"#) -}
+0d2802c0c6253b73a19e6429fa3508db
+  authHandler7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "my secret token!"#) -}
+aa753a74f191a0fc742c59d28e978628
+  authHandler8 ::
+    Data.Either.Either
+      Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token
+  {- Unfolding: (Data.Either.Left
+                   @ Servant.Server.Internal.ServantErr.ServantErr
+                   @ Auth.Token.Token
+                   Auth.authHandler9) -}
+1f8042f117820d45ff3634bf12133f37
+  authHandler9 :: Servant.Server.Internal.ServantErr.ServantErr
+  {- Strictness: m,
+     Unfolding: (Servant.Server.Internal.ServantErr.ServantErr
+                   Servant.Server.Internal.ServantErr.err19
+                   Servant.Server.Internal.ServantErr.err18
+                   Auth.authHandler10
+                   (GHC.Types.[] @ Network.HTTP.Types.Header.Header)) -}
+0662bcee8d1c5815a6d18feeb3217e8c
+  authServerContext ::
+    Configs.Config
+    -> Servant.Server.Internal.Context.Context
+         '[Servant.Server.Experimental.Auth.AuthHandler
+             Network.Wai.Internal.Request Auth.Token.Token]
+  {- Arity: 1, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (cfg :: Configs.Config) ->
+                 Servant.Server.Internal.Context.:.
+                   @ '[Servant.Server.Experimental.Auth.AuthHandler
+                         Network.Wai.Internal.Request Auth.Token.Token]
+                   @ (Servant.Server.Experimental.Auth.AuthHandler
+                        Network.Wai.Internal.Request Auth.Token.Token)
+                   @ '[]
+                   @~ <'[Servant.Server.Experimental.Auth.AuthHandler
+                           Network.Wai.Internal.Request Auth.Token.Token]>_N
+                   Auth.authHandler2
+                     `cast`
+                   (Trans
+                        (<Network.Wai.Internal.Request>_R
+                         ->_R Trans
+                                  (Sym (GHC.Types.N:IO[0]
+                                            <Data.Either.Either
+                                               Servant.Server.Internal.ServantErr.ServantErr
+                                               Auth.Token.Token>_R))
+                                  (Trans
+                                       (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                 <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                 <GHC.Types.IO>_R
+                                                 <Auth.Token.Token>_N))
+                                       (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <Auth.Token.Token>_N)))
+                        (Sym (Servant.Server.Experimental.Auth.N:AuthHandler[0]
+                                  <Network.Wai.Internal.Request>_R <Auth.Token.Token>_N)))
+                   Servant.Server.Internal.Context.$WEmptyContext) -}
+0a4165bccff5b57778c49af28339f9d4
+  verifyToken ::
+    Auth.Token.Token
+    -> Servant.Server.Internal.Handler.Handler Auth.Token.Token
+  {- Arity: 2, Strictness: <S,U><S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Auth.verifyToken1
+                  `cast`
+                (<Auth.Token.Token>_R
+                 ->_R Trans
+                          (Sym (GHC.Types.N:IO[0]
+                                    <Data.Either.Either
+                                       Servant.Server.Internal.ServantErr.ServantErr
+                                       Auth.Token.Token>_R))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                         <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                         <GHC.Types.IO>_R
+                                         <Auth.Token.Token>_N))
+                               (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <Auth.Token.Token>_N))) -}
+dea0ecc24694994ea7241f7a0aa85013
+  verifyToken1 ::
+    Auth.Token.Token
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token #)
+  {- Arity: 2, Strictness: <S,U><S,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (token :: Auth.Token.Token)
+                   (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case GHC.Base.eqString token Auth.authHandler7 of wild {
+                   GHC.Types.False
+                   -> (# eta,
+                         Data.Either.Left
+                           @ Servant.Server.Internal.ServantErr.ServantErr
+                           @ Auth.Token.Token
+                           Auth.authHandler4 #)
+                   GHC.Types.True
+                   -> Servant.Server.Internal.Handler.$fMonadHandler1
+                        @ Auth.Token.Token
+                        token
+                        eta }) -}
+family instance Servant.Server.Experimental.Auth.AuthServerData [Servant.API.Experimental.Auth.AuthProtect]
+  = Auth.D:R:AuthServerDataAuthProtect
+"SPEC/Auth $fEqCI @ ByteString" [ALWAYS] forall ($dEq :: GHC.Classes.Eq
+                                                           Data.ByteString.Internal.ByteString)
+  Data.CaseInsensitive.Internal.$fEqCI @ Data.ByteString.Internal.ByteString
+                                       $dEq
+  = Auth.$s$fEqCI
+"SPEC/Auth $fEqCI_$c/= @ ByteString" [ALWAYS] forall ($dEq :: GHC.Classes.Eq
+                                                                Data.ByteString.Internal.ByteString)
+  Data.CaseInsensitive.Internal.$fEqCI_$c/= @ Data.ByteString.Internal.ByteString
+                                            $dEq
+  = Auth.$s$fEqCI_$s$fEqCI_$c/=
+"SPEC/Auth $fEqCI_$c== @ ByteString" [ALWAYS] forall ($dEq :: GHC.Classes.Eq
+                                                                Data.ByteString.Internal.ByteString)
+  Data.CaseInsensitive.Internal.$fEqCI_$c== @ Data.ByteString.Internal.ByteString
+                                            $dEq
+  = Auth.$s$fEqCI_$s$fEqCI_$c==
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

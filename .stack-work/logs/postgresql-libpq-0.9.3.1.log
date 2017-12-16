@@ -1,0 +1,16 @@
+[1 of 2] Compiling Main             ( /tmp/stack17942/postgresql-libpq-0.9.3.1/Setup.hs, /tmp/stack17942/postgresql-libpq-0.9.3.1/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/Main.o )
+[2 of 2] Compiling StackSetupShim   ( /home/woodson/.stack/setup-exe-src/setup-shim-mPHDZzAJ.hs, /tmp/stack17942/postgresql-libpq-0.9.3.1/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/StackSetupShim.o )
+Linking /tmp/stack17942/postgresql-libpq-0.9.3.1/.stack-work/dist/x86_64-linux/Cabal-1.24.2.0/setup/setup ...
+Configuring postgresql-libpq-0.9.3.1...
+Building postgresql-libpq-0.9.3.1...
+Preprocessing library postgresql-libpq-0.9.3.1...
+LibPQ.hsc:1919:0: warning: "hsc_alignment" redefined
+In file included from .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/PostgreSQL/LibPQ_hsc_make.c:1:0:
+/home/woodson/.stack/programs/x86_64-linux/ghc-8.0.2/lib/ghc-8.0.2/template-hsc.h:88:0: note: this is the location of the previous definition
+ #define hsc_alignment(t...) \
+ ^
+[1 of 2] Compiling Database.PostgreSQL.LibPQ.Internal ( src/Database/PostgreSQL/LibPQ/Internal.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/PostgreSQL/LibPQ/Internal.o )
+[2 of 2] Compiling Database.PostgreSQL.LibPQ ( .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/PostgreSQL/LibPQ.hs, .stack-work/dist/x86_64-linux/Cabal-1.24.2.0/build/Database/PostgreSQL/LibPQ.o )
+Installing library in
+/home/woodson/.stack/snapshots/x86_64-linux/lts-9.17/8.0.2/lib/x86_64-linux-ghc-8.0.2/postgresql-libpq-0.9.3.1-PNtzTLZ1kPBlp0W2VWiJp
+Registering postgresql-libpq-0.9.3.1...

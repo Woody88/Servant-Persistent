@@ -1,0 +1,2304 @@
+
+==================== FINAL INTERFACE ====================
+2017-12-16 06:30:48.624006 UTC
+
+interface servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Api 8002
+  interface hash: 3f181ca4ce97456e0d9914c72b111f0c
+  ABI hash: 4da595093c23aa806088247c7b0a2a2b
+  export-list hash: 5bd13b375b831a8000c5552a008386ed
+  orphan hash: 360b1eccecb1d305e788b3892e3d2eb5
+  flag hash: c34bfac368a2ed6077fe7a9291c9295f
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Api.app
+module dependencies: Api.User Auth Auth.Token Configs Models
+package dependencies: StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp
+                      aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      aeson-compat-0.3.6@aeson-compat-0.3.6-HFlClSgXxbU7TMoWqS5Yu4
+                      ansi-terminal-0.6.3.1@ansi-terminal-0.6.3.1-3RTqikoQf47ajVD9m8zgB
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      attoparsec-iso8601-1.0.0.0@attoparsec-iso8601-1.0.0.0-CiauZZhskHA6jYy7CqE2mZ
+                      auto-update-0.1.4@auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-LxClHUTiKUUAxWtvJ5Oeoy
+                      blaze-html-0.9.0.1@blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p
+                      blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob
+                      byteorder-1.0.4@byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      call-stack-0.1.0@call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+                      case-insensitive-1.2.0.10@case-insensitive-1.2.0.10-1D5OUKQ7UrJ7IpOe0di4Un
+                      charset-0.3.7.1@charset-0.3.7.1-8XzlqAFUmfXDSOZRmiDkgy
+                      comonad-5.0.2@comonad-5.0.2-Fq9Xy9jdx6uIyJZn00E6Yc
+                      conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i
+                      conduit-extra-1.1.17@conduit-extra-1.1.17-LHyPtC0nGlzDcgVxOcd4h4
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-29zF0Im431177ovfbHYCGv
+                      cryptonite-0.23@cryptonite-0.23-7aE9caGlGrwDnGcKBpfJ80
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.3.0.0@directory-1.3.0.0
+                      distributive-0.5.3@distributive-0.5.3-IX4kyVcHAyoH4uFYrsjY1R
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      easy-file-0.2.1@easy-file-0.2.1-rguMBNaECxLikt4CCDx0D
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      fast-logger-2.4.10@fast-logger-2.4.10-7GMVhEi1femFXwSQxV5ynm
+                      file-embed-0.0.10@file-embed-0.0.10-KWMmUDaNSRP7AxWSEHlrrK
+                      filepath-1.4.1.1@filepath-1.4.1.1
+                      foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf
+                      free-4.12.4@free-4.12.4-C2gBQV0m8J42HxqSLTFyVx
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      http-api-data-0.3.7.1@http-api-data-0.3.7.1-AT41KDpP9ayH63FPNXWrvF
+                      http-date-0.0.6.1@http-date-0.0.6.1-AkYFHBFn90lGSerD29arC9
+                      http-media-0.6.4@http-media-0.6.4-L2HKUvjwG4m4RLl78rlCa
+                      http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX
+                      lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW
+                      lifted-base-0.2.3.11@lifted-base-0.2.3.11-Ei0JSPdt7KOCD2HIA5jFqV
+                      memory-0.14.9@memory-0.14.9-DuHWmOqOt5MKvG5MS8KASe
+                      mime-types-0.1.0.7@mime-types-0.1.0.7-6b3z22GcDYZLEl2kkfCUAB
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l
+                      monad-logger-0.3.25.1@monad-logger-0.3.25.1-C5T06yv6lw54Umfdl3S8et
+                      monad-loops-0.4.3@monad-loops-0.4.3-ERCN4ZKCeeS5SRhwqXsLBP
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      natural-transformation-0.4@natural-transformation-0.4-1wekIVD0YQa62debXjfFg3
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      parsec-3.1.11@parsec-3.1.11-1aqiimsgq2dCv7eoaC8WuX
+                      path-pieces-0.2.1@path-pieces-0.2.1-Ap205zdHJCr3aorBcPaHM5
+                      persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q
+                      persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8
+                      persistent-template-2.5.3@persistent-template-2.5.3-Eo7SLuwZzwzIDXoxvwLBF1
+                      postgresql-libpq-0.9.3.1@postgresql-libpq-0.9.3.1-PNtzTLZ1kPBlp0W2VWiJp
+                      postgresql-simple-0.5.3.0@postgresql-simple-0.5.3.0-7wqiM7f7ESv7wSvmAjfLqt
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
+                      resource-pool-0.2.3.2@resource-pool-0.2.3.2-GmoeVeJ8L5Y51jMJ5dPk3U
+                      resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      semigroupoids-5.2.1@semigroupoids-5.2.1-Db8txM8kTsI6Y49CY6g5Jn
+                      servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs
+                      servant-foreign-0.10.1@servant-foreign-0.10.1-FIgbbIo2RQx17WgpgeFap1
+                      servant-js-0.9.3.1@servant-js-0.9.3.1-8O1faMH51RCAxnEoBHhg4B
+                      servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x
+                      silently-1.2.5@silently-1.2.5-HsbqnAAyIOA8viZ4Sccs0a
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      stm-chans-3.0.0.4@stm-chans-3.0.0.4-JX6Y7GVvdkg3BduVhEnPWu
+                      string-conversions-0.4.0.1@string-conversions-0.4.0.1-HK2T4drDKhqGigpJdBBdRG
+                      stringsearch-0.3.6.6@stringsearch-0.3.6.6-2soGORichTR6reHVhDqKip
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      th-lift-instances-0.1.11@th-lift-instances-0.1.11-A7sWuFC2KLsFTBmLagoRSX
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unix-2.7.2.1@unix-2.7.2.1
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-Ausmw6d7KIwA7sl52mzqxC
+                      unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uri-bytestring-0.2.3.3@uri-bytestring-0.2.3.3-Hc1wKsF7VwW2mAD17PrIxh
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vault-0.3.0.7@vault-0.3.0.7-FSJCPczyPWW8DwvwP76qt4
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+                      wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-7lzPCIcKJr41gr3SLmdLji
+                      wai-extra-3.0.20.2@wai-extra-3.0.20.2-FZIfwBninleKHm4gfrfwwi
+                      wai-logger-2.3.0@wai-logger-2.3.0-G2LMsBpHwLV49tDfVWxzX4
+                      word8-0.1.3@word8-0.1.3-9o1uWQQ6KysJq8GGsVHHit
+                      zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-template-2.5.3@persistent-template-2.5.3-Eo7SLuwZzwzIDXoxvwLBF1:Database.Persist.TH
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
+         servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Auth
+         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Experimental.Auth
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         th-lift-instances-0.1.11@th-lift-instances-0.1.11-A7sWuFC2KLsFTBmLagoRSX:Instances.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE:Data.UnixTime.Diff
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:Data.Functor.Rep
+                         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.BoxedArray
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Monad
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.MutableBuilder
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Nat
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.NonEmpty
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Numerical.Subtractive
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ASCII7
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF16
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF32
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.AsciiString
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.OffsetSize
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UTF8.Base
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Fix
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Sum
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Wrapped
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Conduit
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Pipe
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Bitmap
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Buildable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Element
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Keyed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Mutable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Tuple
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         http-api-data-0.3.7.1@http-api-data-0.3.7.1-AT41KDpP9ayH63FPNXWrvF:Web.Internal.FormUrlEncoded
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Day
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Yoneda
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.At
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Internal.Indexed
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Reified
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Tuple
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Wrapped
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Zoom
+                         monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l:Control.Monad.Trans.Control
+                         monad-logger-0.3.25.1@monad-logger-0.3.25.1-C5T06yv6lw54Umfdl3S8et:Control.Monad.Logger
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph:Network.URI
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistConfig
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Types.Internal
+                         persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8:Database.Persist.Postgresql
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT:Data.Profunctor.Rep
+                         resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource.Internal
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.ContentTypes
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.IsSecure
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Verbs
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.Utils.Links
+                         servant-foreign-0.10.1@servant-foreign-0.10.1-FIgbbIo2RQx17WgpgeFap1:Servant.Foreign.Internal
+                         servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Api.User
+                         servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Auth
+                         servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Models
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Experimental.Auth
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.BasicAuth
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.Handler
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.RoutingApplication
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uri-bytestring-0.2.3.3@uri-bytestring-0.2.3.3-Hc1wKsF7VwW2mAD17PrIxh:URI.ByteString.Types
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
+import  -/  base-4.9.1.0:Control.Category 74288f70105bf6db5ff51d18c3e2c349
+import  -/  base-4.9.1.0:Data.Int 07f5a36c488acfe0ac32e81c7536b8ff
+import  -/  base-4.9.1.0:Data.Proxy d7f87a37cf7ec5ca87c59c8d2859031f
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Except 3bb0e2598193c1ba00c9723945e93004
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Reader 0a25f5000d6974b16ed96a739eacaeb6
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Reader.Class 9573b8d2ba4bcf8261d19527e0170c4d
+import  -/  natural-transformation-0.4@natural-transformation-0.4-1wekIVD0YQa62debXjfFg3:Control.Natural db889e26a69afe9fa43597cb93ad081b
+import  -/  persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8:Database.Persist.Postgresql 7e6648ba2946ddc182502523c59c3a1a
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Alternative 2461d396f6a5424e1d4fb954b0e1c0be
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Experimental.Auth cb680ce0ff76b98651bfa7e34e172f1b
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Raw 22d6802cd78c2cd78276c5194297a1c9
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Sub 5afd3b2f54ee88e482c7d9ff96fe2228
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.Utils.Enter 113aea329563eb14d0db72fce9150182
+import  -/  Api.User 415b3cbb3f4c4470e232ca6ae44ca345
+  exports: d00d5bb479ed2371845e4e37bf8fe94a
+  LoginAPI fb3466ef1c2045f2095058b35f5a678e
+  UserAPI 72dc1da01a28d78beb147d48bbb4f8c0
+  loginServer 93ea09277696eabf05d9c9115dcbacdd
+  userServer 1befa0aa5168e6af835ff822edf74186
+import  -/  Auth c70291dad848c05ac256644df208761a
+  exports: 605295fe769f15d4155c66bff502f5bb
+  Auth 5c663acb302678d799c4bbd27914e94a
+  authServerContext 0662bcee8d1c5815a6d18feeb3217e8c
+import  -/  Auth.Token 850432bab7c3bf8386745b5e5738f9f1
+  exports: 72c309506d00300ce8d53e5c1c25cfe3
+  Token c430d3b771c3e31ef99ff79d56f609db
+import  -/  Configs 334c35832835bd00f48f15cbeff86846
+  exports: 5ba548e39009e48b0da18ab7e93924f4
+  App 15546665de60f1b111f7b413eea4cd53
+  Config 96249f2ad1bf7f8ea5fb7b5c3cbdf2c5
+  runApp 7deffaba7e31f5aae15d1253e0effe71
+import  -/  Models f0b4126018e31216fc8f927a65a9389f
+  exports: 13308438d85fd46577e4088090c1e6a4
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant 73596c6288a7d315a682d7006ae39fb2
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server f68aafbbfb0a0b60ba05dffbcadd8b69
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal 09d9d00026d5f8400d0a0225240003ee
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.Handler 07eacaa7e3942dc5138efea15152acd6
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Utils.StaticFiles 35818e26f042655f72ae6c6ceb176ec4
+import  -/  wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C:Network.Wai 43c9d22c6cd2fa899c90fca75cdc02dd
+f1553a71f1fcfa46071e4440748487ae
+  $s$fAllCTRender:a ::
+    Servant.API.ContentTypes.AllCTRender
+      '[Servant.API.ContentTypes.JSON] [GHC.Types.Char]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ [GHC.Types.Char]
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$cp1AllCTRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ [GHC.Types.Char]
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a1)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$chandleAcceptH
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ [GHC.Types.Char]
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a1) -}
+367402a9b05ab5c2d54779a3acb28550
+  $s$fAllCTRender:a1 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] [GHC.Types.Char]
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fAllMimeRender:a0 -}
+1400c4c2aefbdf0de668c38b954e03e3
+  $s$fAllCTRender:a10 ::
+    Servant.API.ContentTypes.AllCTRender
+      '[Servant.API.ContentTypes.JSON]
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$cp1AllCTRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a11)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$chandleAcceptH
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a11) -}
+ed84ea322dfd50b0a4464f810402f9b6
+  $s$fAllCTRender:a11 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON]
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fAllMimeRender:a3 -}
+6193bd687ee645ad0df497d0eb13977d
+  $s$fAllCTRender:a12 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa3 -}
+459e60d5098a0335bbd5fd2f21f34739
+  $s$fAllCTRender:a2 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON [GHC.Types.Char]
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa -}
+f26b3714c32120b148324bce89129353
+  $s$fAllCTRender:a3 ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> [GHC.Types.Char] -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,A><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: [GHC.Types.Char]) ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (Data.Aeson.Encoding.Builder.string1 eta)
+                     `cast`
+                   (Trans
+                        (forall (r :: <*>_N).
+                         <Data.ByteString.Builder.Internal.BuildStep r>_R
+                         ->_R <Data.ByteString.Builder.Internal.BufferRange>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <Data.ByteString.Builder.Internal.BuildSignal r>_R))
+                        (Sym (Data.ByteString.Builder.Internal.N:Builder[0])))) -}
+87d40d87277428727409f83b01765b8e
+  $s$fAllCTRender:a4 ::
+    Servant.API.ContentTypes.AllCTRender
+      '[Servant.API.ContentTypes.JSON]
+      [Database.Persist.Class.PersistEntity.Entity Models.User]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$cp1AllCTRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a5)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$chandleAcceptH
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a5) -}
+18935ab941a346f90cd08b454dd1f0e3
+  $s$fAllCTRender:a5 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON]
+      [Database.Persist.Class.PersistEntity.Entity Models.User]
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fAllMimeRender:a1 -}
+f690528c2f47f905f51ec0b495e5f0ae
+  $s$fAllCTRender:a6 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON
+      [Database.Persist.Class.PersistEntity.Entity Models.User]
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa1 -}
+fbe4aef49a6983010c08aea9c0116e6d
+  $s$fAllCTRender:a7 ::
+    Servant.API.ContentTypes.AllCTRender
+      '[Servant.API.ContentTypes.JSON] GHC.Int.Int64
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ GHC.Int.Int64
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$cp1AllCTRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ GHC.Int.Int64
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a8)
+                  (Servant.API.ContentTypes.$fAllCTRender:a_$chandleAcceptH
+                     @ Servant.API.ContentTypes.JSON
+                     @ '[]
+                     @ GHC.Int.Int64
+                     Servant.API.ContentTypes.$fAcceptTYPEJSON
+                     Servant.API.ContentTypes.$fAllCTRender[]()_$callMime
+                       `cast`
+                     (Sym (Servant.API.ContentTypes.N:AllMime[0] <'[]>_N))
+                     Api.$s$fAllCTRender:a8) -}
+b4e6ff069ffdf626b50e71f248774ace
+  $s$fAllCTRender:a8 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] GHC.Int.Int64
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fAllMimeRender:a2 -}
+9d050a3d78927b5233030f1296116ef2
+  $s$fAllCTRender:a9 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON GHC.Int.Int64
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa2 -}
+6187f88df57148614365020f00844a7c
+  $s$fAllCTRender:a_$s$fAllMimeRender:a0 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] [GHC.Types.Char]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ [GHC.Types.Char]
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$cp1AllMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ [GHC.Types.Char]
+                     Api.$s$fAllCTRender:a2)
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$callMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ [GHC.Types.Char]
+                     Api.$s$fAllCTRender:a2) -}
+8b1c509553bbf6006fd75d6ef9c760ad
+  $s$fAllCTRender:a_$s$fAllMimeRender:a1 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON]
+      [Database.Persist.Class.PersistEntity.Entity Models.User]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$cp1AllMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                     Api.$s$fAllCTRender:a6)
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$callMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                     Api.$s$fAllCTRender:a6) -}
+2d645edb9c025eeaf4e59ec260a8c9a4
+  $s$fAllCTRender:a_$s$fAllMimeRender:a2 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON] GHC.Int.Int64
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ GHC.Int.Int64
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$cp1AllMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ GHC.Int.Int64
+                     Api.$s$fAllCTRender:a9)
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$callMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ GHC.Int.Int64
+                     Api.$s$fAllCTRender:a9) -}
+a3b91d962695e2dcff45cd41db29cf5e
+  $s$fAllCTRender:a_$s$fAllMimeRender:a3 ::
+    Servant.API.ContentTypes.AllMimeRender
+      '[Servant.API.ContentTypes.JSON]
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$cp1AllMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                     Api.$s$fAllCTRender:a12)
+                  (Servant.API.ContentTypes.$fAllMimeRender:a0_$callMimeRender
+                     @ Servant.API.ContentTypes.JSON
+                     @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                     Api.$s$fAllCTRender:a12) -}
+c37efa93f70bac20dc030df6b4f1caf7
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON [GHC.Types.Char]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ [GHC.Types.Char]
+                  Api.$s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+                  Api.$s$fAllCTRender:a3 -}
+39111a500122afbb40e731136cf27d71
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa1 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON
+      [Database.Persist.Class.PersistEntity.Entity Models.User]
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                  Api.$s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+                  Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender -}
+460dba18bc4dd00e2e6566b97828a393
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa2 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON GHC.Int.Int64
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ GHC.Int.Int64
+                  Api.$s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+                  Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender1 -}
+23ddd72427ebb43dfbe7e63f885949f5
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa3 ::
+    Servant.API.ContentTypes.MimeRender
+      Servant.API.ContentTypes.JSON
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                  Api.$s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+                  Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender2 -}
+ba7caecd911b69969cc5b7ed39e0f752
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> [Database.Persist.Class.PersistEntity.Entity Models.User]
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,A><L,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: [Database.Persist.Class.PersistEntity.Entity
+                              Models.User]) ->
+                 Api.$s$fAllCTRender:a_$sencode eta) -}
+887c267a4f907dd9d1e6ad88fe91c4f2
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender1 ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> GHC.Int.Int64 -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,A><L,U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: GHC.Int.Int64) ->
+                 Api.$s$fAllCTRender:a_$sencode1 eta) -}
+582140e0fb71dc156f71ebec3f934c29
+  $s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender2 ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> Database.Persist.Class.PersistEntity.Entity Models.User
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 2, Strictness: <L,A><L,1*U(A,1*U(U),1*U(U,U))>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: Database.Persist.Class.PersistEntity.Entity Models.User) ->
+                 Api.$s$fAllCTRender:a_$sencode2 eta) -}
+7e836c4186c01e28351ea44f939a01ab
+  $s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender ::
+    Servant.API.ContentTypes.Accept Servant.API.ContentTypes.JSON
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Servant.API.ContentTypes.$fAcceptTYPEJSON -}
+6bcfe8899bb1e88f62a03639d84a482b
+  $s$fAllCTRender:a_$sencode ::
+    [Database.Persist.Class.PersistEntity.Entity Models.User]
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: [Database.Persist.Class.PersistEntity.Entity
+                              Models.User]) ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (case eta of wild {
+                      []
+                      -> Data.Aeson.Encoding.Internal.emptyArray_
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                      : x xs
+                      -> Data.ByteString.Builder.Internal.append
+                           (Data.Aeson.Encoding.Internal.openBracket
+                              @ Data.Aeson.Types.Internal.Value)
+                             `cast`
+                           (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)
+                           (Data.ByteString.Builder.Internal.append
+                              (Data.Aeson.Encoding.Internal.value
+                                 (Models.$fToJSONEntity_$ctoJSON x))
+                                `cast`
+                              (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                   <Data.Aeson.Types.Internal.Value>_P)
+                              (Data.ByteString.Builder.Internal.append
+                                 (GHC.Base.foldr
+                                    @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                                    @ (Data.Aeson.Encoding.Internal.Encoding'
+                                         Data.Aeson.Types.Internal.Value)
+                                    (\ (v :: Database.Persist.Class.PersistEntity.Entity
+                                               Models.User)
+                                       (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                                Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                     Data.ByteString.Builder.Internal.append
+                                       (Data.Aeson.Encoding.Internal.comma
+                                          @ Data.Aeson.Types.Internal.Value)
+                                         `cast`
+                                       (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                            <Data.Aeson.Types.Internal.Value>_P)
+                                       (Data.ByteString.Builder.Internal.append
+                                          (Data.Aeson.Encoding.Internal.value
+                                             (Models.$fToJSONEntity_$ctoJSON v))
+                                            `cast`
+                                          (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                               <Data.Aeson.Types.Internal.Value>_P)
+                                          vs
+                                            `cast`
+                                          (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                               <Data.Aeson.Types.Internal.Value>_P)))
+                                      `cast`
+                                    (<Database.Persist.Class.PersistEntity.Entity Models.User>_R
+                                     ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                             Data.Aeson.Types.Internal.Value>_R
+                                     ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                   <Data.Aeson.Types.Internal.Value>_P))
+                                    (Data.Aeson.Encoding.Internal.empty
+                                       @ Data.Aeson.Types.Internal.Value)
+                                    xs)
+                                   `cast`
+                                 (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                      <Data.Aeson.Types.Internal.Value>_P)
+                                 (Data.Aeson.Encoding.Internal.closeBracket
+                                    @ Data.Aeson.Types.Internal.Value)
+                                   `cast`
+                                 (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                      <Data.Aeson.Types.Internal.Value>_P))) })) -}
+200dd7a7685967baece4cd3844e2480a
+  $s$fAllCTRender:a_$sencode1 ::
+    GHC.Int.Int64 -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: GHC.Int.Int64) ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (Data.Aeson.Encoding.Internal.int64 eta)
+                     `cast`
+                   (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                        <Data.Aeson.Types.Internal.Value>_P)) -}
+4dbebbd2d4a4cdca905ad4b10490f97b
+  $s$fAllCTRender:a_$sencode2 ::
+    Database.Persist.Class.PersistEntity.Entity Models.User
+    -> Data.ByteString.Lazy.Internal.ByteString
+  {- Arity: 1, Strictness: <L,1*U(A,1*U(U),1*U(U,U))>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: Database.Persist.Class.PersistEntity.Entity
+                             Models.User) ->
+                 Data.ByteString.Builder.toLazyByteString
+                   (Data.Aeson.Encoding.Internal.value
+                      (Models.$fToJSONEntity_$ctoJSON eta))
+                     `cast`
+                   (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                        <Data.Aeson.Types.Internal.Value>_P)) -}
+c4fa69b3e1d5de442f60ef00788a8cb3
+  $s$fAllCTUnrenderctypsa ::
+    Servant.API.ContentTypes.AllCTUnrender
+      '[Servant.API.ContentTypes.JSON] Api.User.LoginUser
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ Api.User.LoginUser
+                  (Servant.API.ContentTypes.$fAllCTUnrenderctypsa_$ccanHandleCTypeH
+                     @ '[Servant.API.ContentTypes.JSON]
+                     @ Api.User.LoginUser
+                     Api.$s$fAllCTUnrenderctypsa1)
+                  Api.$s$fAllCTUnrenderctypsa_$s$fAllCTUnrenderctypsa_$chandleCTypeH -}
+4fc535526825c25427968e8ee3625e56
+  $s$fAllCTUnrenderctypsa1 ::
+    Servant.API.ContentTypes.AllMimeUnrender
+      '[Servant.API.ContentTypes.JSON] Api.User.LoginUser
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTUnrenderctypsa_$s$fAllMimeUnrender:a -}
+1aa93871214785cf8534f7a5384d7f0b
+  $s$fAllCTUnrenderctypsa2 ::
+    Servant.API.ContentTypes.MimeUnrender
+      Servant.API.ContentTypes.JSON Api.User.LoginUser
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa -}
+7fc5417262f149837d1f238e53d9d347
+  $s$fAllCTUnrenderctypsa3 ::
+    Servant.API.ContentTypes.AllCTUnrender
+      '[Servant.API.ContentTypes.JSON] Models.User
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ Models.User
+                  (Servant.API.ContentTypes.$fAllCTUnrenderctypsa_$ccanHandleCTypeH
+                     @ '[Servant.API.ContentTypes.JSON]
+                     @ Models.User
+                     Api.$s$fAllCTUnrenderctypsa4)
+                  Api.$s$fAllCTUnrenderctypsa_$s$fAllCTUnrenderctypsa_$chandleCTypeH1 -}
+c5f40429fd3c1c4d0bf73a95c0a49831
+  $s$fAllCTUnrenderctypsa4 ::
+    Servant.API.ContentTypes.AllMimeUnrender
+      '[Servant.API.ContentTypes.JSON] Models.User
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTUnrenderctypsa_$s$fAllMimeUnrender:a1 -}
+19e0e689f1b2cc5c4ced842bf8bc5b30
+  $s$fAllCTUnrenderctypsa5 ::
+    Servant.API.ContentTypes.MimeUnrender
+      Servant.API.ContentTypes.JSON Models.User
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa1 -}
+ba9b63b2059f0ed9786fcec985dc3ae5
+  $s$fAllCTUnrenderctypsa_$s$fAllCTUnrenderctypsa_$chandleCTypeH ::
+    Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON]
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> GHC.Base.Maybe
+         (Data.Either.Either GHC.Base.String Api.User.LoginUser)
+  {- Arity: 3, Strictness: <L,U><L,1*U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (p :: Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON])
+                   (ctypeH :: Data.ByteString.Lazy.Internal.ByteString)
+                   (body :: Data.ByteString.Lazy.Internal.ByteString) ->
+                 case Servant.API.ContentTypes.$fAllCTUnrenderctypsa_$ccanHandleCTypeH
+                        @ '[Servant.API.ContentTypes.JSON]
+                        @ Api.User.LoginUser
+                        Api.$s$fAllCTUnrenderctypsa1
+                        p
+                        ctypeH of wild {
+                   GHC.Base.Nothing
+                   -> GHC.Base.Nothing
+                        @ (Data.Either.Either GHC.Base.String Api.User.LoginUser)
+                   GHC.Base.Just x
+                   -> GHC.Base.Just
+                        @ (Data.Either.Either GHC.Base.String Api.User.LoginUser)
+                        (x body) }) -}
+3a654635a658ffd097830d525325769a
+  $s$fAllCTUnrenderctypsa_$s$fAllCTUnrenderctypsa_$chandleCTypeH1 ::
+    Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON]
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> GHC.Base.Maybe (Data.Either.Either GHC.Base.String Models.User)
+  {- Arity: 3, Strictness: <L,U><L,1*U><L,U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (p :: Data.Proxy.Proxy '[Servant.API.ContentTypes.JSON])
+                   (ctypeH :: Data.ByteString.Lazy.Internal.ByteString)
+                   (body :: Data.ByteString.Lazy.Internal.ByteString) ->
+                 case Servant.API.ContentTypes.$fAllCTUnrenderctypsa_$ccanHandleCTypeH
+                        @ '[Servant.API.ContentTypes.JSON]
+                        @ Models.User
+                        Api.$s$fAllCTUnrenderctypsa4
+                        p
+                        ctypeH of wild {
+                   GHC.Base.Nothing
+                   -> GHC.Base.Nothing
+                        @ (Data.Either.Either GHC.Base.String Models.User)
+                   GHC.Base.Just x
+                   -> GHC.Base.Just
+                        @ (Data.Either.Either GHC.Base.String Models.User)
+                        (x body) }) -}
+b499ede377008df7c07bcd758e6fb730
+  $s$fAllCTUnrenderctypsa_$s$fAllMimeUnrender:a ::
+    Servant.API.ContentTypes.AllMimeUnrender
+      '[Servant.API.ContentTypes.JSON] Api.User.LoginUser
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ Api.User.LoginUser
+                  (Servant.API.ContentTypes.$fAllMimeUnrender:a_$cp1AllMimeUnrender
+                     @ Servant.API.ContentTypes.JSON
+                     @ Api.User.LoginUser
+                     @ '[]
+                     Api.$s$fAllCTUnrenderctypsa2
+                     (Servant.API.ContentTypes.$fAllMimeUnrender[]a
+                        @ Api.User.LoginUser))
+                  (Servant.API.ContentTypes.$fAllMimeUnrender:a_$callMimeUnrender
+                     @ Servant.API.ContentTypes.JSON
+                     @ Api.User.LoginUser
+                     @ '[]
+                     Api.$s$fAllCTUnrenderctypsa2
+                     (Servant.API.ContentTypes.$fAllMimeUnrender[]a
+                        @ Api.User.LoginUser)) -}
+2fd07bb6f8ed48829cf425124cd0a19e
+  $s$fAllCTUnrenderctypsa_$s$fAllMimeUnrender:a1 ::
+    Servant.API.ContentTypes.AllMimeUnrender
+      '[Servant.API.ContentTypes.JSON] Models.User
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ '[Servant.API.ContentTypes.JSON]
+                  @ Models.User
+                  (Servant.API.ContentTypes.$fAllMimeUnrender:a_$cp1AllMimeUnrender
+                     @ Servant.API.ContentTypes.JSON
+                     @ Models.User
+                     @ '[]
+                     Api.$s$fAllCTUnrenderctypsa5
+                     (Servant.API.ContentTypes.$fAllMimeUnrender[]a @ Models.User))
+                  (Servant.API.ContentTypes.$fAllMimeUnrender:a_$callMimeUnrender
+                     @ Servant.API.ContentTypes.JSON
+                     @ Models.User
+                     @ '[]
+                     Api.$s$fAllCTUnrenderctypsa5
+                     (Servant.API.ContentTypes.$fAllMimeUnrender[]a @ Models.User)) -}
+18f751225ee5933c1344c27e44604daf
+  $s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa ::
+    Servant.API.ContentTypes.MimeUnrender
+      Servant.API.ContentTypes.JSON Api.User.LoginUser
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ Api.User.LoginUser
+                  Api.$s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+                  Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender
+                  Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType -}
+63510c51af123642b2263710422f5ac0
+  $s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa1 ::
+    Servant.API.ContentTypes.MimeUnrender
+      Servant.API.ContentTypes.JSON Models.User
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ *
+                  @ Servant.API.ContentTypes.JSON
+                  @ Models.User
+                  Api.$s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+                  Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender1
+                  Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType1 -}
+325cc78375b34c72d6e3879bf568dd84
+  $s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.Either.Either GHC.Base.String Api.User.LoginUser
+  {- Arity: 2, Strictness: <L,A><S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: Data.ByteString.Lazy.Internal.ByteString) ->
+                 Servant.API.ContentTypes.eitherDecodeLenient
+                   @ Api.User.LoginUser
+                   Api.User.$fFromJSONLoginUser
+                   eta) -}
+4ce2490798d02e81c2c95e2b0ed7353f
+  $s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender1 ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.Either.Either GHC.Base.String Models.User
+  {- Arity: 2, Strictness: <L,A><S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (eta :: Data.ByteString.Lazy.Internal.ByteString) ->
+                 Servant.API.ContentTypes.eitherDecodeLenient
+                   @ Models.User
+                   Models.$fFromJSONUser
+                   eta) -}
+e30b056f8752a2e94dcdd10f423cc7a7
+  $s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> Network.HTTP.Media.MediaType.Internal.MediaType
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.Either.Either GHC.Base.String Api.User.LoginUser
+  {- Arity: 3, Strictness: <L,A><L,A><S,1*U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ (p :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (ds :: Network.HTTP.Media.MediaType.Internal.MediaType)
+                   (eta :: Data.ByteString.Lazy.Internal.ByteString) ->
+                 Servant.API.ContentTypes.eitherDecodeLenient
+                   @ Api.User.LoginUser
+                   Api.User.$fFromJSONLoginUser
+                   eta) -}
+0b9aec6b9a6221e4409f091068ddef0a
+  $s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType1 ::
+    Data.Proxy.Proxy Servant.API.ContentTypes.JSON
+    -> Network.HTTP.Media.MediaType.Internal.MediaType
+    -> Data.ByteString.Lazy.Internal.ByteString
+    -> Data.Either.Either GHC.Base.String Models.User
+  {- Arity: 3, Strictness: <L,A><L,A><S,1*U>,
+     Unfolding: InlineRule (3, True, True)
+                (\ (p :: Data.Proxy.Proxy Servant.API.ContentTypes.JSON)
+                   (ds :: Network.HTTP.Media.MediaType.Internal.MediaType)
+                   (eta :: Data.ByteString.Lazy.Internal.ByteString) ->
+                 Servant.API.ContentTypes.eitherDecodeLenient
+                   @ Models.User
+                   Models.$fFromJSONUser
+                   eta) -}
+3500a2bb1913e69fa1fa2819dafc9961
+  $s$fEnter(->)mn(->) ::
+    Servant.Utils.Enter.Enter
+      ([GHC.Types.Char]
+       -> Configs.App
+            (Database.Persist.Class.PersistEntity.Entity Models.User))
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      ([GHC.Types.Char]
+       -> Servant.Server.Internal.Handler.Handler
+            (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ ([GHC.Types.Char]
+                     -> Configs.App
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                  @ Configs.App
+                  @ Servant.Server.Internal.Handler.Handler
+                  @ ([GHC.Types.Char]
+                     -> Servant.Server.Internal.Handler.Handler
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                  (Servant.Utils.Enter.$fEnter(->)mn(->)_$cp1Enter
+                     @ (Configs.App
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                     @ Configs.App
+                     @ Servant.Server.Internal.Handler.Handler
+                     @ (Servant.Server.Internal.Handler.Handler
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                     @ [GHC.Types.Char]
+                     Api.$s$fEnter(->)mn(->)5
+                     Api.$s$fEnter(->)mn(->)3
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<[GHC.Types.Char]>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <Database.Persist.Class.PersistEntity.Entity
+                                               Models.User>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N
+                                            <Configs.App>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Configs.App
+                                          (Database.Persist.Class.PersistEntity.Entity
+                                             Models.User)>_N
+                                       <[GHC.Types.Char]>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N
+                                       <Configs.App>_N)))
+                        <[GHC.Types.Char]
+                         -> Servant.Server.Internal.Handler.Handler
+                              (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R
+                     Api.$s$fEnter(->)mn(->)1
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<[GHC.Types.Char]>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <Database.Persist.Class.PersistEntity.Entity
+                                               Models.User>_N
+                                            <Configs.App>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Servant.Server.Internal.Handler.Handler
+                                          (Database.Persist.Class.PersistEntity.Entity
+                                             Models.User)>_N
+                                       <[GHC.Types.Char]>_N
+                                       <Configs.App>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N)))
+                        <[GHC.Types.Char]
+                         -> Configs.App
+                              (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R)
+                  (Servant.Utils.Enter.$fEnter(->)mn(->)_$cp2Enter
+                     @ (Configs.App
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                     @ Configs.App
+                     @ Servant.Server.Internal.Handler.Handler
+                     @ (Servant.Server.Internal.Handler.Handler
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                     @ [GHC.Types.Char]
+                     Api.$s$fEnter(->)mn(->)5
+                     Api.$s$fEnter(->)mn(->)3
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<[GHC.Types.Char]>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <Database.Persist.Class.PersistEntity.Entity
+                                               Models.User>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N
+                                            <Configs.App>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Configs.App
+                                          (Database.Persist.Class.PersistEntity.Entity
+                                             Models.User)>_N
+                                       <[GHC.Types.Char]>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N
+                                       <Configs.App>_N)))
+                        <[GHC.Types.Char]
+                         -> Servant.Server.Internal.Handler.Handler
+                              (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R
+                     Api.$s$fEnter(->)mn(->)1
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<[GHC.Types.Char]>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <Database.Persist.Class.PersistEntity.Entity
+                                               Models.User>_N
+                                            <Configs.App>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Servant.Server.Internal.Handler.Handler
+                                          (Database.Persist.Class.PersistEntity.Entity
+                                             Models.User)>_N
+                                       <[GHC.Types.Char]>_N
+                                       <Configs.App>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N)))
+                        <[GHC.Types.Char]
+                         -> Configs.App
+                              (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R)
+                  (Servant.Utils.Enter.$fEnter(->)mn(->)_$center
+                     @ (Configs.App
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                     @ Configs.App
+                     @ Servant.Server.Internal.Handler.Handler
+                     @ (Servant.Server.Internal.Handler.Handler
+                          (Database.Persist.Class.PersistEntity.Entity Models.User))
+                     @ [GHC.Types.Char]
+                     Api.$s$fEnter(->)mn(->)5
+                     Api.$s$fEnter(->)mn(->)3
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<[GHC.Types.Char]>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <Database.Persist.Class.PersistEntity.Entity
+                                               Models.User>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N
+                                            <Configs.App>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Configs.App
+                                          (Database.Persist.Class.PersistEntity.Entity
+                                             Models.User)>_N
+                                       <[GHC.Types.Char]>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N
+                                       <Configs.App>_N)))
+                        <[GHC.Types.Char]
+                         -> Servant.Server.Internal.Handler.Handler
+                              (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R
+                     Api.$s$fEnter(->)mn(->)1
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<[GHC.Types.Char]>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <Database.Persist.Class.PersistEntity.Entity
+                                               Models.User>_N
+                                            <Configs.App>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Servant.Server.Internal.Handler.Handler
+                                          (Database.Persist.Class.PersistEntity.Entity
+                                             Models.User)>_N
+                                       <[GHC.Types.Char]>_N
+                                       <Configs.App>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N)))
+                        <[GHC.Types.Char]
+                         -> Configs.App
+                              (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R) -}
+25117539c7dd1cb51be55a6993b26b28
+  $s$fEnter(->)mn(->)1 ::
+    ([GHC.Types.Char]
+     -> Configs.App
+          (Database.Persist.Class.PersistEntity.Entity Models.User))
+    Data.Type.Equality.~ ([GHC.Types.Char]
+                          -> Configs.App
+                               (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)2
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0] <*>_N) <[GHC.Types.Char]
+                                                        -> Configs.App
+                                                             (Database.Persist.Class.PersistEntity.Entity
+                                                                Models.User)>_N <[GHC.Types.Char]
+                                                                                 -> Configs.App
+                                                                                      (Database.Persist.Class.PersistEntity.Entity
+                                                                                         Models.User)>_N) -}
+570871260e1312e121f5c9a740157aab
+  $s$fEnter(->)mn(->)10 ::
+    Servant.Server.Internal.Handler.Handler
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+    GHC.Types.~~ Servant.Server.Internal.Handler.Handler
+                   (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Servant.Server.Internal.Handler.Handler
+                        (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @ (Servant.Server.Internal.Handler.Handler
+                        (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @~ <Servant.Server.Internal.Handler.Handler
+                         (Database.Persist.Class.PersistEntity.Entity Models.User)>_N) -}
+264d72be49239f759de9053554fbb81d
+  $s$fEnter(->)mn(->)11 ::
+    Servant.Utils.Enter.Enter
+      (Models.User -> Configs.App GHC.Int.Int64)
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      (Models.User
+       -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Models.User -> Configs.App GHC.Int.Int64)
+                  @ Configs.App
+                  @ Servant.Server.Internal.Handler.Handler
+                  @ (Models.User
+                     -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                  (Servant.Utils.Enter.$fEnter(->)mn(->)_$cp1Enter
+                     @ (Configs.App GHC.Int.Int64)
+                     @ Configs.App
+                     @ Servant.Server.Internal.Handler.Handler
+                     @ (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                     @ Models.User
+                     Api.$s$fEnter(->)mn(->)16
+                     Api.$s$fEnter(->)mn(->)14
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<Models.User>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <GHC.Int.Int64>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N
+                                            <Configs.App>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Configs.App GHC.Int.Int64>_N
+                                       <Models.User>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N
+                                       <Configs.App>_N)))
+                        <Models.User
+                         -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N)_R
+                     Api.$s$fEnter(->)mn(->)12
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<Models.User>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <GHC.Int.Int64>_N
+                                            <Configs.App>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N
+                                       <Models.User>_N
+                                       <Configs.App>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N)))
+                        <Models.User -> Configs.App GHC.Int.Int64>_N)_R)
+                  (Servant.Utils.Enter.$fEnter(->)mn(->)_$cp2Enter
+                     @ (Configs.App GHC.Int.Int64)
+                     @ Configs.App
+                     @ Servant.Server.Internal.Handler.Handler
+                     @ (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                     @ Models.User
+                     Api.$s$fEnter(->)mn(->)16
+                     Api.$s$fEnter(->)mn(->)14
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<Models.User>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <GHC.Int.Int64>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N
+                                            <Configs.App>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Configs.App GHC.Int.Int64>_N
+                                       <Models.User>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N
+                                       <Configs.App>_N)))
+                        <Models.User
+                         -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N)_R
+                     Api.$s$fEnter(->)mn(->)12
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<Models.User>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <GHC.Int.Int64>_N
+                                            <Configs.App>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N
+                                       <Models.User>_N
+                                       <Configs.App>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N)))
+                        <Models.User -> Configs.App GHC.Int.Int64>_N)_R)
+                  (Servant.Utils.Enter.$fEnter(->)mn(->)_$center
+                     @ (Configs.App GHC.Int.Int64)
+                     @ Configs.App
+                     @ Servant.Server.Internal.Handler.Handler
+                     @ (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                     @ Models.User
+                     Api.$s$fEnter(->)mn(->)16
+                     Api.$s$fEnter(->)mn(->)14
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<Models.User>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <GHC.Int.Int64>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N
+                                            <Configs.App>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Configs.App GHC.Int.Int64>_N
+                                       <Models.User>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N
+                                       <Configs.App>_N)))
+                        <Models.User
+                         -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N)_R
+                     Api.$s$fEnter(->)mn(->)12
+                       `cast`
+                     ((Data.Type.Equality.~)
+                        <*>_N
+                        (Trans
+                             (<Models.User>_N
+                              ->_N Sym (Servant.Utils.Enter.D:R:Entered[1]
+                                            <GHC.Int.Int64>_N
+                                            <Configs.App>_N
+                                            <Servant.Server.Internal.Handler.Handler>_N))
+                             (Sym (Servant.Utils.Enter.D:R:Entered[0]
+                                       <Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N
+                                       <Models.User>_N
+                                       <Configs.App>_N
+                                       <Servant.Server.Internal.Handler.Handler>_N)))
+                        <Models.User -> Configs.App GHC.Int.Int64>_N)_R) -}
+8b72f48c099f38de246d622c3680fee8
+  $s$fEnter(->)mn(->)12 ::
+    (Models.User -> Configs.App GHC.Int.Int64)
+    Data.Type.Equality.~ (Models.User -> Configs.App GHC.Int.Int64)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)13
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0] <*>_N) <Models.User
+                                                        -> Configs.App GHC.Int.Int64>_N <Models.User
+                                                                                         -> Configs.App
+                                                                                              GHC.Int.Int64>_N) -}
+a261b6119d4af1a49cc83ce665186138
+  $s$fEnter(->)mn(->)13 ::
+    (Models.User -> Configs.App GHC.Int.Int64)
+    GHC.Types.~~ (Models.User -> Configs.App GHC.Int.Int64)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Models.User -> Configs.App GHC.Int.Int64)
+                   @ (Models.User -> Configs.App GHC.Int.Int64)
+                   @~ <Models.User -> Configs.App GHC.Int.Int64>_N) -}
+f8ef31ceb33e53d7030759f2f102371a
+  $s$fEnter(->)mn(->)14 ::
+    (Models.User
+     -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+    Data.Type.Equality.~ (Models.User
+                          -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)15
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0] <*>_N) <Models.User
+                                                        -> Servant.Server.Internal.Handler.Handler
+                                                             GHC.Int.Int64>_N <Models.User
+                                                                               -> Servant.Server.Internal.Handler.Handler
+                                                                                    GHC.Int.Int64>_N) -}
+79c17542444181cdb2f1b0985b4b443d
+  $s$fEnter(->)mn(->)15 ::
+    (Models.User
+     -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+    GHC.Types.~~ (Models.User
+                  -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Models.User
+                      -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                   @ (Models.User
+                      -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                   @~ <Models.User
+                       -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N) -}
+9fb649448bacfc346ad91d75ece4baca
+  $s$fEnter(->)mn(->)16 ::
+    Servant.Utils.Enter.Enter
+      (Configs.App GHC.Int.Int64)
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)_$s$fEntermmnn1 -}
+f590f88ab05a9cfce9ec00d10acbc6fe
+  $s$fEnter(->)mn(->)17 ::
+    (Configs.App
+     Control.Natural.:~> Servant.Server.Internal.Handler.Handler)
+    -> Configs.App GHC.Int.Int64
+    -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (eta :: Configs.App
+                           Control.Natural.:~> Servant.Server.Internal.Handler.Handler) ->
+                 eta
+                   `cast`
+                 (Control.Natural.N::~>[0]
+                      <*>_N <Configs.App>_R <Servant.Server.Internal.Handler.Handler>_R)
+                   @ GHC.Int.Int64) -}
+b8617c37b36d7a83a2a32f8e15963d17
+  $s$fEnter(->)mn(->)18 ::
+    Configs.App GHC.Int.Int64
+    Data.Type.Equality.~ Configs.App GHC.Int.Int64
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)19
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0] <*>_N) <Configs.App
+                                                          GHC.Int.Int64>_N <Configs.App
+                                                                              GHC.Int.Int64>_N) -}
+09b40cacb539b516b209060f58923c65
+  $s$fEnter(->)mn(->)19 ::
+    Configs.App GHC.Int.Int64 GHC.Types.~~ Configs.App GHC.Int.Int64
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Configs.App GHC.Int.Int64)
+                   @ (Configs.App GHC.Int.Int64)
+                   @~ <Configs.App GHC.Int.Int64>_N) -}
+e4776187010fe216ee79fa8c18e790f9
+  $s$fEnter(->)mn(->)2 ::
+    ([GHC.Types.Char]
+     -> Configs.App
+          (Database.Persist.Class.PersistEntity.Entity Models.User))
+    GHC.Types.~~ ([GHC.Types.Char]
+                  -> Configs.App
+                       (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ ([GHC.Types.Char]
+                      -> Configs.App
+                           (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @ ([GHC.Types.Char]
+                      -> Configs.App
+                           (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @~ <[GHC.Types.Char]
+                       -> Configs.App
+                            (Database.Persist.Class.PersistEntity.Entity Models.User)>_N) -}
+998266e7e3ffdeeb0936f80bb523a50a
+  $s$fEnter(->)mn(->)20 ::
+    Servant.Server.Internal.Handler.Handler GHC.Int.Int64
+    Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                           GHC.Int.Int64
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)21
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0]
+                          <*>_N) <Servant.Server.Internal.Handler.Handler
+                                    GHC.Int.Int64>_N <Servant.Server.Internal.Handler.Handler
+                                                        GHC.Int.Int64>_N) -}
+e26d69c480fb91ba32a990dae739ca56
+  $s$fEnter(->)mn(->)21 ::
+    Servant.Server.Internal.Handler.Handler GHC.Int.Int64
+    GHC.Types.~~ Servant.Server.Internal.Handler.Handler GHC.Int.Int64
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                   @ (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                   @~ <Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N) -}
+07d71293f9b1c56a01575a030db9e932
+  $s$fEnter(->)mn(->)3 ::
+    ([GHC.Types.Char]
+     -> Servant.Server.Internal.Handler.Handler
+          (Database.Persist.Class.PersistEntity.Entity Models.User))
+    Data.Type.Equality.~ ([GHC.Types.Char]
+                          -> Servant.Server.Internal.Handler.Handler
+                               (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)4
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0] <*>_N) <[GHC.Types.Char]
+                                                        -> Servant.Server.Internal.Handler.Handler
+                                                             (Database.Persist.Class.PersistEntity.Entity
+                                                                Models.User)>_N <[GHC.Types.Char]
+                                                                                 -> Servant.Server.Internal.Handler.Handler
+                                                                                      (Database.Persist.Class.PersistEntity.Entity
+                                                                                         Models.User)>_N) -}
+c6e7ad58de47d4221e029d267ea21d15
+  $s$fEnter(->)mn(->)4 ::
+    ([GHC.Types.Char]
+     -> Servant.Server.Internal.Handler.Handler
+          (Database.Persist.Class.PersistEntity.Entity Models.User))
+    GHC.Types.~~ ([GHC.Types.Char]
+                  -> Servant.Server.Internal.Handler.Handler
+                       (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ ([GHC.Types.Char]
+                      -> Servant.Server.Internal.Handler.Handler
+                           (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @ ([GHC.Types.Char]
+                      -> Servant.Server.Internal.Handler.Handler
+                           (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @~ <[GHC.Types.Char]
+                       -> Servant.Server.Internal.Handler.Handler
+                            (Database.Persist.Class.PersistEntity.Entity Models.User)>_N) -}
+c9f4542312ea9484540974f54a7ef840
+  $s$fEnter(->)mn(->)5 ::
+    Servant.Utils.Enter.Enter
+      (Configs.App
+         (Database.Persist.Class.PersistEntity.Entity Models.User))
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      (Servant.Server.Internal.Handler.Handler
+         (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)_$s$fEntermmnn -}
+77eb44b5d5609e1e8241f41c2798ac0e
+  $s$fEnter(->)mn(->)6 ::
+    (Configs.App
+     Control.Natural.:~> Servant.Server.Internal.Handler.Handler)
+    -> Configs.App
+         (Database.Persist.Class.PersistEntity.Entity Models.User)
+    -> Servant.Server.Internal.Handler.Handler
+         (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (eta :: Configs.App
+                           Control.Natural.:~> Servant.Server.Internal.Handler.Handler) ->
+                 eta
+                   `cast`
+                 (Control.Natural.N::~>[0]
+                      <*>_N <Configs.App>_R <Servant.Server.Internal.Handler.Handler>_R)
+                   @ (Database.Persist.Class.PersistEntity.Entity Models.User)) -}
+0c40f8004306f454305650d56ca0bbc6
+  $s$fEnter(->)mn(->)7 ::
+    Configs.App
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+    Data.Type.Equality.~ Configs.App
+                           (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)8
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0] <*>_N) <Configs.App
+                                                          (Database.Persist.Class.PersistEntity.Entity
+                                                             Models.User)>_N <Configs.App
+                                                                                (Database.Persist.Class.PersistEntity.Entity
+                                                                                   Models.User)>_N) -}
+a2b25c5c97a3c6735d96f8e180660809
+  $s$fEnter(->)mn(->)8 ::
+    Configs.App
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+    GHC.Types.~~ Configs.App
+                   (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Configs.App
+                        (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @ (Configs.App
+                        (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @~ <Configs.App
+                         (Database.Persist.Class.PersistEntity.Entity Models.User)>_N) -}
+1691b32abcd95e736c668c967738acec
+  $s$fEnter(->)mn(->)9 ::
+    Servant.Server.Internal.Handler.Handler
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+    Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                           (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)10
+                  `cast`
+                (Sym (Data.Type.Equality.N:~[0]
+                          <*>_N) <Servant.Server.Internal.Handler.Handler
+                                    (Database.Persist.Class.PersistEntity.Entity
+                                       Models.User)>_N <Servant.Server.Internal.Handler.Handler
+                                                          (Database.Persist.Class.PersistEntity.Entity
+                                                             Models.User)>_N) -}
+84f8390d47d21c3a7350246b9a2c41d2
+  $s$fEnter(->)mn(->)_$s$fEntermmnn ::
+    Servant.Utils.Enter.Enter
+      (Configs.App
+         (Database.Persist.Class.PersistEntity.Entity Models.User))
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      (Servant.Server.Internal.Handler.Handler
+         (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Configs.App
+                       (Database.Persist.Class.PersistEntity.Entity Models.User))
+                  @ Configs.App
+                  @ Servant.Server.Internal.Handler.Handler
+                  @ (Servant.Server.Internal.Handler.Handler
+                       (Database.Persist.Class.PersistEntity.Entity Models.User))
+                  Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp1Enter
+                  Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp2Enter
+                  Api.$s$fEnter(->)mn(->)6 -}
+56b37439aa5cbbdd84d10b834bddd284
+  $s$fEnter(->)mn(->)_$s$fEntermmnn1 ::
+    Servant.Utils.Enter.Enter
+      (Configs.App GHC.Int.Int64)
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ (Configs.App GHC.Int.Int64)
+                  @ Configs.App
+                  @ Servant.Server.Internal.Handler.Handler
+                  @ (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                  Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp1Enter1
+                  Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp2Enter1
+                  Api.$s$fEnter(->)mn(->)17 -}
+8965211aa3574dfa43f55750e6a24055
+  $s$fEnter(->)mn(->)_$s$fEntermmnn_$cp1Enter ::
+    Servant.Utils.Enter.Entered
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      (Configs.App
+         (Database.Persist.Class.PersistEntity.Entity Models.User))
+    Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                           (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)9
+                  `cast`
+                ((Data.Type.Equality.~)
+                   <*>_N
+                   (Sym (Servant.Utils.Enter.D:R:Entered[1]
+                             <Database.Persist.Class.PersistEntity.Entity Models.User>_N
+                             <Servant.Server.Internal.Handler.Handler>_N
+                             <Configs.App>_N))
+                   <Servant.Server.Internal.Handler.Handler
+                      (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R -}
+36060c4c9140f279e84b168dda7a89fa
+  $s$fEnter(->)mn(->)_$s$fEntermmnn_$cp1Enter1 ::
+    Servant.Utils.Enter.Entered
+      Configs.App
+      Servant.Server.Internal.Handler.Handler
+      (Configs.App GHC.Int.Int64)
+    Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                           GHC.Int.Int64
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)20
+                  `cast`
+                ((Data.Type.Equality.~)
+                   <*>_N
+                   (Sym (Servant.Utils.Enter.D:R:Entered[1]
+                             <GHC.Int.Int64>_N
+                             <Servant.Server.Internal.Handler.Handler>_N
+                             <Configs.App>_N))
+                   <Servant.Server.Internal.Handler.Handler GHC.Int.Int64>_N)_R -}
+0d8e6c3132dc5bcc64c583144316f5de
+  $s$fEnter(->)mn(->)_$s$fEntermmnn_$cp2Enter ::
+    Servant.Utils.Enter.Entered
+      Servant.Server.Internal.Handler.Handler
+      Configs.App
+      (Servant.Server.Internal.Handler.Handler
+         (Database.Persist.Class.PersistEntity.Entity Models.User))
+    Data.Type.Equality.~ Configs.App
+                           (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)7
+                  `cast`
+                ((Data.Type.Equality.~)
+                   <*>_N
+                   (Sym (Servant.Utils.Enter.D:R:Entered[1]
+                             <Database.Persist.Class.PersistEntity.Entity Models.User>_N
+                             <Configs.App>_N
+                             <Servant.Server.Internal.Handler.Handler>_N))
+                   <Configs.App
+                      (Database.Persist.Class.PersistEntity.Entity Models.User)>_N)_R -}
+21febf25098abe64a031095434f5cbc9
+  $s$fEnter(->)mn(->)_$s$fEntermmnn_$cp2Enter1 ::
+    Servant.Utils.Enter.Entered
+      Servant.Server.Internal.Handler.Handler
+      Configs.App
+      (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+    Data.Type.Equality.~ Configs.App GHC.Int.Int64
+  {- Strictness: m,
+     Unfolding: InlineRule (0, True, True)
+                Api.$s$fEnter(->)mn(->)18
+                  `cast`
+                ((Data.Type.Equality.~)
+                   <*>_N
+                   (Sym (Servant.Utils.Enter.D:R:Entered[1]
+                             <GHC.Int.Int64>_N
+                             <Configs.App>_N
+                             <Servant.Server.Internal.Handler.Handler>_N))
+                   <Configs.App GHC.Int.Int64>_N)_R -}
+cf617dea5a99c6c57ff6e0951741490d
+  $s$fEnter:<|>m1n1:<|>2 ::
+    (Servant.Utils.Enter.Entered
+       Servant.Server.Internal.Handler.Handler
+       Configs.App
+       ([GHC.Types.Char]
+        -> Servant.Server.Internal.Handler.Handler
+             (Database.Persist.Class.PersistEntity.Entity Models.User))
+     Servant.API.Alternative.:<|> Servant.Utils.Enter.Entered
+                                    Servant.Server.Internal.Handler.Handler
+                                    Configs.App
+                                    (Models.User
+                                     -> Servant.Server.Internal.Handler.Handler GHC.Int.Int64))
+    GHC.Types.~~ (([GHC.Types.Char]
+                   -> Configs.App
+                        (Database.Persist.Class.PersistEntity.Entity Models.User))
+                  Servant.API.Alternative.:<|> (Models.User
+                                                -> Configs.App GHC.Int.Int64))
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Servant.Utils.Enter.Entered
+                        Servant.Server.Internal.Handler.Handler
+                        Configs.App
+                        ([GHC.Types.Char]
+                         -> Servant.Server.Internal.Handler.Handler
+                              (Database.Persist.Class.PersistEntity.Entity Models.User))
+                      Servant.API.Alternative.:<|> Servant.Utils.Enter.Entered
+                                                     Servant.Server.Internal.Handler.Handler
+                                                     Configs.App
+                                                     (Models.User
+                                                      -> Servant.Server.Internal.Handler.Handler
+                                                           GHC.Int.Int64))
+                   @ (([GHC.Types.Char]
+                       -> Configs.App
+                            (Database.Persist.Class.PersistEntity.Entity Models.User))
+                      Servant.API.Alternative.:<|> (Models.User
+                                                    -> Configs.App GHC.Int.Int64))
+                   @~ (Trans
+                           (Servant.Utils.Enter.D:R:Entered[0]
+                                <Servant.Server.Internal.Handler.Handler
+                                   (Database.Persist.Class.PersistEntity.Entity Models.User)>_N
+                                <[GHC.Types.Char]>_N
+                                <Configs.App>_N
+                                <Servant.Server.Internal.Handler.Handler>_N)
+                           (<[GHC.Types.Char]>_N
+                            ->_N Servant.Utils.Enter.D:R:Entered[1]
+                                     <Database.Persist.Class.PersistEntity.Entity Models.User>_N
+                                     <Configs.App>_N
+                                     <Servant.Server.Internal.Handler.Handler>_N)
+                       Servant.API.Alternative.:<|> Trans
+                                                        (Servant.Utils.Enter.D:R:Entered[0]
+                                                             <Servant.Server.Internal.Handler.Handler
+                                                                GHC.Int.Int64>_N
+                                                             <Models.User>_N
+                                                             <Configs.App>_N
+                                                             <Servant.Server.Internal.Handler.Handler>_N)
+                                                        (<Models.User>_N
+                                                         ->_N Servant.Utils.Enter.D:R:Entered[1]
+                                                                  <GHC.Int.Int64>_N
+                                                                  <Configs.App>_N
+                                                                  <Servant.Server.Internal.Handler.Handler>_N))_N) -}
+eebafda0185a6fc02268f4438a8fb94b
+  $s$fEnter:<|>m1n1:<|>4 ::
+    (Servant.Utils.Enter.Entered
+       Configs.App
+       Servant.Server.Internal.Handler.Handler
+       ([GHC.Types.Char]
+        -> Configs.App
+             (Database.Persist.Class.PersistEntity.Entity Models.User))
+     Servant.API.Alternative.:<|> Servant.Utils.Enter.Entered
+                                    Configs.App
+                                    Servant.Server.Internal.Handler.Handler
+                                    (Models.User -> Configs.App GHC.Int.Int64))
+    GHC.Types.~~ (([GHC.Types.Char]
+                   -> Servant.Server.Internal.Handler.Handler
+                        (Database.Persist.Class.PersistEntity.Entity Models.User))
+                  Servant.API.Alternative.:<|> (Models.User
+                                                -> Servant.Server.Internal.Handler.Handler
+                                                     GHC.Int.Int64))
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ (Servant.Utils.Enter.Entered
+                        Configs.App
+                        Servant.Server.Internal.Handler.Handler
+                        ([GHC.Types.Char]
+                         -> Configs.App
+                              (Database.Persist.Class.PersistEntity.Entity Models.User))
+                      Servant.API.Alternative.:<|> Servant.Utils.Enter.Entered
+                                                     Configs.App
+                                                     Servant.Server.Internal.Handler.Handler
+                                                     (Models.User -> Configs.App GHC.Int.Int64))
+                   @ (([GHC.Types.Char]
+                       -> Servant.Server.Internal.Handler.Handler
+                            (Database.Persist.Class.PersistEntity.Entity Models.User))
+                      Servant.API.Alternative.:<|> (Models.User
+                                                    -> Servant.Server.Internal.Handler.Handler
+                                                         GHC.Int.Int64))
+                   @~ (Trans
+                           (Servant.Utils.Enter.D:R:Entered[0]
+                                <Configs.App
+                                   (Database.Persist.Class.PersistEntity.Entity Models.User)>_N
+                                <[GHC.Types.Char]>_N
+                                <Servant.Server.Internal.Handler.Handler>_N
+                                <Configs.App>_N)
+                           (<[GHC.Types.Char]>_N
+                            ->_N Servant.Utils.Enter.D:R:Entered[1]
+                                     <Database.Persist.Class.PersistEntity.Entity Models.User>_N
+                                     <Servant.Server.Internal.Handler.Handler>_N
+                                     <Configs.App>_N)
+                       Servant.API.Alternative.:<|> Trans
+                                                        (Servant.Utils.Enter.D:R:Entered[0]
+                                                             <Configs.App GHC.Int.Int64>_N
+                                                             <Models.User>_N
+                                                             <Servant.Server.Internal.Handler.Handler>_N
+                                                             <Configs.App>_N)
+                                                        (<Models.User>_N
+                                                         ->_N Servant.Utils.Enter.D:R:Entered[1]
+                                                                  <GHC.Int.Int64>_N
+                                                                  <Servant.Server.Internal.Handler.Handler>_N
+                                                                  <Configs.App>_N))_N) -}
+f11f175282fad928194f5ef74f6786c8
+  $s$fEnter:<|>m1n1:<|>6 ::
+    Servant.Server.Internal.Handler.Handler
+    GHC.Types.~~ Servant.Server.Internal.Handler.Handler
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ (* -> *)
+                   @ (* -> *)
+                   @ Servant.Server.Internal.Handler.Handler
+                   @ Servant.Server.Internal.Handler.Handler
+                   @~ <Servant.Server.Internal.Handler.Handler>_N) -}
+80383672d2846404b6bd04aa0e74461f
+  $s$fEnter:<|>m1n1:<|>8 :: Configs.App GHC.Types.~~ Configs.App
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ (* -> *)
+                   @ (* -> *)
+                   @ Configs.App
+                   @ Configs.App
+                   @~ <Configs.App>_N) -}
+6e5669f1723b17e597f0f942d8f98dd5
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Api.$trModule2 Api.$trModule1) -}
+ad0aa80b72a64f93380aeed47d3ca280
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Api"#) -}
+3c44fa14f0bc58f4a8f2d6118fc63400
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ"#) -}
+9054cbd73c471c22b5a82ebb91e8f26c
+  type AppAPI =
+    (Auth.Auth Servant.API.Sub.:> Api.User.UserAPI)
+    Servant.API.Alternative.:<|> (Api.User.LoginAPI
+                                  Servant.API.Alternative.:<|> Servant.API.Raw.Raw)
+165272254cfbeaac8c072b60bb446306
+  app :: Configs.Config -> Network.Wai.Application
+  {- Arity: 1, Strictness: <L,U> -}
+"SPEC/Api $fAllCTRender:a @ JSON @ '[] @ (Entity User)" [ALWAYS] forall ($dAllMimeRender :: Servant.API.ContentTypes.AllMimeRender
+                                                                                              '[Servant.API.ContentTypes.JSON]
+                                                                                              (Database.Persist.Class.PersistEntity.Entity
+                                                                                                 Models.User))
+                                                                        ($dAllMime :: Servant.API.ContentTypes.AllMime
+                                                                                        '[])
+                                                                        ($dAccept :: Servant.API.ContentTypes.Accept
+                                                                                       Servant.API.ContentTypes.JSON)
+  Servant.API.ContentTypes.$fAllCTRender:a @ Servant.API.ContentTypes.JSON
+                                           @ '[]
+                                           @ (Database.Persist.Class.PersistEntity.Entity
+                                                Models.User)
+                                           $dAccept
+                                           $dAllMime
+                                           $dAllMimeRender
+  = Api.$s$fAllCTRender:a10
+"SPEC/Api $fAllCTRender:a @ JSON @ '[] @ Int64" [ALWAYS] forall ($dAllMimeRender :: Servant.API.ContentTypes.AllMimeRender
+                                                                                      '[Servant.API.ContentTypes.JSON]
+                                                                                      GHC.Int.Int64)
+                                                                ($dAllMime :: Servant.API.ContentTypes.AllMime
+                                                                                '[])
+                                                                ($dAccept :: Servant.API.ContentTypes.Accept
+                                                                               Servant.API.ContentTypes.JSON)
+  Servant.API.ContentTypes.$fAllCTRender:a @ Servant.API.ContentTypes.JSON
+                                           @ '[]
+                                           @ GHC.Int.Int64
+                                           $dAccept
+                                           $dAllMime
+                                           $dAllMimeRender
+  = Api.$s$fAllCTRender:a7
+"SPEC/Api $fAllCTRender:a @ JSON @ '[] @ [Char]" [ALWAYS] forall ($dAllMimeRender :: Servant.API.ContentTypes.AllMimeRender
+                                                                                       '[Servant.API.ContentTypes.JSON]
+                                                                                       [GHC.Types.Char])
+                                                                 ($dAllMime :: Servant.API.ContentTypes.AllMime
+                                                                                 '[])
+                                                                 ($dAccept :: Servant.API.ContentTypes.Accept
+                                                                                Servant.API.ContentTypes.JSON)
+  Servant.API.ContentTypes.$fAllCTRender:a @ Servant.API.ContentTypes.JSON
+                                           @ '[]
+                                           @ [GHC.Types.Char]
+                                           $dAccept
+                                           $dAllMime
+                                           $dAllMimeRender
+  = Api.$s$fAllCTRender:a
+"SPEC/Api $fAllCTRender:a @ JSON @ '[] @ [Entity User]" [ALWAYS] forall ($dAllMimeRender :: Servant.API.ContentTypes.AllMimeRender
+                                                                                              '[Servant.API.ContentTypes.JSON]
+                                                                                              [Database.Persist.Class.PersistEntity.Entity
+                                                                                                 Models.User])
+                                                                        ($dAllMime :: Servant.API.ContentTypes.AllMime
+                                                                                        '[])
+                                                                        ($dAccept :: Servant.API.ContentTypes.Accept
+                                                                                       Servant.API.ContentTypes.JSON)
+  Servant.API.ContentTypes.$fAllCTRender:a @ Servant.API.ContentTypes.JSON
+                                           @ '[]
+                                           @ [Database.Persist.Class.PersistEntity.Entity
+                                                Models.User]
+                                           $dAccept
+                                           $dAllMime
+                                           $dAllMimeRender
+  = Api.$s$fAllCTRender:a4
+"SPEC/Api $fAllCTUnrenderctypsa @ '[JSON] @ LoginUser" [ALWAYS] forall ($dAllMimeUnrender :: Servant.API.ContentTypes.AllMimeUnrender
+                                                                                               '[Servant.API.ContentTypes.JSON]
+                                                                                               Api.User.LoginUser)
+  Servant.API.ContentTypes.$fAllCTUnrenderctypsa @ '[Servant.API.ContentTypes.JSON]
+                                                 @ Api.User.LoginUser
+                                                 $dAllMimeUnrender
+  = Api.$s$fAllCTUnrenderctypsa
+"SPEC/Api $fAllCTUnrenderctypsa @ '[JSON] @ User" [ALWAYS] forall ($dAllMimeUnrender :: Servant.API.ContentTypes.AllMimeUnrender
+                                                                                          '[Servant.API.ContentTypes.JSON]
+                                                                                          Models.User)
+  Servant.API.ContentTypes.$fAllCTUnrenderctypsa @ '[Servant.API.ContentTypes.JSON]
+                                                 @ Models.User
+                                                 $dAllMimeUnrender
+  = Api.$s$fAllCTUnrenderctypsa3
+"SPEC/Api $fAllCTUnrenderctypsa_$chandleCTypeH @ '[JSON] @ LoginUser" [ALWAYS] forall ($dAllMimeUnrender :: Servant.API.ContentTypes.AllMimeUnrender
+                                                                                                              '[Servant.API.ContentTypes.JSON]
+                                                                                                              Api.User.LoginUser)
+  Servant.API.ContentTypes.$fAllCTUnrenderctypsa_$chandleCTypeH @ '[Servant.API.ContentTypes.JSON]
+                                                                @ Api.User.LoginUser
+                                                                $dAllMimeUnrender
+  = Api.$s$fAllCTUnrenderctypsa_$s$fAllCTUnrenderctypsa_$chandleCTypeH
+"SPEC/Api $fAllCTUnrenderctypsa_$chandleCTypeH @ '[JSON] @ User" [ALWAYS] forall ($dAllMimeUnrender :: Servant.API.ContentTypes.AllMimeUnrender
+                                                                                                         '[Servant.API.ContentTypes.JSON]
+                                                                                                         Models.User)
+  Servant.API.ContentTypes.$fAllCTUnrenderctypsa_$chandleCTypeH @ '[Servant.API.ContentTypes.JSON]
+                                                                @ Models.User
+                                                                $dAllMimeUnrender
+  = Api.$s$fAllCTUnrenderctypsa_$s$fAllCTUnrenderctypsa_$chandleCTypeH1
+"SPEC/Api $fAllMimeRender:a0 @ JSON @ (Entity User)" [ALWAYS] forall ($dMimeRender :: Servant.API.ContentTypes.MimeRender
+                                                                                        Servant.API.ContentTypes.JSON
+                                                                                        (Database.Persist.Class.PersistEntity.Entity
+                                                                                           Models.User))
+  Servant.API.ContentTypes.$fAllMimeRender:a0 @ Servant.API.ContentTypes.JSON
+                                              @ (Database.Persist.Class.PersistEntity.Entity
+                                                   Models.User)
+                                              $dMimeRender
+  = Api.$s$fAllCTRender:a_$s$fAllMimeRender:a3
+"SPEC/Api $fAllMimeRender:a0 @ JSON @ Int64" [ALWAYS] forall ($dMimeRender :: Servant.API.ContentTypes.MimeRender
+                                                                                Servant.API.ContentTypes.JSON
+                                                                                GHC.Int.Int64)
+  Servant.API.ContentTypes.$fAllMimeRender:a0 @ Servant.API.ContentTypes.JSON
+                                              @ GHC.Int.Int64
+                                              $dMimeRender
+  = Api.$s$fAllCTRender:a_$s$fAllMimeRender:a2
+"SPEC/Api $fAllMimeRender:a0 @ JSON @ [Char]" [ALWAYS] forall ($dMimeRender :: Servant.API.ContentTypes.MimeRender
+                                                                                 Servant.API.ContentTypes.JSON
+                                                                                 [GHC.Types.Char])
+  Servant.API.ContentTypes.$fAllMimeRender:a0 @ Servant.API.ContentTypes.JSON
+                                              @ [GHC.Types.Char]
+                                              $dMimeRender
+  = Api.$s$fAllCTRender:a_$s$fAllMimeRender:a0
+"SPEC/Api $fAllMimeRender:a0 @ JSON @ [Entity User]" [ALWAYS] forall ($dMimeRender :: Servant.API.ContentTypes.MimeRender
+                                                                                        Servant.API.ContentTypes.JSON
+                                                                                        [Database.Persist.Class.PersistEntity.Entity
+                                                                                           Models.User])
+  Servant.API.ContentTypes.$fAllMimeRender:a0 @ Servant.API.ContentTypes.JSON
+                                              @ [Database.Persist.Class.PersistEntity.Entity
+                                                   Models.User]
+                                              $dMimeRender
+  = Api.$s$fAllCTRender:a_$s$fAllMimeRender:a1
+"SPEC/Api $fAllMimeUnrender:a @ JSON @ LoginUser @ '[]" [ALWAYS] forall ($dAllMimeUnrender :: Servant.API.ContentTypes.AllMimeUnrender
+                                                                                                '[]
+                                                                                                Api.User.LoginUser)
+                                                                        ($dMimeUnrender :: Servant.API.ContentTypes.MimeUnrender
+                                                                                             Servant.API.ContentTypes.JSON
+                                                                                             Api.User.LoginUser)
+  Servant.API.ContentTypes.$fAllMimeUnrender:a @ Servant.API.ContentTypes.JSON
+                                               @ Api.User.LoginUser
+                                               @ '[]
+                                               $dMimeUnrender
+                                               $dAllMimeUnrender
+  = Api.$s$fAllCTUnrenderctypsa_$s$fAllMimeUnrender:a
+"SPEC/Api $fAllMimeUnrender:a @ JSON @ User @ '[]" [ALWAYS] forall ($dAllMimeUnrender :: Servant.API.ContentTypes.AllMimeUnrender
+                                                                                           '[]
+                                                                                           Models.User)
+                                                                   ($dMimeUnrender :: Servant.API.ContentTypes.MimeUnrender
+                                                                                        Servant.API.ContentTypes.JSON
+                                                                                        Models.User)
+  Servant.API.ContentTypes.$fAllMimeUnrender:a @ Servant.API.ContentTypes.JSON
+                                               @ Models.User
+                                               @ '[]
+                                               $dMimeUnrender
+                                               $dAllMimeUnrender
+  = Api.$s$fAllCTUnrenderctypsa_$s$fAllMimeUnrender:a1
+"SPEC/Api $fEnter(->)mn(->) @ (App
+                                (Entity User)) @ App @ Handler @ (Handler (Entity User)) @ [Char]" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                                                                                                                 Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                 Configs.App
+                                                                                                                                                                 ([GHC.Types.Char]
+                                                                                                                                                                  -> Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                       (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                          Models.User))
+                                                                                                                                                               Data.Type.Equality.~ ([GHC.Types.Char]
+                                                                                                                                                                                     -> Configs.App
+                                                                                                                                                                                          (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                                             Models.User)))
+                                                                                                                                                      ($d~ :: Servant.Utils.Enter.Entered
+                                                                                                                                                                Configs.App
+                                                                                                                                                                Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                ([GHC.Types.Char]
+                                                                                                                                                                 -> Configs.App
+                                                                                                                                                                      (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                         Models.User))
+                                                                                                                                                              Data.Type.Equality.~ ([GHC.Types.Char]
+                                                                                                                                                                                    -> Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                                         (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                                            Models.User)))
+                                                                                                                                                      ($dEnter :: Servant.Utils.Enter.Enter
+                                                                                                                                                                    (Configs.App
+                                                                                                                                                                       (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                          Models.User))
+                                                                                                                                                                    Configs.App
+                                                                                                                                                                    Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                    (Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                       (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                                                                          Models.User)))
+  Servant.Utils.Enter.$fEnter(->)mn(->) @ (Configs.App
+                                             (Database.Persist.Class.PersistEntity.Entity
+                                                Models.User))
+                                        @ Configs.App
+                                        @ Servant.Server.Internal.Handler.Handler
+                                        @ (Servant.Server.Internal.Handler.Handler
+                                             (Database.Persist.Class.PersistEntity.Entity
+                                                Models.User))
+                                        @ [GHC.Types.Char]
+                                        $dEnter
+                                        $d~
+                                        $d~1
+  = Api.$s$fEnter(->)mn(->)
+"SPEC/Api $fEnter(->)mn(->) @ (App Int64) @ App @ Handler @ (Handler
+                                                              Int64) @ User" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                                                                                                                             Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                             Configs.App
+                                                                                                                                                                             (Models.User
+                                                                                                                                                                              -> Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                                   GHC.Int.Int64)
+                                                                                                                                                                           Data.Type.Equality.~ (Models.User
+                                                                                                                                                                                                 -> Configs.App
+                                                                                                                                                                                                      GHC.Int.Int64))
+                                                                                                                                                                  ($d~ :: Servant.Utils.Enter.Entered
+                                                                                                                                                                            Configs.App
+                                                                                                                                                                            Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                            (Models.User
+                                                                                                                                                                             -> Configs.App
+                                                                                                                                                                                  GHC.Int.Int64)
+                                                                                                                                                                          Data.Type.Equality.~ (Models.User
+                                                                                                                                                                                                -> Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                                                     GHC.Int.Int64))
+                                                                                                                                                                  ($dEnter :: Servant.Utils.Enter.Enter
+                                                                                                                                                                                (Configs.App
+                                                                                                                                                                                   GHC.Int.Int64)
+                                                                                                                                                                                Configs.App
+                                                                                                                                                                                Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                                (Servant.Server.Internal.Handler.Handler
+                                                                                                                                                                                   GHC.Int.Int64))
+  Servant.Utils.Enter.$fEnter(->)mn(->) @ (Configs.App GHC.Int.Int64)
+                                        @ Configs.App
+                                        @ Servant.Server.Internal.Handler.Handler
+                                        @ (Servant.Server.Internal.Handler.Handler GHC.Int.Int64)
+                                        @ Models.User
+                                        $dEnter
+                                        $d~
+                                        $d~1
+  = Api.$s$fEnter(->)mn(->)11
+"SPEC/Api $fEntermmnn @ App @ Handler @ (Entity User)" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                                  Servant.Server.Internal.Handler.Handler
+                                                                                  Configs.App
+                                                                                  (Servant.Server.Internal.Handler.Handler
+                                                                                     (Database.Persist.Class.PersistEntity.Entity
+                                                                                        Models.User))
+                                                                                Data.Type.Equality.~ Configs.App
+                                                                                                       (Database.Persist.Class.PersistEntity.Entity
+                                                                                                          Models.User))
+                                                                       ($d~ :: Servant.Utils.Enter.Entered
+                                                                                 Configs.App
+                                                                                 Servant.Server.Internal.Handler.Handler
+                                                                                 (Configs.App
+                                                                                    (Database.Persist.Class.PersistEntity.Entity
+                                                                                       Models.User))
+                                                                               Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                                                                                                      (Database.Persist.Class.PersistEntity.Entity
+                                                                                                         Models.User))
+  Servant.Utils.Enter.$fEntermmnn @ Configs.App
+                                  @ Servant.Server.Internal.Handler.Handler
+                                  @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                                  $d~
+                                  $d~1
+  = Api.$s$fEnter(->)mn(->)_$s$fEntermmnn
+"SPEC/Api $fEntermmnn @ App @ Handler @ Int64" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                          Servant.Server.Internal.Handler.Handler
+                                                                          Configs.App
+                                                                          (Servant.Server.Internal.Handler.Handler
+                                                                             GHC.Int.Int64)
+                                                                        Data.Type.Equality.~ Configs.App
+                                                                                               GHC.Int.Int64)
+                                                               ($d~ :: Servant.Utils.Enter.Entered
+                                                                         Configs.App
+                                                                         Servant.Server.Internal.Handler.Handler
+                                                                         (Configs.App GHC.Int.Int64)
+                                                                       Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                                                                                              GHC.Int.Int64)
+  Servant.Utils.Enter.$fEntermmnn @ Configs.App
+                                  @ Servant.Server.Internal.Handler.Handler
+                                  @ GHC.Int.Int64
+                                  $d~
+                                  $d~1
+  = Api.$s$fEnter(->)mn(->)_$s$fEntermmnn1
+"SPEC/Api $fEntermmnn_$cp1Enter @ App @ Handler @ (Entity User)" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                                            Servant.Server.Internal.Handler.Handler
+                                                                                            Configs.App
+                                                                                            (Servant.Server.Internal.Handler.Handler
+                                                                                               (Database.Persist.Class.PersistEntity.Entity
+                                                                                                  Models.User))
+                                                                                          Data.Type.Equality.~ Configs.App
+                                                                                                                 (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                    Models.User))
+                                                                                 ($d~ :: Servant.Utils.Enter.Entered
+                                                                                           Configs.App
+                                                                                           Servant.Server.Internal.Handler.Handler
+                                                                                           (Configs.App
+                                                                                              (Database.Persist.Class.PersistEntity.Entity
+                                                                                                 Models.User))
+                                                                                         Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                                                                                                                (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                   Models.User))
+  Servant.Utils.Enter.$fEntermmnn_$cp1Enter @ Configs.App
+                                            @ Servant.Server.Internal.Handler.Handler
+                                            @ (Database.Persist.Class.PersistEntity.Entity
+                                                 Models.User)
+                                            $d~
+                                            $d~1
+  = Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp1Enter
+"SPEC/Api $fEntermmnn_$cp1Enter @ App @ Handler @ Int64" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                                    Servant.Server.Internal.Handler.Handler
+                                                                                    Configs.App
+                                                                                    (Servant.Server.Internal.Handler.Handler
+                                                                                       GHC.Int.Int64)
+                                                                                  Data.Type.Equality.~ Configs.App
+                                                                                                         GHC.Int.Int64)
+                                                                         ($d~ :: Servant.Utils.Enter.Entered
+                                                                                   Configs.App
+                                                                                   Servant.Server.Internal.Handler.Handler
+                                                                                   (Configs.App
+                                                                                      GHC.Int.Int64)
+                                                                                 Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                                                                                                        GHC.Int.Int64)
+  Servant.Utils.Enter.$fEntermmnn_$cp1Enter @ Configs.App
+                                            @ Servant.Server.Internal.Handler.Handler
+                                            @ GHC.Int.Int64
+                                            $d~
+                                            $d~1
+  = Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp1Enter1
+"SPEC/Api $fEntermmnn_$cp2Enter @ App @ Handler @ (Entity User)" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                                            Servant.Server.Internal.Handler.Handler
+                                                                                            Configs.App
+                                                                                            (Servant.Server.Internal.Handler.Handler
+                                                                                               (Database.Persist.Class.PersistEntity.Entity
+                                                                                                  Models.User))
+                                                                                          Data.Type.Equality.~ Configs.App
+                                                                                                                 (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                    Models.User))
+                                                                                 ($d~ :: Servant.Utils.Enter.Entered
+                                                                                           Configs.App
+                                                                                           Servant.Server.Internal.Handler.Handler
+                                                                                           (Configs.App
+                                                                                              (Database.Persist.Class.PersistEntity.Entity
+                                                                                                 Models.User))
+                                                                                         Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                                                                                                                (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                   Models.User))
+  Servant.Utils.Enter.$fEntermmnn_$cp2Enter @ Configs.App
+                                            @ Servant.Server.Internal.Handler.Handler
+                                            @ (Database.Persist.Class.PersistEntity.Entity
+                                                 Models.User)
+                                            $d~
+                                            $d~1
+  = Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp2Enter
+"SPEC/Api $fEntermmnn_$cp2Enter @ App @ Handler @ Int64" [ALWAYS] forall ($d~1 :: Servant.Utils.Enter.Entered
+                                                                                    Servant.Server.Internal.Handler.Handler
+                                                                                    Configs.App
+                                                                                    (Servant.Server.Internal.Handler.Handler
+                                                                                       GHC.Int.Int64)
+                                                                                  Data.Type.Equality.~ Configs.App
+                                                                                                         GHC.Int.Int64)
+                                                                         ($d~ :: Servant.Utils.Enter.Entered
+                                                                                   Configs.App
+                                                                                   Servant.Server.Internal.Handler.Handler
+                                                                                   (Configs.App
+                                                                                      GHC.Int.Int64)
+                                                                                 Data.Type.Equality.~ Servant.Server.Internal.Handler.Handler
+                                                                                                        GHC.Int.Int64)
+  Servant.Utils.Enter.$fEntermmnn_$cp2Enter @ Configs.App
+                                            @ Servant.Server.Internal.Handler.Handler
+                                            @ GHC.Int.Int64
+                                            $d~
+                                            $d~1
+  = Api.$s$fEnter(->)mn(->)_$s$fEntermmnn_$cp2Enter1
+"SPEC/Api $fMimeRenderTYPEJSONa @ (Entity User)" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                (Database.Persist.Class.PersistEntity.Entity
+                                                                                   Models.User))
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa @ (Database.Persist.Class.PersistEntity.Entity
+                                                      Models.User)
+                                                 $dToJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa3
+"SPEC/Api $fMimeRenderTYPEJSONa @ Int64" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                        GHC.Int.Int64)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa @ GHC.Int.Int64
+                                                 $dToJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa2
+"SPEC/Api $fMimeRenderTYPEJSONa @ [Char]" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                         [GHC.Types.Char])
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa @ [GHC.Types.Char]
+                                                 $dToJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa
+"SPEC/Api $fMimeRenderTYPEJSONa @ [Entity User]" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                [Database.Persist.Class.PersistEntity.Entity
+                                                                                   Models.User])
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa @ [Database.Persist.Class.PersistEntity.Entity
+                                                      Models.User]
+                                                 $dToJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa1
+"SPEC/Api $fMimeRenderTYPEJSONa_$cmimeRender @ (Entity User)" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                             (Database.Persist.Class.PersistEntity.Entity
+                                                                                                Models.User))
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cmimeRender @ (Database.Persist.Class.PersistEntity.Entity
+                                                                   Models.User)
+                                                              $dToJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender2
+"SPEC/Api $fMimeRenderTYPEJSONa_$cmimeRender @ Int64" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                     GHC.Int.Int64)
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cmimeRender @ GHC.Int.Int64
+                                                              $dToJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender1
+"SPEC/Api $fMimeRenderTYPEJSONa_$cmimeRender @ [Entity User]" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                                             [Database.Persist.Class.PersistEntity.Entity
+                                                                                                Models.User])
+  Servant.API.ContentTypes.$fMimeRenderTYPEJSONa_$cmimeRender @ [Database.Persist.Class.PersistEntity.Entity
+                                                                   Models.User]
+                                                              $dToJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeRenderTYPEJSONa_$cmimeRender
+"SPEC/Api $fMimeUnrenderTYPEJSONa @ LoginUser" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                Api.User.LoginUser)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa @ Api.User.LoginUser
+                                                   $dFromJSON
+  = Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa
+"SPEC/Api $fMimeUnrenderTYPEJSONa @ User" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                           Models.User)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa @ Models.User
+                                                   $dFromJSON
+  = Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa1
+"SPEC/Api $fMimeUnrenderTYPEJSONa_$cmimeUnrender @ LoginUser" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                               Api.User.LoginUser)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa_$cmimeUnrender @ Api.User.LoginUser
+                                                                  $dFromJSON
+  = Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender
+"SPEC/Api $fMimeUnrenderTYPEJSONa_$cmimeUnrender @ User" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                          Models.User)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa_$cmimeUnrender @ Models.User
+                                                                  $dFromJSON
+  = Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrender1
+"SPEC/Api $fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType @ LoginUser" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                                       Api.User.LoginUser)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType @ Api.User.LoginUser
+                                                                          $dFromJSON
+  = Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType
+"SPEC/Api $fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType @ User" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                                  Models.User)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType @ Models.User
+                                                                          $dFromJSON
+  = Api.$s$fAllCTUnrenderctypsa_$s$fMimeUnrenderTYPEJSONa_$cmimeUnrenderWithType1
+"SPEC/Api $fMimeUnrenderTYPEJSONa_$cp1MimeUnrender @ LoginUser" [ALWAYS] forall ($dFromJSON :: Data.Aeson.Types.FromJSON.FromJSON
+                                                                                                 Api.User.LoginUser)
+  Servant.API.ContentTypes.$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender @ Api.User.LoginUser
+                                                                    $dFromJSON
+  = Api.$s$fAllCTRender:a_$s$fMimeUnrenderTYPEJSONa_$cp1MimeUnrender
+"SPEC/Api encode @ (Entity User)" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                 (Database.Persist.Class.PersistEntity.Entity
+                                                                    Models.User))
+  Data.Aeson.encode @ (Database.Persist.Class.PersistEntity.Entity
+                         Models.User)
+                    $dToJSON
+  = Api.$s$fAllCTRender:a_$sencode2
+"SPEC/Api encode @ Int64" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                         GHC.Int.Int64)
+  Data.Aeson.encode @ GHC.Int.Int64 $dToJSON
+  = Api.$s$fAllCTRender:a_$sencode1
+"SPEC/Api encode @ [Entity User]" [ALWAYS] forall ($dToJSON :: Data.Aeson.Types.ToJSON.ToJSON
+                                                                 [Database.Persist.Class.PersistEntity.Entity
+                                                                    Models.User])
+  Data.Aeson.encode @ [Database.Persist.Class.PersistEntity.Entity
+                         Models.User]
+                    $dToJSON
+  = Api.$s$fAllCTRender:a_$sencode
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

@@ -1,0 +1,2586 @@
+
+==================== FINAL INTERFACE ====================
+2017-12-16 06:26:18.219584 UTC
+
+interface servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Api.User [family instance module] 8002
+  interface hash: 2ec2be691a1c0e61e446a4e2b4dfc1e8
+  ABI hash: 415b3cbb3f4c4470e232ca6ae44ca345
+  export-list hash: d00d5bb479ed2371845e4e37bf8fe94a
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 10830a479fde11af2ef88aff68c777ef
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Api.User.allUsers
+  Api.User.createUser
+  Api.User.generateJavaScript
+  Api.User.loginServer
+  Api.User.loginUser
+  Api.User.singleUser
+  Api.User.userServer
+  Api.User.LoginAPI
+  Api.User.LoginUser{Api.User.Login email password}
+  Api.User.UserAPI
+module dependencies: Auth.Token Configs Models
+package dependencies: StateVar-1.1.0.4@StateVar-1.1.0.4-5dJbnTVECtEAhfJXPZKdbO
+                      adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp
+                      aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k
+                      aeson-compat-0.3.6@aeson-compat-0.3.6-HFlClSgXxbU7TMoWqS5Yu4
+                      ansi-terminal-0.6.3.1@ansi-terminal-0.6.3.1-3RTqikoQf47ajVD9m8zgB
+                      array-0.5.1.1@array-0.5.1.1
+                      attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ
+                      attoparsec-iso8601-1.0.0.0@attoparsec-iso8601-1.0.0.0-CiauZZhskHA6jYy7CqE2mZ
+                      auto-update-0.1.4@auto-update-0.1.4-EmUvNdmhEju51bHrtaEMpz
+                      base-4.9.1.0
+                      base-compat-0.9.3@base-compat-0.9.3-KeJp8zYMpcS9WibvTcxU22
+                      base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu
+                      base64-bytestring-1.0.0.1@base64-bytestring-1.0.0.1-4O9TExPPz6eI82Yj7L4SIj
+                      basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ
+                      bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw
+                      binary-0.8.3.0@binary-0.8.3.0
+                      blaze-builder-0.4.0.2@blaze-builder-0.4.0.2-LxClHUTiKUUAxWtvJ5Oeoy
+                      blaze-html-0.9.0.1@blaze-html-0.9.0.1-GQ0yZtPYt2i2KdgnUEOA8p
+                      blaze-markup-0.8.0.0@blaze-markup-0.8.0.0-GsxkVbRgODkgUQDmmDVob
+                      byteorder-1.0.4@byteorder-1.0.4-9NlNHkBVdo7F1prFVKrkcH
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      call-stack-0.1.0@call-stack-0.1.0-FYVrCPXGP9EGAuTW32963O
+                      case-insensitive-1.2.0.10@case-insensitive-1.2.0.10-1D5OUKQ7UrJ7IpOe0di4Un
+                      charset-0.3.7.1@charset-0.3.7.1-8XzlqAFUmfXDSOZRmiDkgy
+                      comonad-5.0.2@comonad-5.0.2-Fq9Xy9jdx6uIyJZn00E6Yc
+                      conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i
+                      conduit-extra-1.1.17@conduit-extra-1.1.17-LHyPtC0nGlzDcgVxOcd4h4
+                      containers-0.5.7.1@containers-0.5.7.1
+                      contravariant-1.4@contravariant-1.4-29zF0Im431177ovfbHYCGv
+                      cryptonite-0.23@cryptonite-0.23-7aE9caGlGrwDnGcKBpfJ80
+                      data-default-class-0.1.2.0@data-default-class-0.1.2.0-GsXqKN6o1X9jr0fF5qCVD
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 directory-1.3.0.0@directory-1.3.0.0
+                      distributive-0.5.3@distributive-0.5.3-IX4kyVcHAyoH4uFYrsjY1R
+                      dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk
+                      easy-file-0.2.1@easy-file-0.2.1-rguMBNaECxLikt4CCDx0D
+                      exceptions-0.8.3@exceptions-0.8.3-ADEDRATtUrMK1JW4zMQ9U
+                      fast-logger-2.4.10@fast-logger-2.4.10-7GMVhEi1femFXwSQxV5ynm
+                      file-embed-0.0.10@file-embed-0.0.10-KWMmUDaNSRP7AxWSEHlrrK
+                      filepath-1.4.1.1@filepath-1.4.1.1
+                      foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf
+                      free-4.12.4@free-4.12.4-C2gBQV0m8J42HxqSLTFyVx
+                      ghc-boot-th-8.0.2@ghc-boot-th-8.0.2 ghc-prim-0.5.0.0
+                      hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol
+                      http-api-data-0.3.7.1@http-api-data-0.3.7.1-AT41KDpP9ayH63FPNXWrvF
+                      http-date-0.0.6.1@http-date-0.0.6.1-AkYFHBFn90lGSerD29arC9
+                      http-media-0.6.4@http-media-0.6.4-L2HKUvjwG4m4RLl78rlCa
+                      http-types-0.9.1@http-types-0.9.1-G7E1zHPzooHCYxKqGuQmxY
+                      integer-gmp-1.0.0.1
+                      integer-logarithms-1.0.2@integer-logarithms-1.0.2-92lMiWV9mmYAwfMEYgfQ0D
+                      kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX
+                      lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW
+                      lifted-base-0.2.3.11@lifted-base-0.2.3.11-Ei0JSPdt7KOCD2HIA5jFqV
+                      memory-0.14.9@memory-0.14.9-DuHWmOqOt5MKvG5MS8KASe
+                      mime-types-0.1.0.7@mime-types-0.1.0.7-6b3z22GcDYZLEl2kkfCUAB
+                      mmorph-1.0.9@mmorph-1.0.9-5bASEvmIkr5CpdAYXwPsn0
+                      monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l
+                      monad-logger-0.3.25.1@monad-logger-0.3.25.1-C5T06yv6lw54Umfdl3S8et
+                      monad-loops-0.4.3@monad-loops-0.4.3-ERCN4ZKCeeS5SRhwqXsLBP
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      natural-transformation-0.4@natural-transformation-0.4-1wekIVD0YQa62debXjfFg3
+                      network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz
+                      network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph
+                      old-locale-1.0.0.7@old-locale-1.0.0.7-KGBP1BSKxH5GCm0LnZP04j
+                      old-time-1.1.0.3@old-time-1.1.0.3-KWRsMSdY26c2L27Y9n9cyq
+                      parsec-3.1.11@parsec-3.1.11-1aqiimsgq2dCv7eoaC8WuX
+                      path-pieces-0.2.1@path-pieces-0.2.1-Ap205zdHJCr3aorBcPaHM5
+                      persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q
+                      persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8
+                      persistent-template-2.5.3@persistent-template-2.5.3-Eo7SLuwZzwzIDXoxvwLBF1
+                      postgresql-libpq-0.9.3.1@postgresql-libpq-0.9.3.1-PNtzTLZ1kPBlp0W2VWiJp
+                      postgresql-simple-0.5.3.0@postgresql-simple-0.5.3.0-7wqiM7f7ESv7wSvmAjfLqt
+                      prelude-extras-0.4.0.3@prelude-extras-0.4.0.3-BhL9U5k7NtGJn1itwIHt2Y
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4
+                      resource-pool-0.2.3.2@resource-pool-0.2.3.2-GmoeVeJ8L5Y51jMJ5dPk3U
+                      resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi
+                      scientific-0.3.5.2@scientific-0.3.5.2-FM2NdrNTcdbCDq9wuNnhIA
+                      semigroupoids-5.2.1@semigroupoids-5.2.1-Db8txM8kTsI6Y49CY6g5Jn
+                      servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs
+                      servant-foreign-0.10.1@servant-foreign-0.10.1-FIgbbIo2RQx17WgpgeFap1
+                      servant-js-0.9.3.1@servant-js-0.9.3.1-8O1faMH51RCAxnEoBHhg4B
+                      servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x
+                      silently-1.2.5@silently-1.2.5-HsbqnAAyIOA8viZ4Sccs0a
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      stm-chans-3.0.0.4@stm-chans-3.0.0.4-JX6Y7GVvdkg3BduVhEnPWu
+                      string-conversions-0.4.0.1@string-conversions-0.4.0.1-HK2T4drDKhqGigpJdBBdRG
+                      stringsearch-0.3.6.6@stringsearch-0.3.6.6-2soGORichTR6reHVhDqKip
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ
+                      th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI
+                      th-lift-instances-0.1.11@th-lift-instances-0.1.11-A7sWuFC2KLsFTBmLagoRSX
+                      time-1.6.0.1@time-1.6.0.1
+                      time-locale-compat-0.1.1.3@time-locale-compat-0.1.1.3-KZ1jqNx8uhlHjmuPPj6V1Y
+                      transformers-0.5.2.0@transformers-0.5.2.0
+                      transformers-base-0.4.4@transformers-base-0.4.4-GKSs0LKukAL8ymq2naFmrH
+                      transformers-compat-0.5.1.4@transformers-compat-0.5.1.4-IuFogs8HAVUJBWVNMhtssu
+                      unix-2.7.2.1@unix-2.7.2.1
+                      unix-compat-0.4.3.1@unix-compat-0.4.3.1-Ausmw6d7KIwA7sl52mzqxC
+                      unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE
+                      unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC
+                      uri-bytestring-0.2.3.3@uri-bytestring-0.2.3.3-Hc1wKsF7VwW2mAD17PrIxh
+                      utf8-string-1.0.1.1@utf8-string-1.0.1.1-1DpjxLeTvGg7ttZZojxJR5
+                      uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ
+                      vault-0.3.0.7@vault-0.3.0.7-FSJCPczyPWW8DwvwP76qt4
+                      vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ
+                      wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C
+                      wai-app-static-3.1.6.1@wai-app-static-3.1.6.1-7lzPCIcKJr41gr3SLmdLji
+                      wai-extra-3.0.20.2@wai-extra-3.0.20.2-FZIfwBninleKHm4gfrfwwi
+                      wai-logger-2.3.0@wai-logger-2.3.0-G2LMsBpHwLV49tDfVWxzX4
+                      word8-0.1.3@word8-0.1.3-9o1uWQQ6KysJq8GGsVHHit
+                      zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp
+orphans: attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.ByteString.Char8
+         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Text.Internal
+         base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         base-orphans-0.6@base-orphans-0.6-AbJ3lKVXygDCG0eeQEv8Iu:Data.Orphans
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block
+         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         hashable-1.2.6.1@hashable-1.2.6.1-2ZLNuHq395GGIHwEHuqZol:Data.Hashable.Generic
+         network-2.6.3.2@network-2.6.3.2-IsLM4TXcLoRI0fmmBYVyQz:Network.Socket
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistQuery
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore
+         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistUnique
+         persistent-template-2.5.3@persistent-template-2.5.3-Eo7SLuwZzwzIDXoxvwLBF1:Database.Persist.TH
+         reflection-2.1.2@reflection-2.1.2-Bem12O1xFGSHr4C2Hyu1c4:Data.Reflection
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         th-lift-0.7.7@th-lift-0.7.7-JWI9Gh7wB0MC9Q5wqv5aoI:Language.Haskell.TH.Lift
+         th-lift-instances-0.1.11@th-lift-instances-0.1.11-A7sWuFC2KLsFTBmLagoRSX:Instances.TH.Lift
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+         unix-time-0.3.7@unix-time-0.3.7-EhnEKT4D7hJajV74Sk5BE:Data.UnixTime.Diff
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Fusion.Bundle
+         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+family instance modules: adjunctions-4.3@adjunctions-4.3-A5jfd1yrmaY4DRMJuiquBp:Data.Functor.Rep
+                         attoparsec-0.13.1.0@attoparsec-0.13.1.0-3ql4hcH9pGfBAlE21oqFTQ:Data.Attoparsec.Internal.Types
+                         base-4.9.1.0:Control.Applicative base-4.9.1.0:Data.Complex
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Compose
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.Functor.Product base-4.9.1.0:Data.Functor.Sum
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Block.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.BoxedArray
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Monad
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.MutableBuilder
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Nat
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.NonEmpty
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Numerical.Subtractive
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ASCII7
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.ISO_8859_1
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF16
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.String.Encoding.UTF32
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.AsciiString
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.Types.OffsetSize
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UArray.Base
+                         basement-0.0.4@basement-0.0.4-5G9Gc8Ht9hD9gydJD2I2TQ:Basement.UTF8.Base
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Biff
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Clown
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Fix
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Flip
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Join
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Joker
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Product
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Sum
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Tannen
+                         bifunctors-5.4.2@bifunctors-5.4.2-KcF2f75KyQm5BjgJ8WkHCw:Data.Bifunctor.Wrapped
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Conduit
+                         conduit-1.2.12.1@conduit-1.2.12.1-CTYKTJmwFo81r4LrAKDD8i:Data.Conduit.Internal.Pipe
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         dlist-0.8.0.3@dlist-0.8.0.3-BHFBNaw8k6n9WiaUNzoXpk:Data.DList
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Bitmap
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Array.Chunked.Unboxed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Buildable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Element
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Keyed
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Collection.Mutable
+                         foundation-0.0.17@foundation-0.0.17-CL5hY2f92B7EywaUc6v2Lf:Foundation.Tuple
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         http-api-data-0.3.7.1@http-api-data-0.3.7.1-AT41KDpP9ayH63FPNXWrvF:Web.Internal.FormUrlEncoded
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Day
+                         kan-extensions-5.0.2@kan-extensions-5.0.2-8LTJJ1zQJWB7SfewWXUuqX:Data.Functor.Yoneda
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.At
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Internal.Indexed
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Reified
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Tuple
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Wrapped
+                         lens-4.15.4@lens-4.15.4-Km66e7WFRbEC7HnDdV2JDW:Control.Lens.Zoom
+                         monad-control-1.0.2.2@monad-control-1.0.2.2-1Ci8dYJ8Tb7E3HTcTqOb8l:Control.Monad.Trans.Control
+                         monad-logger-0.3.25.1@monad-logger-0.3.25.1-C5T06yv6lw54Umfdl3S8et:Control.Monad.Logger
+                         network-uri-2.6.1.0@network-uri-2.6.1.0-7BN1tbB3iHQ2XgvmqLAYph:Network.URI
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistConfig
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore
+                         persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Types.Internal
+                         persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8:Database.Persist.Postgresql
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Data.Primitive.Array
+                         profunctors-5.2.1@profunctors-5.2.1-Ga89Nyw0d7LBEIoX4AZ6gT:Data.Profunctor.Rep
+                         resourcet-1.1.9@resourcet-1.1.9-L2BUQrxWZMwDiwhcuyPuNi:Control.Monad.Trans.Resource.Internal
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.ContentTypes
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.IsSecure
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Verbs
+                         servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.Utils.Links
+                         servant-foreign-0.10.1@servant-foreign-0.10.1-FIgbbIo2RQx17WgpgeFap1:Servant.Foreign.Internal
+                         servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ:Models
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.BasicAuth
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.Handler
+                         servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.RoutingApplication
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+                         th-abstraction-0.2.6.0@th-abstraction-0.2.6.0-HRFJgpoqs5HJ5LgHnjmMhQ:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashMap.Base
+                         unordered-containers-0.2.8.0@unordered-containers-0.2.8.0-Bp9XgxjuHxcI4tFehVMDGC:Data.HashSet
+                         uri-bytestring-0.2.3.3@uri-bytestring-0.2.3.3-Hc1wKsF7VwW2mAD17PrIxh:URI.ByteString.Types
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal
+                         uuid-types-1.0.3@uuid-types-1.0.3-HQOuja9trySCcuflACyDTJ:Data.UUID.Types.Internal.Builder
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Primitive
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Storable
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed
+                         vector-0.12.0.1@vector-0.12.0.1-692PQMDMB6pIQ1uGwefDcQ:Data.Vector.Unboxed.Base
+                         zlib-0.6.1.2@zlib-0.6.1.2-7negTfm2ujt1gW4wr40MUp:Codec.Compression.Zlib.Stream
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson ac80dc95044b37675b3e2e0036a2e5cf
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Encoding.Internal b70e5a3e7ff595eed20fd1b8dcb9d263
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.TH 923c4f2161c7bf41bb14eb8db9371fa9
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.FromJSON f70746c5b1cd1a03ee098f0728e87383
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.Internal f040a64200abf1dfa06f5db9b9e027c1
+import  -/  aeson-1.1.2.0@aeson-1.1.2.0-7ssY6fy1GxZGXxTPcOtf2k:Data.Aeson.Types.ToJSON d8ae0f04da94d706b89336fd9d0bf43b
+import  -/  base-4.9.1.0:Data.Functor 5ab1dc703df5b482e77efb697833ca3c
+import  -/  base-4.9.1.0:Data.Int 07f5a36c488acfe0ac32e81c7536b8ff
+import  -/  base-4.9.1.0:Data.OldList 27987919d8da2f92e3f472ca81f730f8
+import  -/  base-4.9.1.0:Data.Proxy d7f87a37cf7ec5ca87c59c8d2859031f
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.Generics 1dbec2bc7dd1c5bd8c89ed857eaed19b
+import  -/  base-4.9.1.0:GHC.Int e6f85fcab22769385fba2b5fce0acb40
+import  -/  base-4.9.1.0:GHC.Read b6821365d2d5fa2155c9e910160e7f57
+import  -/  base-4.9.1.0:GHC.Show a027f5ac24879eaba752f44aa90fe511
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:Text.ParserCombinators.ReadPrec 5a182a8d6deb0f7d67aed5fab08a5cc0
+import  -/  base-4.9.1.0:Text.Read.Lex 16199fac3c6c2d64cc7c268f3c0d2269
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Error.Class 635294424a2da8269902789f5c8bbe99
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Except 3bb0e2598193c1ba00c9723945e93004
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Reader 0a25f5000d6974b16ed96a739eacaeb6
+import  -/  mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6:Control.Monad.Reader.Class 9573b8d2ba4bcf8261d19527e0170c4d
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist b85fb5d19b37c677efb8ea455553e174
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistEntity cdf530da25c383734bcbcaf1dbc5f7ff
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistQuery 1cc5b82ce7102b2265e45dee0bdd83cb
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Class.PersistStore c71265185bed1dbcbd850b19b52c50dc
+import  -/  persistent-2.7.1@persistent-2.7.1-1WVuu59EOj3Jd0m1ZC6k7q:Database.Persist.Sql.Orphan.PersistStore c52db91c24c2d7d600be0b91f416e92c
+import  -/  persistent-postgresql-2.6.2@persistent-postgresql-2.6.2-5PPygiAaLRE7UEfD88u0V8:Database.Persist.Postgresql 7e6648ba2946ddc182502523c59c3a1a
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Alternative 2461d396f6a5424e1d4fb954b0e1c0be
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Capture bfba84193e33542c161252fbb0c8b7af
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.ContentTypes 576596cda55fbec40e1e2c9d98cd0c88
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.ReqBody 047a9c8195603e41a4b254484987742d
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Sub 5afd3b2f54ee88e482c7d9ff96fe2228
+import  -/  servant-0.11@servant-0.11-5n0Jq59NGG63K7rfpU5Dxs:Servant.API.Verbs 1224dd2bd64960b7d9bea42854bccfd7
+import  -/  servant-js-0.9.3.1@servant-js-0.9.3.1-8O1faMH51RCAxnEoBHhg4B:Servant.JS 3d09affbdd20cc96ce6a3ec4e89133a9
+import  -/  servant-js-0.9.3.1@servant-js-0.9.3.1-8O1faMH51RCAxnEoBHhg4B:Servant.JS.Vanilla d31fb888cfc7d997e33891593262d50e
+import  -/  Auth.Token 850432bab7c3bf8386745b5e5738f9f1
+  exports: 72c309506d00300ce8d53e5c1c25cfe3
+  Token c430d3b771c3e31ef99ff79d56f609db
+  tokenKey c802f23c5d1c21c068c1a74fc3fa9c09
+import  -/  Configs 334c35832835bd00f48f15cbeff86846
+  exports: 5ba548e39009e48b0da18ab7e93924f4
+  App 15546665de60f1b111f7b413eea4cd53
+import  -/  Models f0b4126018e31216fc8f927a65a9389f
+  exports: 13308438d85fd46577e4088090c1e6a4
+  User 8ddcbd28a6517f48997247212ff54177
+  User 387e4555ddb3e07570e0196f5113d0d8
+  UserName 4eb38197d79f2ce770c961cab06dfa2d
+  runDb 2fa16d0ca280ea707ccb7c17370a0c37
+  userEmail 100cfb11a5fc4f335be1fef84c1f3942
+  userName 612a2a8e651fdd7aa6a61b02248431f0
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant 73596c6288a7d315a682d7006ae39fb2
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal 09d9d00026d5f8400d0a0225240003ee
+import  -/  servant-server-0.11.0.1@servant-server-0.11.0.1-Dzlz1R4sOiMKQugTBmyK0x:Servant.Server.Internal.ServantErr 46f2938c833315653ccfc80a1e87b7fe
+import  -/  text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text e8aa34be3dde178f567ae461e65c988b
+import  -/  wai-3.2.1.1@wai-3.2.1.1-GYhAFGd1F2uKjCUZVPyC2C:Network.Wai 43c9d22c6cd2fa899c90fca75cdc02dd
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fFromJSONLoginUser ::
+    Data.Aeson.Types.FromJSON.FromJSON Api.User.LoginUser
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Api.User.LoginUser
+                  Api.User.$fFromJSONLoginUser_$cparseJSON
+                  Api.User.$fFromJSONLoginUser_$cparseJSONList -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fFromJSONLoginUser1 ::
+    [Data.Aeson.Types.Internal.Parser Api.User.LoginUser]
+    -> forall (f :: * -> *) r.
+       Data.Aeson.Types.Internal.JSONPath
+       -> Data.Aeson.Types.Internal.Failure f r
+       -> Data.Aeson.Types.Internal.Success [Api.User.LoginUser] f r
+       -> f r
+  {- Arity: 4, HasNoCafRefs, Strictness: <S,1*U><L,U><L,U><L,C(U)> -}
+35f43c312a237ffa5cc6f340489dee44
+  $fFromJSONLoginUser2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "[a]"#) -}
+69397a63c5acfbcee11db1135bcd1a96
+  $fFromJSONLoginUser3 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "password"#) -}
+11dba769aa03ce2a33c4a048186af94b
+  $fFromJSONLoginUser4 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.Show.unpackCString# "email"#) -}
+59657a58f6bce06c68184e711c2ea299
+  $fFromJSONLoginUser5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Object"#) -}
+4b344a1e0febaf0cfb0df6cb24fe410d
+  $fFromJSONLoginUser6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Api.User.LoginUser"#) -}
+862b800da19b05f0e3b9070413fbe3db
+  $fFromJSONLoginUser7 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Login"#) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fFromJSONLoginUser_$cparseJSON ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser Api.User.LoginUser
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (value :: Data.Aeson.Types.Internal.Value) ->
+                 case value of wild {
+                   DEFAULT
+                   -> Data.Aeson.TH.parseTypeMismatch'
+                        @ Api.User.LoginUser
+                        Api.User.$fFromJSONLoginUser7
+                        Api.User.$fFromJSONLoginUser6
+                        Api.User.$fFromJSONLoginUser5
+                        (case wild of wild1 {
+                           Data.Aeson.Types.Internal.Array ds1 -> Data.Aeson.TH.valueConName5
+                           Data.Aeson.Types.Internal.String ds1 -> Data.Aeson.TH.valueConName4
+                           Data.Aeson.Types.Internal.Number ds1 -> Data.Aeson.TH.valueConName3
+                           Data.Aeson.Types.Internal.Bool ds1 -> Data.Aeson.TH.valueConName2
+                           Data.Aeson.Types.Internal.Null -> Data.Aeson.TH.valueConName1 })
+                   Data.Aeson.Types.Internal.Object recObj
+                   -> let {
+                        m :: Data.Aeson.Types.Internal.Parser GHC.Base.String
+                        = case Api.User.$fFromJSONLoginUser4 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                          Data.Aeson.TH.$w$clookupField
+                            @ [GHC.Types.Char]
+                            Data.Aeson.Types.FromJSON.$fFromJSONChar_$cparseJSONList
+                            Api.User.$fFromJSONLoginUser6
+                            Api.User.$fFromJSONLoginUser7
+                            recObj
+                            ww1
+                            ww2
+                            ww3 }
+                      } in
+                      let {
+                        e :: Data.Aeson.Types.Internal.Parser GHC.Base.String
+                        = case Api.User.$fFromJSONLoginUser3 of ww { Data.Text.Internal.Text ww1 ww2 ww3 ->
+                          Data.Aeson.TH.$w$clookupField
+                            @ [GHC.Types.Char]
+                            Data.Aeson.Types.FromJSON.$fFromJSONChar_$cparseJSONList
+                            Api.User.$fFromJSONLoginUser6
+                            Api.User.$fFromJSONLoginUser7
+                            recObj
+                            ww1
+                            ww2
+                            ww3 }
+                      } in
+                      (\ @ (f :: * -> *)
+                         @ r
+                         (path :: Data.Aeson.Types.Internal.JSONPath)
+                         (kf :: Data.Aeson.Types.Internal.Failure f r)
+                         (ks :: Data.Aeson.Types.Internal.Success Api.User.LoginUser f r) ->
+                       m `cast`
+                       (Data.Aeson.Types.Internal.N:Parser[0] <GHC.Base.String>_R)
+                         @ f
+                         @ r
+                         path
+                         kf
+                         (\ (a1 :: GHC.Base.String) ->
+                          e `cast`
+                          (Data.Aeson.Types.Internal.N:Parser[0] <GHC.Base.String>_R)
+                            @ f
+                            @ r
+                            path
+                            kf
+                            (\ (a2 :: GHC.Base.String) -> ks (Api.User.Login a1 a2))))
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                <Api.User.LoginUser>_R)) }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fFromJSONLoginUser_$cparseJSONList ::
+    Data.Aeson.Types.Internal.Value
+    -> Data.Aeson.Types.Internal.Parser [Api.User.LoginUser]
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: Data.Aeson.Types.Internal.Value) ->
+                 case ds of wild {
+                   DEFAULT
+                   -> Data.Aeson.Types.FromJSON.typeMismatch
+                        @ [Api.User.LoginUser]
+                        Api.User.$fFromJSONLoginUser2
+                        wild
+                   Data.Aeson.Types.Internal.Array a1
+                   -> case a1 of wild1 { Data.Vector.Vector dt dt1 dt2 ->
+                      (Api.User.$fFromJSONLoginUser1
+                         (letrec {
+                            $wgo :: GHC.Prim.Int# -> [Data.Aeson.Types.Internal.Value]
+                              {- Arity: 1, Strictness: <S,U>, Inline: [0] -}
+                            = \ (ww :: GHC.Prim.Int#) ->
+                              case GHC.Prim.tagToEnum#
+                                     @ GHC.Types.Bool
+                                     (GHC.Prim.>=# ww dt1) of wild2 {
+                                GHC.Types.False
+                                -> case GHC.Prim.indexArray#
+                                          @ Data.Aeson.Types.Internal.Value
+                                          dt2
+                                          (GHC.Prim.+# dt ww) of ds1 { Unit# ipv ->
+                                   GHC.Types.:
+                                     @ Data.Aeson.Types.Internal.Value
+                                     ipv
+                                     ($wgo (GHC.Prim.+# ww 1#)) }
+                                GHC.Types.True -> GHC.Types.[] @ Data.Aeson.Types.Internal.Value }
+                          } in
+                          Api.User.$fFromJSONLoginUser_go 0# ($wgo 0#)))
+                        `cast`
+                      (Sym (Data.Aeson.Types.Internal.N:Parser[0]
+                                <[Api.User.LoginUser]>_R)) } }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fFromJSONLoginUser_go ::
+    GHC.Prim.Int#
+    -> [Data.Aeson.Types.Internal.Value]
+    -> [Data.Aeson.Types.Internal.Parser Api.User.LoginUser]
+  {- Arity: 2, Strictness: <L,U><S,1*U> -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fGenericLoginUser :: GHC.Generics.Generic Api.User.LoginUser
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Api.User.LoginUser
+                  Api.User.$fGenericLoginUser_$cfrom
+                  Api.User.$fGenericLoginUser_$cto -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fGenericLoginUser1 ::
+    Api.User.LoginUser
+    -> GHC.Generics.M1
+         GHC.Generics.C
+         ('GHC.Generics.MetaCons
+            "Login" 'GHC.Generics.PrefixI 'GHC.Types.True)
+         (GHC.Generics.M1
+            GHC.Generics.S
+            ('GHC.Generics.MetaSel
+               ('GHC.Base.Just "email")
+               'GHC.Generics.NoSourceUnpackedness
+               'GHC.Generics.NoSourceStrictness
+               'GHC.Generics.DecidedLazy)
+            (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+          GHC.Generics.:*: GHC.Generics.M1
+                             GHC.Generics.S
+                             ('GHC.Generics.MetaSel
+                                ('GHC.Base.Just "password")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy)
+                             (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+         x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (x1 :: Api.User.LoginUser) ->
+                 case x1 of wild { Api.User.Login g1 g2 ->
+                 (GHC.Generics.:*:
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "email")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                    @ (GHC.Generics.M1
+                         GHC.Generics.S
+                         ('GHC.Generics.MetaSel
+                            ('GHC.Base.Just "password")
+                            'GHC.Generics.NoSourceUnpackedness
+                            'GHC.Generics.NoSourceStrictness
+                            'GHC.Generics.DecidedLazy)
+                         (GHC.Generics.K1 GHC.Generics.R GHC.Base.String))
+                    @ x
+                    g1
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "email")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N))
+                    g2
+                      `cast`
+                    (Trans
+                         (Sym (GHC.Generics.N:K1[0]
+                                   <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                         (Sym (GHC.Generics.N:M1[0]
+                                   <GHC.Generics.S>_P
+                                   <'GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "password")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy>_P
+                                   <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R) <x>_N)))
+                   `cast`
+                 (Sym (GHC.Generics.N:M1[0]
+                           <GHC.Generics.C>_P
+                           <'GHC.Generics.MetaCons
+                              "Login" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                           <GHC.Generics.M1
+                              GHC.Generics.S
+                              ('GHC.Generics.MetaSel
+                                 ('GHC.Base.Just "email")
+                                 'GHC.Generics.NoSourceUnpackedness
+                                 'GHC.Generics.NoSourceStrictness
+                                 'GHC.Generics.DecidedLazy)
+                              (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                            GHC.Generics.:*: GHC.Generics.M1
+                                               GHC.Generics.S
+                                               ('GHC.Generics.MetaSel
+                                                  ('GHC.Base.Just "password")
+                                                  'GHC.Generics.NoSourceUnpackedness
+                                                  'GHC.Generics.NoSourceStrictness
+                                                  'GHC.Generics.DecidedLazy)
+                                               (GHC.Generics.K1
+                                                  GHC.Generics.R GHC.Base.String)>_R) <x>_N) }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fGenericLoginUser_$cfrom ::
+    Api.User.LoginUser -> GHC.Generics.Rep Api.User.LoginUser x
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (0, True, True)
+                Api.User.$fGenericLoginUser1
+                  `cast`
+                (forall (x :: <GHC.Types.*>_N).
+                 <Api.User.LoginUser>_R
+                 ->_R Trans
+                          (Sym (GHC.Generics.N:M1[0]
+                                    <GHC.Generics.D>_P
+                                    <'GHC.Generics.MetaData
+                                       "LoginUser"
+                                       "Api.User"
+                                       "servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ"
+                                       'GHC.Types.False>_P
+                                    <GHC.Generics.M1
+                                       GHC.Generics.C
+                                       ('GHC.Generics.MetaCons
+                                          "Login" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                       (GHC.Generics.M1
+                                          GHC.Generics.S
+                                          ('GHC.Generics.MetaSel
+                                             ('GHC.Base.Just "email")
+                                             'GHC.Generics.NoSourceUnpackedness
+                                             'GHC.Generics.NoSourceStrictness
+                                             'GHC.Generics.DecidedLazy)
+                                          (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                        GHC.Generics.:*: GHC.Generics.M1
+                                                           GHC.Generics.S
+                                                           ('GHC.Generics.MetaSel
+                                                              ('GHC.Base.Just "password")
+                                                              'GHC.Generics.NoSourceUnpackedness
+                                                              'GHC.Generics.NoSourceStrictness
+                                                              'GHC.Generics.DecidedLazy)
+                                                           (GHC.Generics.K1
+                                                              GHC.Generics.R GHC.Base.String))>_R))
+                          (Sub (Sym (Api.User.Rep_LoginUser[0]))) <x>_N) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fGenericLoginUser_$cto ::
+    GHC.Generics.Rep Api.User.LoginUser x -> Api.User.LoginUser
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U(U,U)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ @ x (ds :: GHC.Generics.Rep Api.User.LoginUser x) ->
+                 case ds
+                        `cast`
+                      (Trans
+                           (Sub (Api.User.Rep_LoginUser[0]))
+                           (Trans
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.D>_P
+                                     <'GHC.Generics.MetaData
+                                        "LoginUser"
+                                        "Api.User"
+                                        "servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ"
+                                        'GHC.Types.False>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.C
+                                        ('GHC.Generics.MetaCons
+                                           "Login" 'GHC.Generics.PrefixI 'GHC.Types.True)
+                                        (GHC.Generics.M1
+                                           GHC.Generics.S
+                                           ('GHC.Generics.MetaSel
+                                              ('GHC.Base.Just "email")
+                                              'GHC.Generics.NoSourceUnpackedness
+                                              'GHC.Generics.NoSourceStrictness
+                                              'GHC.Generics.DecidedLazy)
+                                           (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                         GHC.Generics.:*: GHC.Generics.M1
+                                                            GHC.Generics.S
+                                                            ('GHC.Generics.MetaSel
+                                                               ('GHC.Base.Just "password")
+                                                               'GHC.Generics.NoSourceUnpackedness
+                                                               'GHC.Generics.NoSourceStrictness
+                                                               'GHC.Generics.DecidedLazy)
+                                                            (GHC.Generics.K1
+                                                               GHC.Generics.R GHC.Base.String))>_R)
+                                (GHC.Generics.N:M1[0]
+                                     <GHC.Generics.C>_P
+                                     <'GHC.Generics.MetaCons
+                                        "Login" 'GHC.Generics.PrefixI 'GHC.Types.True>_P
+                                     <GHC.Generics.M1
+                                        GHC.Generics.S
+                                        ('GHC.Generics.MetaSel
+                                           ('GHC.Base.Just "email")
+                                           'GHC.Generics.NoSourceUnpackedness
+                                           'GHC.Generics.NoSourceStrictness
+                                           'GHC.Generics.DecidedLazy)
+                                        (GHC.Generics.K1 GHC.Generics.R GHC.Base.String)
+                                      GHC.Generics.:*: GHC.Generics.M1
+                                                         GHC.Generics.S
+                                                         ('GHC.Generics.MetaSel
+                                                            ('GHC.Base.Just "password")
+                                                            'GHC.Generics.NoSourceUnpackedness
+                                                            'GHC.Generics.NoSourceStrictness
+                                                            'GHC.Generics.DecidedLazy)
+                                                         (GHC.Generics.K1
+                                                            GHC.Generics.R
+                                                            GHC.Base.String)>_R)) <x>_N) of wild { GHC.Generics.:*: ds1 ds2 ->
+                 Api.User.Login
+                   ds1
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "email")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P))
+                   ds2
+                     `cast`
+                   (Trans
+                        (GHC.Generics.N:M1[0]
+                             <GHC.Generics.S>_P
+                             <'GHC.Generics.MetaSel
+                                ('GHC.Base.Just "password")
+                                'GHC.Generics.NoSourceUnpackedness
+                                'GHC.Generics.NoSourceStrictness
+                                'GHC.Generics.DecidedLazy>_P
+                             <GHC.Generics.K1 GHC.Generics.R GHC.Base.String>_R <x>_N)
+                        (GHC.Generics.N:K1[0]
+                             <GHC.Generics.R>_P <GHC.Base.String>_R <x>_P)) }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser :: GHC.Read.Read Api.User.LoginUser
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Api.User.LoginUser
+                  Api.User.$fReadLoginUser_$creadsPrec
+                  Api.User.$fReadLoginUser_$creadList
+                  Api.User.$fReadLoginUser_$creadPrec
+                  Api.User.$fReadLoginUser_$creadListPrec -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser1 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       ([Api.User.LoginUser] -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (eta :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (eta1 :: [Api.User.LoginUser]
+                            -> Text.ParserCombinators.ReadP.P b) ->
+                 GHC.Read.list1
+                   @ Api.User.LoginUser
+                   Api.User.$fReadLoginUser2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <Api.User.LoginUser>_R))
+                   eta
+                   @ b
+                   eta1) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser2 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> Text.ParserCombinators.ReadP.ReadP Api.User.LoginUser
+  {- Arity: 1,
+     Unfolding: (GHC.Read.parens1
+                   @ Api.User.LoginUser
+                   Api.User.$fReadLoginUser3
+                     `cast`
+                   (Trans
+                        (<Text.ParserCombinators.ReadPrec.Prec>_R
+                         ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                       <Api.User.LoginUser>_R))
+                        (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                  <Api.User.LoginUser>_R)))) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser3 ::
+    Text.ParserCombinators.ReadPrec.Prec
+    -> forall b.
+       (Api.User.LoginUser -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S(S),1*U(U)><L,C(U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: Text.ParserCombinators.ReadPrec.Prec)
+                   @ b
+                   (w1 :: Api.User.LoginUser -> Text.ParserCombinators.ReadP.P b) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 Api.User.$w$creadPrec ww1 @ b w1 }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser4 ::
+    Text.ParserCombinators.ReadP.P [Api.User.LoginUser]
+  {- Unfolding: (GHC.Read.list1
+                   @ Api.User.LoginUser
+                   Api.User.$fReadLoginUser2
+                     `cast`
+                   (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                             <Api.User.LoginUser>_R))
+                   GHC.Read.$fRead()5
+                   @ [Api.User.LoginUser]
+                   (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                      @ [Api.User.LoginUser])) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser_$creadList ::
+    Text.ParserCombinators.ReadP.ReadS [Api.User.LoginUser]
+  {- Arity: 1,
+     Unfolding: (Text.ParserCombinators.ReadP.run
+                   @ [Api.User.LoginUser]
+                   Api.User.$fReadLoginUser4) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser_$creadListPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec [Api.User.LoginUser]
+  {- Arity: 2, Strictness: <L,U><L,U>,
+     Unfolding: InlineRule (0, True, True)
+                Api.User.$fReadLoginUser1
+                  `cast`
+                (Trans
+                     (<Text.ParserCombinators.ReadPrec.Prec>_R
+                      ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                    <[Api.User.LoginUser]>_R))
+                     (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                               <[Api.User.LoginUser]>_R))) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser_$creadPrec ::
+    Text.ParserCombinators.ReadPrec.ReadPrec Api.User.LoginUser
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Api.User.$fReadLoginUser2
+                  `cast`
+                (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                          <Api.User.LoginUser>_R)) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fReadLoginUser_$creadsPrec ::
+    GHC.Types.Int
+    -> Text.ParserCombinators.ReadP.ReadS Api.User.LoginUser
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (eta :: GHC.Types.Int) ->
+                 Text.ParserCombinators.ReadP.run
+                   @ Api.User.LoginUser
+                   ((GHC.Read.parens1
+                       @ Api.User.LoginUser
+                       Api.User.$fReadLoginUser3
+                         `cast`
+                       (Trans
+                            (<Text.ParserCombinators.ReadPrec.Prec>_R
+                             ->_R Sym (Text.ParserCombinators.ReadP.N:ReadP[0]
+                                           <Api.User.LoginUser>_R))
+                            (Sym (Text.ParserCombinators.ReadPrec.N:ReadPrec[0]
+                                      <Api.User.LoginUser>_R)))
+                       eta)
+                      `cast`
+                    (Text.ParserCombinators.ReadP.N:ReadP[0] <Api.User.LoginUser>_R)
+                      @ Api.User.LoginUser
+                      (Text.ParserCombinators.ReadP.$fApplicativeP_$cpure
+                         @ Api.User.LoginUser))) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fShowLoginUser :: GHC.Show.Show Api.User.LoginUser
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Api.User.LoginUser
+                  Api.User.$fShowLoginUser_$cshowsPrec
+                  Api.User.$fShowLoginUser_$cshow
+                  Api.User.$fShowLoginUser_$cshowList -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fShowLoginUser1 :: Api.User.LoginUser -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (\ (w :: Api.User.LoginUser) (w1 :: GHC.Base.String) ->
+                 case w of ww { Api.User.Login ww1 ww2 ->
+                 Api.User.$w$cshowsPrec 0# ww1 ww2 w1 }) -}
+04a03b0aafffbcaf7543c6e9073e39c0
+  $fShowLoginUser2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "}"#) -}
+31e730449db57025940b7a57cf1a3665
+  $fShowLoginUser3 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "password = "#) -}
+2936ffac49bb8e468814e0c359ba1be5
+  $fShowLoginUser4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# ", "#) -}
+9a07e2816668e641608ba49e0676c457
+  $fShowLoginUser5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "email = "#) -}
+a6c80bd0b414bccb9aa61e92fe5afc80
+  $fShowLoginUser6 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "Login {"#) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fShowLoginUser_$cshow :: Api.User.LoginUser -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: Api.User.LoginUser) ->
+                 Api.User.$fShowLoginUser_$cshowsPrec
+                   GHC.Show.shows22
+                   x
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fShowLoginUser_$cshowList ::
+    [Api.User.LoginUser] -> GHC.Show.ShowS
+  {- Arity: 2,
+     Unfolding: (GHC.Show.showList__
+                   @ Api.User.LoginUser
+                   Api.User.$fShowLoginUser1) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fShowLoginUser_$cshowsPrec ::
+    GHC.Types.Int -> Api.User.LoginUser -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <S(S),1*U(U)><S,1*U(1*U,1*U)><L,U>,
+     Inline: INLINE[0],
+     Unfolding: InlineRule (3, True, False)
+                (\ (w :: GHC.Types.Int)
+                   (w1 :: Api.User.LoginUser)
+                   (w2 :: GHC.Base.String) ->
+                 case w of ww { GHC.Types.I# ww1 ->
+                 case w1 of ww2 { Api.User.Login ww3 ww4 ->
+                 Api.User.$w$cshowsPrec ww1 ww3 ww4 w2 } }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fToJSONLoginUser ::
+    Data.Aeson.Types.ToJSON.ToJSON Api.User.LoginUser
+  DFunId
+  {- Strictness: m, Inline: [ALWAYS] CONLIKE,
+     Unfolding: DFun:.
+                  @ Api.User.LoginUser
+                  Api.User.$fToJSONLoginUser_$ctoJSON
+                  Api.User.$fToJSONLoginUser_$ctoEncoding
+                  Api.User.$fToJSONLoginUser_$ctoJSONList
+                  Api.User.$fToJSONLoginUser_$ctoEncodingList -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fToJSONLoginUser_$ctoEncoding ::
+    Api.User.LoginUser -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U(U,U)>, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Api.User.LoginUser) ->
+                 case w of ww { Api.User.Login ww1 ww2 ->
+                 Api.User.$w$ctoEncoding ww1 ww2 }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fToJSONLoginUser_$ctoEncodingList ::
+    [Api.User.LoginUser] -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 1, Strictness: <S,1*U>, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Api.User.LoginUser]) ->
+                 case eta of wild {
+                   [] -> Data.Aeson.Encoding.Internal.emptyArray_
+                   : x xs
+                   -> (Data.ByteString.Builder.Internal.append
+                         (Data.Aeson.Encoding.Internal.openBracket
+                            @ Data.Aeson.Types.Internal.Value)
+                           `cast`
+                         (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                              <Data.Aeson.Types.Internal.Value>_P)
+                         (Data.ByteString.Builder.Internal.append
+                            (Api.User.$fToJSONLoginUser_$ctoEncoding x)
+                              `cast`
+                            (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                 <Data.Aeson.Types.Internal.Value>_P)
+                            (Data.ByteString.Builder.Internal.append
+                               (GHC.Base.foldr
+                                  @ Api.User.LoginUser
+                                  @ (Data.Aeson.Encoding.Internal.Encoding'
+                                       Data.Aeson.Types.Internal.Value)
+                                  (\ (v :: Api.User.LoginUser)
+                                     (vs :: Data.Aeson.Encoding.Internal.Encoding'
+                                              Data.Aeson.Types.Internal.Value)[OneShot] ->
+                                   Data.ByteString.Builder.Internal.append
+                                     (Data.Aeson.Encoding.Internal.comma
+                                        @ Data.Aeson.Types.Internal.Value)
+                                       `cast`
+                                     (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                          <Data.Aeson.Types.Internal.Value>_P)
+                                     (Data.ByteString.Builder.Internal.append
+                                        (Api.User.$fToJSONLoginUser_$ctoEncoding v)
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)
+                                        vs
+                                          `cast`
+                                        (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                             <Data.Aeson.Types.Internal.Value>_P)))
+                                    `cast`
+                                  (<Api.User.LoginUser>_R
+                                   ->_R <Data.Aeson.Encoding.Internal.Encoding'
+                                           Data.Aeson.Types.Internal.Value>_R
+                                   ->_R Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                                 <Data.Aeson.Types.Internal.Value>_P))
+                                  (Data.Aeson.Encoding.Internal.empty
+                                     @ Data.Aeson.Types.Internal.Value)
+                                  xs)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P)
+                               (Data.Aeson.Encoding.Internal.closeBracket
+                                  @ Data.Aeson.Types.Internal.Value)
+                                 `cast`
+                               (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                    <Data.Aeson.Types.Internal.Value>_P))))
+                        `cast`
+                      (Sym (Data.Aeson.Encoding.Internal.N:Encoding'[0]
+                                <Data.Aeson.Types.Internal.Value>_P)) }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fToJSONLoginUser_$ctoJSON ::
+    Api.User.LoginUser -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U(1*U,1*U)>m1, Inline: INLINE[0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Api.User.LoginUser) ->
+                 case w of ww { Api.User.Login ww1 ww2 ->
+                 case Api.User.$w$ctoJSON ww1 ww2 of ww3 { Unit# ww4 ->
+                 Data.Aeson.Types.Internal.Object ww4 } }) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $fToJSONLoginUser_$ctoJSONList ::
+    [Api.User.LoginUser] -> Data.Aeson.Types.Internal.Value
+  {- Arity: 1, Strictness: <S,1*U>m2, Inline: INLINE (sat-args=0),
+     Unfolding: InlineRule (0, False, False)
+                (\ (eta :: [Api.User.LoginUser]) ->
+                 case Data.Vector.Generic.new
+                        @ Data.Vector.Vector
+                        @ Data.Aeson.Types.Internal.Value
+                        (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                        (Data.Vector.Generic.New.unstream
+                           @ Data.Vector.Vector
+                           @ Data.Aeson.Types.Internal.Value
+                           (Data.Vector.$fVectorVectora @ Data.Aeson.Types.Internal.Value)
+                           (Data.Vector.Fusion.Bundle.Monadic.unsafeFromList
+                              @ Data.Vector.Fusion.Util.Id
+                              @ Data.Aeson.Types.Internal.Value
+                              @ Data.Vector.Vector
+                              Data.Vector.Fusion.Util.$fMonadId
+                              Data.Vector.Fusion.Bundle.Size.Unknown
+                              (GHC.Base.build
+                                 @ Data.Aeson.Types.Internal.Value
+                                 (\ @ b1
+                                    (c :: Data.Aeson.Types.Internal.Value -> b1 -> b1)[OneShot]
+                                    (n :: b1)[OneShot] ->
+                                  GHC.Base.foldr
+                                    @ Api.User.LoginUser
+                                    @ b1
+                                    (GHC.Base.mapFB
+                                       @ Data.Aeson.Types.Internal.Value
+                                       @ b1
+                                       @ Api.User.LoginUser
+                                       c
+                                       Api.User.$fToJSONLoginUser_$ctoJSON)
+                                    n
+                                    eta)))) of dt1 { Data.Vector.Vector ipv ipv1 ipv2 ->
+                 Data.Aeson.Types.Internal.Array dt1 }) -}
+bd6d334c54f0f23f3709636dd97cb32a
+  $s$WUserName2 :: [GHC.Types.Char] GHC.Types.~~ [GHC.Types.Char]
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ [GHC.Types.Char]
+                   @ [GHC.Types.Char]
+                   @~ <[GHC.Types.Char]>_N) -}
+eb2d61d954b7b845edd2c17596572904
+  $tc'Login :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   5997840789415395933##
+                   8648761390983341000##
+                   Api.User.$trModule
+                   Api.User.$tc'Login1) -}
+9bc76ea929f80c05cf6395b278e49236
+  $tc'Login1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "'Login"#) -}
+864a79ba6e0365497f856c942f4686be
+  $tcLoginUser :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16094305360762411971##
+                   8288889584968155476##
+                   Api.User.$trModule
+                   Api.User.$tcLoginUser1) -}
+1484b82370851fb0ad2df49dc4db965c
+  $tcLoginUser1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "LoginUser"#) -}
+3718e34b32acf077812507cd9fa75263
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Api.User.$trModule2
+                   Api.User.$trModule1) -}
+48a77b9464b029113635d0ae3a2e1da6
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Api.User"#) -}
+8664a915e636643854ef543416d5c941
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ"#) -}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  $w$creadPrec ::
+    GHC.Prim.Int#
+    -> forall b.
+       (Api.User.LoginUser -> Text.ParserCombinators.ReadP.P b)
+       -> Text.ParserCombinators.ReadP.P b
+  {- Arity: 2, Strictness: <S,U><L,C(U)>, Inline: [0] -}
+833cea1ece839d82f8bc5e239e1f08e9
+  $w$cshowsPrec ::
+    GHC.Prim.Int#
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <S,U><L,1*U><L,1*U><L,U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#)
+                   (ww1 :: GHC.Base.String)
+                   (ww2 :: GHC.Base.String)
+                   (w :: GHC.Base.String) ->
+                 let {
+                   p :: GHC.Show.ShowS {- Arity: 1, Strictness: <L,1*U> -}
+                   = \ (x :: GHC.Base.String)[OneShot] ->
+                     GHC.Base.++
+                       @ GHC.Types.Char
+                       Api.User.$fShowLoginUser6
+                       (GHC.Base.++
+                          @ GHC.Types.Char
+                          Api.User.$fShowLoginUser5
+                          (GHC.Types.:
+                             @ GHC.Types.Char
+                             GHC.Show.shows6
+                             (GHC.Show.showLitString
+                                ww1
+                                (GHC.Types.:
+                                   @ GHC.Types.Char
+                                   GHC.Show.shows6
+                                   (GHC.Base.++
+                                      @ GHC.Types.Char
+                                      Api.User.$fShowLoginUser4
+                                      (GHC.Base.++
+                                         @ GHC.Types.Char
+                                         Api.User.$fShowLoginUser3
+                                         (GHC.Types.:
+                                            @ GHC.Types.Char
+                                            GHC.Show.shows6
+                                            (GHC.Show.showLitString
+                                               ww2
+                                               (GHC.Types.:
+                                                  @ GHC.Types.Char
+                                                  GHC.Show.shows6
+                                                  (GHC.Base.++
+                                                     @ GHC.Types.Char
+                                                     Api.User.$fShowLoginUser2
+                                                     x))))))))))
+                 } in
+                 case GHC.Prim.tagToEnum#
+                        @ GHC.Types.Bool
+                        (GHC.Prim.>=# ww 11#) of wild {
+                   GHC.Types.False -> p w
+                   GHC.Types.True
+                   -> GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.shows7
+                        (p (GHC.Types.: @ GHC.Types.Char GHC.Show.shows4 w)) }) -}
+fdcc99db4319908a3337d656680a01aa
+  $w$ctoEncoding ::
+    GHC.Base.String
+    -> GHC.Base.String -> Data.Aeson.Encoding.Internal.Encoding
+  {- Arity: 2, Strictness: <L,U><L,U>, Inline: [0] -}
+1d418ad4547290637a38339feaaa068c
+  $w$ctoJSON ::
+    GHC.Base.String
+    -> GHC.Base.String -> (# Data.Aeson.Types.Internal.Object #)
+  {- Arity: 2, Strictness: <L,1*U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Base.String) (ww1 :: GHC.Base.String) ->
+                 case Data.Aeson.Types.Internal.$sfromList1
+                        @ Data.Aeson.Types.Internal.Value
+                        (GHC.Types.:
+                           @ Data.Aeson.Types.Internal.Pair
+                           (Api.User.$fFromJSONLoginUser4,
+                            case GHC.Magic.runRW#
+                                   @ 'GHC.Types.PtrRepLifted
+                                   @ Data.Text.Internal.Text
+                                   (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                    case GHC.Prim.newByteArray#
+                                           @ GHC.Prim.RealWorld
+                                           10#
+                                           s1 of ds1 { (#,#) ipv ipv1 ->
+                                    Api.User.$wouter1
+                                      ipv1
+                                      4#
+                                      ww
+                                      0#
+                                      ipv }) of ds1 { (#,#) ipv ipv1 ->
+                            case ipv1 of dt1 { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
+                            Data.Aeson.Types.Internal.String dt1 } })
+                           (GHC.Types.:
+                              @ Data.Aeson.Types.Internal.Pair
+                              (Api.User.$fFromJSONLoginUser3,
+                               case GHC.Magic.runRW#
+                                      @ 'GHC.Types.PtrRepLifted
+                                      @ Data.Text.Internal.Text
+                                      (\ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                                       case GHC.Prim.newByteArray#
+                                              @ GHC.Prim.RealWorld
+                                              10#
+                                              s1 of ds1 { (#,#) ipv ipv1 ->
+                                       Api.User.$wouter
+                                         ipv1
+                                         4#
+                                         ww1
+                                         0#
+                                         ipv }) of ds1 { (#,#) ipv ipv1 ->
+                               case ipv1 of dt1 { Data.Text.Internal.Text ipv2 ipv3 ipv4 ->
+                               Data.Aeson.Types.Internal.String dt1 } })
+                              (GHC.Types.[] @ Data.Aeson.Types.Internal.Pair)))
+                        (Data.HashMap.Base.Empty
+                           @ Data.Text.Internal.Text
+                           @ Data.Aeson.Types.Internal.Value) of dt { DEFAULT ->
+                 (# dt #) }) -}
+ec3f4b9fce7a669ee510f6dd60d209bc
+  $wouter ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><L,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+487ec22d1c8492bf75b5e2ec9f89ccf9
+  $wouter1 ::
+    GHC.Prim.MutableByteArray# GHC.Prim.RealWorld
+    -> GHC.Prim.Int#
+    -> [GHC.Types.Char]
+    -> GHC.Prim.Int#
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Text.Internal.Text #)
+  {- Arity: 5, Strictness: <L,U><L,U><S,1*U><S,U><S,U>,
+     Inline: [0] -}
+fb3466ef1c2045f2095058b35f5a678e
+  type LoginAPI =
+    "login"
+    Servant.API.Sub.:> (Servant.API.ReqBody.ReqBody
+                          '[Servant.API.ContentTypes.JSON] Api.User.LoginUser
+                        Servant.API.Sub.:> Servant.API.Verbs.Post
+                                             '[Servant.API.ContentTypes.JSON] Auth.Token.Token)
+4ab4c9079d81c6fdd00f8de25de03bd2
+  data LoginUser
+    = Login {email :: GHC.Base.String, password :: GHC.Base.String}
+4ab4c9079d81c6fdd00f8de25de03bd2
+  axiom Rep_LoginUser::
+      GHC.Generics.Rep Api.User.LoginUser
+        = GHC.Generics.D1
+            ('GHC.Generics.MetaData
+               "LoginUser"
+               "Api.User"
+               "servant-persistent-0.1.0.0-F9U6X9AVPnS7puEgXNTfgZ"
+               'GHC.Types.False)
+            (GHC.Generics.C1
+               ('GHC.Generics.MetaCons
+                  "Login" 'GHC.Generics.PrefixI 'GHC.Types.True)
+               (GHC.Generics.S1
+                  ('GHC.Generics.MetaSel
+                     ('GHC.Base.Just "email")
+                     'GHC.Generics.NoSourceUnpackedness
+                     'GHC.Generics.NoSourceStrictness
+                     'GHC.Generics.DecidedLazy)
+                  (GHC.Generics.Rec0 GHC.Base.String)
+                GHC.Generics.:*: GHC.Generics.S1
+                                   ('GHC.Generics.MetaSel
+                                      ('GHC.Base.Just "password")
+                                      'GHC.Generics.NoSourceUnpackedness
+                                      'GHC.Generics.NoSourceStrictness
+                                      'GHC.Generics.DecidedLazy)
+                                   (GHC.Generics.Rec0 GHC.Base.String)))
+72dc1da01a28d78beb147d48bbb4f8c0
+  type UserAPI =
+    ("users"
+     Servant.API.Sub.:> Servant.API.Verbs.Get
+                          '[Servant.API.ContentTypes.JSON]
+                          [Database.Persist.Class.PersistEntity.Entity Models.User])
+    Servant.API.Alternative.:<|> (("users"
+                                   Servant.API.Sub.:> (Servant.API.Capture.Capture
+                                                         "name" GHC.Base.String
+                                                       Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                            '[Servant.API.ContentTypes.JSON]
+                                                                            (Database.Persist.Class.PersistEntity.Entity
+                                                                               Models.User)))
+                                  Servant.API.Alternative.:<|> ("users"
+                                                                Servant.API.Sub.:> (Servant.API.ReqBody.ReqBody
+                                                                                      '[Servant.API.ContentTypes.JSON]
+                                                                                      Models.User
+                                                                                    Servant.API.Sub.:> Servant.API.Verbs.Post
+                                                                                                         '[Servant.API.ContentTypes.JSON]
+                                                                                                         GHC.Int.Int64)))
+f4caa909ed16b08b7c949ca959a42e51
+  allUsers ::
+    Configs.App
+      [Database.Persist.Class.PersistEntity.Entity Models.User]
+  {- Unfolding: (Models.runDb
+                   @ Configs.App
+                   @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                   Configs.$fMonadReaderApp
+                   Configs.$fMonadIOApp
+                   Api.User.allUsers1
+                     `cast`
+                   (Trans
+                        (<Database.Persist.Sql.Types.Internal.SqlBackend>_R
+                         ->_R Sym (GHC.Types.N:IO[0]
+                                       <[Database.Persist.Class.PersistEntity.Entity
+                                           Models.User]>_R))
+                        (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  <Database.Persist.Sql.Types.Internal.SqlBackend>_R
+                                  <GHC.Types.IO>_R
+                                  <[Database.Persist.Class.PersistEntity.Entity
+                                      Models.User]>_N)))) -}
+76cf4b78c06518e771cc7ae970127430
+  allUsers1 ::
+    Database.Persist.Sql.Types.Internal.SqlBackend
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          [Database.Persist.Class.PersistEntity.Entity Models.User] #)
+  {- Arity: 2,
+     Unfolding: (\ (r1 :: Database.Persist.Sql.Types.Internal.SqlBackend)
+                   (s :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 case (Api.User.allUsers_m1
+                         `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N
+                            <Database.Persist.Sql.Types.Internal.SqlBackend>_R
+                            <GHC.Types.IO>_R
+                            <Data.Acquire.Internal.Acquire
+                               (Data.Conduit.Internal.Conduit.Source
+                                  GHC.Types.IO
+                                  (Database.Persist.Class.PersistEntity.Entity Models.User))>_N)
+                         r1)
+                        `cast`
+                      (GHC.Types.N:IO[0]
+                           <Data.Acquire.Internal.Acquire
+                              (Data.Conduit.Internal.Conduit.Source
+                                 GHC.Types.IO
+                                 (Database.Persist.Class.PersistEntity.Entity Models.User))>_R)
+                        s of ds1 { (#,#) ipv ipv1 ->
+                 (Data.Acquire.Internal.with
+                    @ GHC.Types.IO
+                    @ (Data.Conduit.Internal.Conduit.Source
+                         GHC.Types.IO
+                         (Database.Persist.Class.PersistEntity.Entity Models.User))
+                    @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                    Control.Monad.Trans.Control.$fMonadBaseControlIOIO
+                    ipv1
+                    (Database.Persist.Class.PersistQuery.selectList1 @ Models.User)
+                      `cast`
+                    (<Data.Conduit.Internal.Conduit.Source
+                        GHC.Types.IO
+                        (Database.Persist.Class.PersistEntity.Entity Models.User)>_R
+                     ->_R Sym (GHC.Types.N:IO[0]
+                                   <[Database.Persist.Class.PersistEntity.Entity Models.User]>_R)))
+                   `cast`
+                 (GHC.Types.N:IO[0]
+                      <[Database.Persist.Class.PersistEntity.Entity Models.User]>_R)
+                   ipv }) -}
+e2349c6ae80742d44f2c8b006c05eda6
+  allUsers2 ::
+    (Database.Persist.Class.PersistEntity.PersistEntity Models.User,
+     Database.Persist.Sql.Types.Internal.SqlBackend
+     Data.Type.Equality.~ Database.Persist.Sql.Types.Internal.SqlBackend)
+  {- Strictness: m,
+     Unfolding: ((Models.$fPersistEntityUser,
+                  Api.User.allUsers3
+                    `cast`
+                  (Sym (Data.Type.Equality.N:~[0]
+                            <*>_N) <Database.Persist.Sql.Types.Internal.SqlBackend>_N <Database.Persist.Sql.Types.Internal.SqlBackend>_N))) -}
+d6ab34013a70322a761b1288645895e8
+  allUsers3 ::
+    Database.Persist.Sql.Types.Internal.SqlBackend
+    GHC.Types.~~ Database.Persist.Sql.Types.Internal.SqlBackend
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Eq#
+                   @ *
+                   @ *
+                   @ Database.Persist.Sql.Types.Internal.SqlBackend
+                   @ Database.Persist.Sql.Types.Internal.SqlBackend
+                   @~ <Database.Persist.Sql.Types.Internal.SqlBackend>_N) -}
+81eb359617edf413e5dd63be6c79ca9b
+  allUsers_m1 ::
+    Control.Monad.Trans.Reader.ReaderT
+      Database.Persist.Sql.Types.Internal.SqlBackend
+      GHC.Types.IO
+      (Data.Acquire.Internal.Acquire
+         (Data.Conduit.Internal.Conduit.Source
+            GHC.Types.IO
+            (Database.Persist.Class.PersistEntity.Entity Models.User)))
+  {- Unfolding: (Database.Persist.Sql.Orphan.PersistQuery.$fPersistQueryReadSqlBackend_$cselectSourceRes
+                   @ Models.User
+                   @ GHC.Types.IO
+                   @ GHC.Types.IO
+                   Api.User.allUsers2
+                     `cast`
+                   (GHC.Classes.(%,%)
+                      <Database.Persist.Class.PersistEntity.PersistEntity Models.User>_N
+                      ((Data.Type.Equality.~)
+                         <*>_N
+                         (Sym (Models.D:R:PersistEntityBackendUser[0]))
+                         (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R
+                   Control.Monad.IO.Class.$fMonadIOIO
+                   Control.Monad.IO.Class.$fMonadIOIO
+                   (GHC.Types.[]
+                      @ (Database.Persist.Class.PersistEntity.Filter Models.User))
+                   (GHC.Types.[]
+                      @ (Database.Persist.Class.PersistEntity.SelectOpt Models.User))) -}
+69dcaa8140b150ddb1d8e2223ad7c61a
+  createUser :: Models.User -> Configs.App GHC.Int.Int64
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ (p :: Models.User) ->
+                 let {
+                   m1 :: Configs.App
+                           (Database.Persist.Class.PersistEntity.Key Models.User)
+                   = Models.runDb
+                       @ Configs.App
+                       @ (Database.Persist.Class.PersistEntity.Key Models.User)
+                       Configs.$fMonadReaderApp
+                       Configs.$fMonadIOApp
+                       (Api.User.createUser1 p)
+                 } in
+                 (\ (r1 :: Configs.Config)
+                    (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                  case (m1
+                          `cast`
+                        (Trans
+                             (Configs.N:App[0] <Database.Persist.Class.PersistEntity.Key
+                                                  Models.User>_N)
+                             (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  <Configs.Config>_R
+                                  <Servant.Server.Internal.Handler.Handler>_R
+                                  <Database.Persist.Class.PersistEntity.Key Models.User>_N))
+                          r1)
+                         `cast`
+                       (Trans
+                            (Servant.Server.Internal.Handler.N:Handler[0] <Database.Persist.Class.PersistEntity.Key
+                                                                             Models.User>_N)
+                            (Trans
+                                 (Control.Monad.Trans.Except.N:ExceptT[0]
+                                      <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                      <GHC.Types.IO>_R
+                                      <Database.Persist.Class.PersistEntity.Key Models.User>_N)
+                                 (GHC.Types.N:IO[0]
+                                      <Data.Either.Either
+                                         Servant.Server.Internal.ServantErr.ServantErr
+                                         (Database.Persist.Class.PersistEntity.Key
+                                            Models.User)>_R)))
+                         eta of ds1 { (#,#) ipv ipv1 ->
+                  case ipv1 of wild {
+                    Data.Either.Left e1
+                    -> (# ipv,
+                          Data.Either.Left
+                            @ Servant.Server.Internal.ServantErr.ServantErr
+                            @ GHC.Int.Int64
+                            e1 #)
+                    Data.Either.Right x
+                    -> Configs.$fApplicativeApp5
+                         @ GHC.Int.Int64
+                         x `cast`
+                         (Trans
+                              (Models.D:R:KeyUser0[0])
+                              (Trans
+                                   (Models.N:R:KeyUser[0])
+                                   (Trans
+                                        (Database.Persist.Sql.Orphan.PersistStore.D:R:BackendKeySqlBackend0[0])
+                                        (Database.Persist.Sql.Orphan.PersistStore.N:R:BackendKeySqlBackend[0]))))
+                         r1
+                         ipv } })
+                   `cast`
+                 (Trans
+                      (<Configs.Config>_R
+                       ->_R Trans
+                                (Sym (GHC.Types.N:IO[0]
+                                          <Data.Either.Either
+                                             Servant.Server.Internal.ServantErr.ServantErr
+                                             GHC.Int.Int64>_R))
+                                (Trans
+                                     (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                               <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                               <GHC.Types.IO>_R
+                                               <GHC.Int.Int64>_N))
+                                     (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <GHC.Int.Int64>_N)))
+                      (Trans
+                           (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                     <*>_N
+                                     <Configs.Config>_R
+                                     <Servant.Server.Internal.Handler.Handler>_R
+                                     <GHC.Int.Int64>_N))
+                           (Sym (Configs.N:App[0]) <GHC.Int.Int64>_N)))) -}
+de6be919d7f056269c9e9d6b90f9da0c
+  createUser1 ::
+    Models.User
+    -> Control.Monad.Trans.Reader.ReaderT
+         Database.Persist.Sql.Types.Internal.SqlBackend
+         GHC.Types.IO
+         (Database.Persist.Class.PersistEntity.Key Models.User)
+  {- Unfolding: (Database.Persist.Sql.Orphan.PersistStore.$fPersistStoreWriteSqlBackend_$cinsert
+                   @ GHC.Types.IO
+                   @ Models.User
+                   Control.Monad.IO.Class.$fMonadIOIO
+                   Api.User.allUsers2
+                     `cast`
+                   (GHC.Classes.(%,%)
+                      <Database.Persist.Class.PersistEntity.PersistEntity Models.User>_N
+                      ((Data.Type.Equality.~)
+                         <*>_N
+                         (Sym (Models.D:R:PersistEntityBackendUser[0]))
+                         (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R) -}
+d149c6ce76484c8abe10993449cb4b2c
+  email :: Api.User.LoginUser -> GHC.Base.String
+  RecSel Left Api.User.LoginUser
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U,A)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Api.User.LoginUser) ->
+                 case ds of wild { Api.User.Login ds1 ds2 -> ds1 }) -}
+3fb6173aa7b1b2270eb7ab5c6ac0da95
+  generateJavaScript :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Api.User.generateJavaScript1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+9a919f3448be38b707d96aa258235056
+  generateJavaScript1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: (\ (eta :: GHC.Prim.State#
+                             GHC.Prim.RealWorld)[OneShot] ->
+                 Data.Text.IO.writeFile1
+                   Api.User.generateJavaScript19
+                   Api.User.generateJavaScript2
+                   eta) -}
+9bf0282d26249a245a36e576e6ff6919
+  generateJavaScript10 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "users"#) -}
+b287db9f1be684e88557bff1953d8195
+  generateJavaScript11 :: Data.Text.Internal.Text
+  {- Unfolding: (Servant.JS.Vanilla.generateVanillaJS
+                   Api.User.generateJavaScript12
+                     `cast`
+                   (Trans
+                        (Sub (Servant.Foreign.Internal.D:R:Foreignftype:>10[0]
+                                  <*>_N
+                                  <[GHC.Types.Char]>_N
+                                  <"name">_N
+                                  <Servant.API.Verbs.Verb
+                                     'Network.HTTP.Types.Method.GET
+                                     200
+                                     '[Servant.API.ContentTypes.JSON]
+                                     (Database.Persist.Class.PersistEntity.Entity Models.User)>_N
+                                  <Servant.API.ContentTypes.NoContent>_N))
+                        (Sub (Servant.Foreign.Internal.D:R:ForeignftypeVerb[0]
+                                  <*>_N
+                                  <Network.HTTP.Types.Method.StdMethod>_N
+                                  <Database.Persist.Class.PersistEntity.Entity Models.User>_N
+                                  <'[Servant.API.ContentTypes.JSON]>_N
+                                  <200>_N
+                                  <'Network.HTTP.Types.Method.GET>_N
+                                  <Servant.API.ContentTypes.NoContent>_N)))) -}
+b906f69635dd14b26fdc26e366e49173
+  generateJavaScript12 ::
+    Servant.Foreign.Internal.Foreign
+      Servant.API.ContentTypes.NoContent
+      (Servant.API.Capture.Capture "name" GHC.Base.String
+       Servant.API.Sub.:> Servant.API.Verbs.Get
+                            '[Servant.API.ContentTypes.JSON]
+                            (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- Unfolding: (Servant.Foreign.Internal.$w$cforeignFor1
+                   @ *
+                   @ "users"
+                   @ Servant.Foreign.Internal.NoTypes
+                   @ Servant.API.ContentTypes.NoContent
+                   @ (Servant.API.Capture.Capture "name" GHC.Base.String
+                      Servant.API.Sub.:> Servant.API.Verbs.Get
+                                           '[Servant.API.ContentTypes.JSON]
+                                           (Database.Persist.Class.PersistEntity.Entity
+                                              Models.User))
+                   Api.User.generateJavaScript10
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"users">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"users">_N))
+                   Api.User.generateJavaScript13
+                     `cast`
+                   (Sym (Servant.Foreign.Internal.N:HasForeign[0]
+                             <*>_N
+                             <Servant.Foreign.Internal.NoTypes>_N
+                             <Servant.API.ContentTypes.NoContent>_N
+                             <Servant.API.Capture.Capture "name" [GHC.Types.Char]
+                              Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                                   'Network.HTTP.Types.Method.GET
+                                                   200
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   (Database.Persist.Class.PersistEntity.Entity
+                                                      Models.User)>_N))
+                   (Data.Proxy.Proxy @ * @ Servant.Foreign.Internal.NoTypes)
+                   (Data.Proxy.Proxy @ * @ Servant.API.ContentTypes.NoContent)
+                   (Data.Proxy.Proxy
+                      @ GHC.Types.*
+                      @ ("users"
+                         Servant.API.Sub.:> (Servant.API.Capture.Capture
+                                               "name" GHC.Base.String
+                                             Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  (Database.Persist.Class.PersistEntity.Entity
+                                                                     Models.User))))
+                   (Servant.Foreign.Internal.defReq
+                      @ Servant.API.ContentTypes.NoContent)) -}
+6f390f2d5471052e4f61d64372be1b68
+  generateJavaScript13 ::
+    Data.Proxy.Proxy Servant.Foreign.Internal.NoTypes
+    -> Data.Proxy.Proxy Servant.API.ContentTypes.NoContent
+    -> Data.Proxy.Proxy
+         (Servant.API.Capture.Capture "name" [GHC.Types.Char]
+          Servant.API.Sub.:> Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.GET
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               (Database.Persist.Class.PersistEntity.Entity Models.User))
+    -> Servant.Foreign.Internal.Req Servant.API.ContentTypes.NoContent
+    -> Servant.Foreign.Internal.Foreign
+         Servant.API.ContentTypes.NoContent
+         (Servant.API.Capture.Capture "name" [GHC.Types.Char]
+          Servant.API.Sub.:> Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.GET
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- Arity: 4,
+     Unfolding: (\ (w3 :: Data.Proxy.Proxy
+                            Servant.Foreign.Internal.NoTypes)[OneShot]
+                   (w4 :: Data.Proxy.Proxy
+                            Servant.API.ContentTypes.NoContent)[OneShot]
+                   (w5 :: Data.Proxy.Proxy
+                            (Servant.API.Capture.Capture "name" [GHC.Types.Char]
+                             Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                                  'Network.HTTP.Types.Method.GET
+                                                  200
+                                                  '[Servant.API.ContentTypes.JSON]
+                                                  (Database.Persist.Class.PersistEntity.Entity
+                                                     Models.User)))[OneShot]
+                   (w6 :: Servant.Foreign.Internal.Req
+                            Servant.API.ContentTypes.NoContent)[OneShot] ->
+                 case w4 of w7 { Data.Proxy.Proxy ->
+                 case w5 of w8 { Data.Proxy.Proxy ->
+                 (Servant.Foreign.Internal.$w$cforeignFor
+                    @ *
+                    @ *
+                    @ "name"
+                    @ Servant.Foreign.Internal.NoTypes
+                    @ Servant.API.ContentTypes.NoContent
+                    @ [GHC.Types.Char]
+                    @ (Servant.API.Verbs.Verb
+                         'Network.HTTP.Types.Method.GET
+                         200
+                         '[Servant.API.ContentTypes.JSON]
+                         (Database.Persist.Class.PersistEntity.Entity Models.User))
+                    Api.User.generateJavaScript15
+                      `cast`
+                    (Trans
+                         (Sym (GHC.TypeLits.N:SSymbol[0] <"name">_P))
+                         (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"name">_N))
+                    (Servant.Foreign.Internal.$fHasForeignTypekTYPENoTypesNoContentftype_$ctypeFor
+                       @ *
+                       @ [GHC.Types.Char])
+                      `cast`
+                    (Sym (Servant.Foreign.Internal.N:HasForeignType[0]
+                              <*>_N
+                              <*>_N
+                              <Servant.Foreign.Internal.NoTypes>_N
+                              <Servant.API.ContentTypes.NoContent>_N
+                              <[GHC.Types.Char]>_N))
+                    Api.User.generateJavaScript14
+                      `cast`
+                    (Sym (Servant.Foreign.Internal.N:HasForeign[0]
+                              <*>_N
+                              <Servant.Foreign.Internal.NoTypes>_N
+                              <Servant.API.ContentTypes.NoContent>_N
+                              <Servant.API.Verbs.Verb
+                                 'Network.HTTP.Types.Method.GET
+                                 200
+                                 '[Servant.API.ContentTypes.JSON]
+                                 (Database.Persist.Class.PersistEntity.Entity Models.User)>_N))
+                    w3
+                    (Data.Proxy.Proxy @ * @ Servant.API.ContentTypes.NoContent)
+                    (Data.Proxy.Proxy
+                       @ GHC.Types.*
+                       @ (Servant.API.Capture.Capture "name" [GHC.Types.Char]
+                          Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                               'Network.HTTP.Types.Method.GET
+                                               200
+                                               '[Servant.API.ContentTypes.JSON]
+                                               (Database.Persist.Class.PersistEntity.Entity
+                                                  Models.User)))
+                    w6)
+                   `cast`
+                 (Sub (Sym (Servant.Foreign.Internal.D:R:Foreignftype:>10[0]
+                                <*>_N
+                                <[GHC.Types.Char]>_N
+                                <"name">_N
+                                <Servant.API.Verbs.Verb
+                                   'Network.HTTP.Types.Method.GET
+                                   200
+                                   '[Servant.API.ContentTypes.JSON]
+                                   (Database.Persist.Class.PersistEntity.Entity Models.User)>_N
+                                <Servant.API.ContentTypes.NoContent>_N))) } }) -}
+8e43595f8dcf7c1640397f15c94e78ca
+  generateJavaScript14 ::
+    Data.Proxy.Proxy Servant.Foreign.Internal.NoTypes
+    -> Data.Proxy.Proxy Servant.API.ContentTypes.NoContent
+    -> Data.Proxy.Proxy
+         (Servant.API.Verbs.Verb
+            'Network.HTTP.Types.Method.GET
+            200
+            '[Servant.API.ContentTypes.JSON]
+            (Database.Persist.Class.PersistEntity.Entity Models.User))
+    -> Servant.Foreign.Internal.Req Servant.API.ContentTypes.NoContent
+    -> Servant.Foreign.Internal.Foreign
+         Servant.API.ContentTypes.NoContent
+         (Servant.API.Verbs.Verb
+            'Network.HTTP.Types.Method.GET
+            200
+            '[Servant.API.ContentTypes.JSON]
+            (Database.Persist.Class.PersistEntity.Entity Models.User))
+  {- Arity: 4,
+     Unfolding: (\ (w3 :: Data.Proxy.Proxy
+                            Servant.Foreign.Internal.NoTypes)[OneShot]
+                   (w4 :: Data.Proxy.Proxy
+                            Servant.API.ContentTypes.NoContent)[OneShot]
+                   (w5 :: Data.Proxy.Proxy
+                            (Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.GET
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               (Database.Persist.Class.PersistEntity.Entity
+                                  Models.User)))[OneShot]
+                   (w6 :: Servant.Foreign.Internal.Req
+                            Servant.API.ContentTypes.NoContent)[OneShot] ->
+                 case w4 of w7 { Data.Proxy.Proxy ->
+                 case w5 of w8 { Data.Proxy.Proxy ->
+                 case w6 of ww { Servant.Foreign.Internal.Req ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 case Servant.Foreign.Internal.$w$cforeignFor8
+                        @ Network.HTTP.Types.Method.StdMethod
+                        @ *
+                        @ *
+                        @ '[Servant.API.ContentTypes.JSON]
+                        @ Servant.Foreign.Internal.NoTypes
+                        @ Servant.API.ContentTypes.NoContent
+                        @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                        @ 'Network.HTTP.Types.Method.GET
+                        @ 200
+                        (Servant.Foreign.Internal.$fHasForeignTypekTYPENoTypesNoContentftype_$ctypeFor
+                           @ *
+                           @ (Database.Persist.Class.PersistEntity.Entity Models.User))
+                          `cast`
+                        (Sym (Servant.Foreign.Internal.N:HasForeignType[0]
+                                  <*>_N
+                                  <*>_N
+                                  <Servant.Foreign.Internal.NoTypes>_N
+                                  <Servant.API.ContentTypes.NoContent>_N
+                                  <Database.Persist.Class.PersistEntity.Entity Models.User>_N))
+                        Servant.API.Verbs.$fReflectMethodStdMethodGET_$creflectMethod
+                          `cast`
+                        (Sym (Servant.API.Verbs.N:ReflectMethod[0]
+                                  <Network.HTTP.Types.Method.StdMethod>_N
+                                  <'Network.HTTP.Types.Method.GET>_N))
+                        w3
+                        (Data.Proxy.Proxy @ * @ Servant.API.ContentTypes.NoContent)
+                        (Data.Proxy.Proxy
+                           @ GHC.Types.*
+                           @ (Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.GET
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                (Database.Persist.Class.PersistEntity.Entity Models.User)))
+                        ww1
+                        ww3
+                        ww4
+                        ww6 of ww7 { (#,,,,,#) ww8 ww9 ww10 ww11 ww12 ww13 ->
+                 (Servant.Foreign.Internal.Req
+                    @ Servant.API.ContentTypes.NoContent
+                    ww8
+                    ww9
+                    ww10
+                    ww11
+                    ww12
+                    ww13)
+                   `cast`
+                 (Sub (Sym (Servant.Foreign.Internal.D:R:ForeignftypeVerb[0]
+                                <*>_N
+                                <Network.HTTP.Types.Method.StdMethod>_N
+                                <Database.Persist.Class.PersistEntity.Entity Models.User>_N
+                                <'[Servant.API.ContentTypes.JSON]>_N
+                                <200>_N
+                                <'Network.HTTP.Types.Method.GET>_N
+                                <Servant.API.ContentTypes.NoContent>_N))) } } } }) -}
+89069f8a5da54b9736ec0415a9d4864b
+  generateJavaScript15 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "name"#) -}
+e21107323e26d60542a0075fef39cb4f
+  generateJavaScript16 :: Data.Text.Internal.Text
+  {- Unfolding: (Servant.JS.Vanilla.generateVanillaJS
+                   Api.User.generateJavaScript17
+                     `cast`
+                   (Sub (Servant.Foreign.Internal.D:R:ForeignftypeVerb[0]
+                             <*>_N
+                             <Network.HTTP.Types.Method.StdMethod>_N
+                             <[Database.Persist.Class.PersistEntity.Entity Models.User]>_N
+                             <'[Servant.API.ContentTypes.JSON]>_N
+                             <200>_N
+                             <'Network.HTTP.Types.Method.GET>_N
+                             <Servant.API.ContentTypes.NoContent>_N))) -}
+b684c080df325ed8f272c16d8af8e97e
+  generateJavaScript17 ::
+    Servant.Foreign.Internal.Foreign
+      Servant.API.ContentTypes.NoContent
+      (Servant.API.Verbs.Verb
+         'Network.HTTP.Types.Method.GET
+         200
+         '[Servant.API.ContentTypes.JSON]
+         [Database.Persist.Class.PersistEntity.Entity Models.User])
+  {- Unfolding: (Servant.Foreign.Internal.$w$cforeignFor1
+                   @ *
+                   @ "users"
+                   @ Servant.Foreign.Internal.NoTypes
+                   @ Servant.API.ContentTypes.NoContent
+                   @ (Servant.API.Verbs.Verb
+                        'Network.HTTP.Types.Method.GET
+                        200
+                        '[Servant.API.ContentTypes.JSON]
+                        [Database.Persist.Class.PersistEntity.Entity Models.User])
+                   Api.User.generateJavaScript10
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"users">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"users">_N))
+                   Api.User.generateJavaScript18
+                     `cast`
+                   (Sym (Servant.Foreign.Internal.N:HasForeign[0]
+                             <*>_N
+                             <Servant.Foreign.Internal.NoTypes>_N
+                             <Servant.API.ContentTypes.NoContent>_N
+                             <Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.GET
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                [Database.Persist.Class.PersistEntity.Entity Models.User]>_N))
+                   (Data.Proxy.Proxy @ * @ Servant.Foreign.Internal.NoTypes)
+                   (Data.Proxy.Proxy @ * @ Servant.API.ContentTypes.NoContent)
+                   (Data.Proxy.Proxy
+                      @ GHC.Types.*
+                      @ ("users"
+                         Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                              'Network.HTTP.Types.Method.GET
+                                              200
+                                              '[Servant.API.ContentTypes.JSON]
+                                              [Database.Persist.Class.PersistEntity.Entity
+                                                 Models.User]))
+                   (Servant.Foreign.Internal.defReq
+                      @ Servant.API.ContentTypes.NoContent)) -}
+0d822173e0319a129ac6a01f876df6d7
+  generateJavaScript18 ::
+    Data.Proxy.Proxy Servant.Foreign.Internal.NoTypes
+    -> Data.Proxy.Proxy Servant.API.ContentTypes.NoContent
+    -> Data.Proxy.Proxy
+         (Servant.API.Verbs.Verb
+            'Network.HTTP.Types.Method.GET
+            200
+            '[Servant.API.ContentTypes.JSON]
+            [Database.Persist.Class.PersistEntity.Entity Models.User])
+    -> Servant.Foreign.Internal.Req Servant.API.ContentTypes.NoContent
+    -> Servant.Foreign.Internal.Foreign
+         Servant.API.ContentTypes.NoContent
+         (Servant.API.Verbs.Verb
+            'Network.HTTP.Types.Method.GET
+            200
+            '[Servant.API.ContentTypes.JSON]
+            [Database.Persist.Class.PersistEntity.Entity Models.User])
+  {- Arity: 4,
+     Unfolding: (\ (w3 :: Data.Proxy.Proxy
+                            Servant.Foreign.Internal.NoTypes)[OneShot]
+                   (w4 :: Data.Proxy.Proxy
+                            Servant.API.ContentTypes.NoContent)[OneShot]
+                   (w5 :: Data.Proxy.Proxy
+                            (Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.GET
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               [Database.Persist.Class.PersistEntity.Entity
+                                  Models.User]))[OneShot]
+                   (w6 :: Servant.Foreign.Internal.Req
+                            Servant.API.ContentTypes.NoContent)[OneShot] ->
+                 case w4 of w7 { Data.Proxy.Proxy ->
+                 case w5 of w8 { Data.Proxy.Proxy ->
+                 case w6 of ww { Servant.Foreign.Internal.Req ww1 ww2 ww3 ww4 ww5 ww6 ->
+                 case Servant.Foreign.Internal.$w$cforeignFor8
+                        @ Network.HTTP.Types.Method.StdMethod
+                        @ *
+                        @ *
+                        @ '[Servant.API.ContentTypes.JSON]
+                        @ Servant.Foreign.Internal.NoTypes
+                        @ Servant.API.ContentTypes.NoContent
+                        @ [Database.Persist.Class.PersistEntity.Entity Models.User]
+                        @ 'Network.HTTP.Types.Method.GET
+                        @ 200
+                        (Servant.Foreign.Internal.$fHasForeignTypekTYPENoTypesNoContentftype_$ctypeFor
+                           @ *
+                           @ [Database.Persist.Class.PersistEntity.Entity Models.User])
+                          `cast`
+                        (Sym (Servant.Foreign.Internal.N:HasForeignType[0]
+                                  <*>_N
+                                  <*>_N
+                                  <Servant.Foreign.Internal.NoTypes>_N
+                                  <Servant.API.ContentTypes.NoContent>_N
+                                  <[Database.Persist.Class.PersistEntity.Entity Models.User]>_N))
+                        Servant.API.Verbs.$fReflectMethodStdMethodGET_$creflectMethod
+                          `cast`
+                        (Sym (Servant.API.Verbs.N:ReflectMethod[0]
+                                  <Network.HTTP.Types.Method.StdMethod>_N
+                                  <'Network.HTTP.Types.Method.GET>_N))
+                        w3
+                        (Data.Proxy.Proxy @ * @ Servant.API.ContentTypes.NoContent)
+                        (Data.Proxy.Proxy
+                           @ GHC.Types.*
+                           @ (Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.GET
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                [Database.Persist.Class.PersistEntity.Entity Models.User]))
+                        ww1
+                        ww3
+                        ww4
+                        ww6 of ww7 { (#,,,,,#) ww8 ww9 ww10 ww11 ww12 ww13 ->
+                 (Servant.Foreign.Internal.Req
+                    @ Servant.API.ContentTypes.NoContent
+                    ww8
+                    ww9
+                    ww10
+                    ww11
+                    ww12
+                    ww13)
+                   `cast`
+                 (Sub (Sym (Servant.Foreign.Internal.D:R:ForeignftypeVerb[0]
+                                <*>_N
+                                <Network.HTTP.Types.Method.StdMethod>_N
+                                <[Database.Persist.Class.PersistEntity.Entity Models.User]>_N
+                                <'[Servant.API.ContentTypes.JSON]>_N
+                                <200>_N
+                                <'Network.HTTP.Types.Method.GET>_N
+                                <Servant.API.ContentTypes.NoContent>_N))) } } } }) -}
+7a38abc60ae5f5425f4b7a7cf250011d
+  generateJavaScript19 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "./assets/api.js"#) -}
+241fa3d79eb2ada01d0ae347be884e26
+  generateJavaScript2 :: Data.Text.Internal.Text
+  {- Unfolding: (Data.Text.concat Api.User.generateJavaScript3) -}
+a598a41a32eefc999ea4cffad7bb3b95
+  generateJavaScript3 :: [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Api.User.generateJavaScript16
+                   Api.User.generateJavaScript4) -}
+23d4b77efe516510a286d1e9b4fc773e
+  generateJavaScript4 :: [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Api.User.generateJavaScript11
+                   Api.User.generateJavaScript5) -}
+7cdce31166f6d448cb0451a6b9dbd426
+  generateJavaScript5 :: [Data.Text.Internal.Text]
+  {- Unfolding: (GHC.Types.:
+                   @ Data.Text.Internal.Text
+                   Api.User.generateJavaScript6
+                   (GHC.Types.[] @ Data.Text.Internal.Text)) -}
+88f3863a8f904a5bd1783f23f990851d
+  generateJavaScript6 :: Data.Text.Internal.Text
+  {- Unfolding: (Servant.JS.Vanilla.generateVanillaJS
+                   Api.User.generateJavaScript7
+                     `cast`
+                   (Trans
+                        (Sub (Servant.Foreign.Internal.D:R:Foreignftype:>4[0]
+                                  <*>_N
+                                  <Models.User>_N
+                                  <'[Servant.API.ContentTypes.JSON]>_N
+                                  <Servant.API.Verbs.Verb
+                                     'Network.HTTP.Types.Method.POST
+                                     200
+                                     '[Servant.API.ContentTypes.JSON]
+                                     GHC.Int.Int64>_N
+                                  <Servant.API.ContentTypes.NoContent>_N))
+                        (Sub (Servant.Foreign.Internal.D:R:ForeignftypeVerb[0]
+                                  <*>_N
+                                  <Network.HTTP.Types.Method.StdMethod>_N
+                                  <GHC.Int.Int64>_N
+                                  <'[Servant.API.ContentTypes.JSON]>_N
+                                  <200>_N
+                                  <'Network.HTTP.Types.Method.POST>_N
+                                  <Servant.API.ContentTypes.NoContent>_N)))) -}
+d8f9dd03757f0e196e99b0dd8af3f6dd
+  generateJavaScript7 ::
+    Servant.Foreign.Internal.Foreign
+      Servant.API.ContentTypes.NoContent
+      (Servant.API.ReqBody.ReqBody
+         '[Servant.API.ContentTypes.JSON] Models.User
+       Servant.API.Sub.:> Servant.API.Verbs.Post
+                            '[Servant.API.ContentTypes.JSON] GHC.Int.Int64)
+  {- Unfolding: (Servant.Foreign.Internal.$w$cforeignFor1
+                   @ *
+                   @ "users"
+                   @ Servant.Foreign.Internal.NoTypes
+                   @ Servant.API.ContentTypes.NoContent
+                   @ (Servant.API.ReqBody.ReqBody
+                        '[Servant.API.ContentTypes.JSON] Models.User
+                      Servant.API.Sub.:> Servant.API.Verbs.Post
+                                           '[Servant.API.ContentTypes.JSON] GHC.Int.Int64)
+                   Api.User.generateJavaScript10
+                     `cast`
+                   (Trans
+                        (Sym (GHC.TypeLits.N:SSymbol[0] <"users">_P))
+                        (Sym (GHC.TypeLits.N:KnownSymbol[0]) <"users">_N))
+                   Api.User.generateJavaScript8
+                     `cast`
+                   (Sym (Servant.Foreign.Internal.N:HasForeign[0]
+                             <*>_N
+                             <Servant.Foreign.Internal.NoTypes>_N
+                             <Servant.API.ContentTypes.NoContent>_N
+                             <Servant.API.ReqBody.ReqBody
+                                '[Servant.API.ContentTypes.JSON] Models.User
+                              Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                                   'Network.HTTP.Types.Method.POST
+                                                   200
+                                                   '[Servant.API.ContentTypes.JSON]
+                                                   GHC.Int.Int64>_N))
+                   (Data.Proxy.Proxy @ * @ Servant.Foreign.Internal.NoTypes)
+                   (Data.Proxy.Proxy @ * @ Servant.API.ContentTypes.NoContent)
+                   (Data.Proxy.Proxy
+                      @ GHC.Types.*
+                      @ ("users"
+                         Servant.API.Sub.:> (Servant.API.ReqBody.ReqBody
+                                               '[Servant.API.ContentTypes.JSON] Models.User
+                                             Servant.API.Sub.:> Servant.API.Verbs.Post
+                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                  GHC.Int.Int64)))
+                   (Servant.Foreign.Internal.defReq
+                      @ Servant.API.ContentTypes.NoContent)) -}
+255e3fed881b8e985b32ec0a62fdab6f
+  generateJavaScript8 ::
+    Data.Proxy.Proxy Servant.Foreign.Internal.NoTypes
+    -> Data.Proxy.Proxy Servant.API.ContentTypes.NoContent
+    -> Data.Proxy.Proxy
+         (Servant.API.ReqBody.ReqBody
+            '[Servant.API.ContentTypes.JSON] Models.User
+          Servant.API.Sub.:> Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.POST
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               GHC.Int.Int64)
+    -> Servant.Foreign.Internal.Req Servant.API.ContentTypes.NoContent
+    -> Servant.Foreign.Internal.Foreign
+         Servant.API.ContentTypes.NoContent
+         (Servant.API.ReqBody.ReqBody
+            '[Servant.API.ContentTypes.JSON] Models.User
+          Servant.API.Sub.:> Servant.API.Verbs.Verb
+                               'Network.HTTP.Types.Method.POST
+                               200
+                               '[Servant.API.ContentTypes.JSON]
+                               GHC.Int.Int64)
+  {- Arity: 4,
+     Unfolding: (\ (lang1 :: Data.Proxy.Proxy
+                               Servant.Foreign.Internal.NoTypes)[OneShot]
+                   (ftype1 :: Data.Proxy.Proxy
+                                Servant.API.ContentTypes.NoContent)[OneShot]
+                   (ds :: Data.Proxy.Proxy
+                            (Servant.API.ReqBody.ReqBody
+                               '[Servant.API.ContentTypes.JSON] Models.User
+                             Servant.API.Sub.:> Servant.API.Verbs.Verb
+                                                  'Network.HTTP.Types.Method.POST
+                                                  200
+                                                  '[Servant.API.ContentTypes.JSON]
+                                                  GHC.Int.Int64))[OneShot]
+                   (req :: Servant.Foreign.Internal.Req
+                             Servant.API.ContentTypes.NoContent)[OneShot] ->
+                 case ds of wild { Data.Proxy.Proxy ->
+                 case req of wild1 { Servant.Foreign.Internal.Req x1 x2 x3 x4 x5 x6 ->
+                 case ftype1 of w7 { Data.Proxy.Proxy ->
+                 case Servant.Foreign.Internal.$w$cforeignFor8
+                        @ Network.HTTP.Types.Method.StdMethod
+                        @ *
+                        @ *
+                        @ '[Servant.API.ContentTypes.JSON]
+                        @ Servant.Foreign.Internal.NoTypes
+                        @ Servant.API.ContentTypes.NoContent
+                        @ GHC.Int.Int64
+                        @ 'Network.HTTP.Types.Method.POST
+                        @ 200
+                        (Servant.Foreign.Internal.$fHasForeignTypekTYPENoTypesNoContentftype_$ctypeFor
+                           @ *
+                           @ GHC.Int.Int64)
+                          `cast`
+                        (Sym (Servant.Foreign.Internal.N:HasForeignType[0]
+                                  <*>_N
+                                  <*>_N
+                                  <Servant.Foreign.Internal.NoTypes>_N
+                                  <Servant.API.ContentTypes.NoContent>_N
+                                  <GHC.Int.Int64>_N))
+                        Servant.API.Verbs.$fReflectMethodStdMethodPOST_$creflectMethod
+                          `cast`
+                        (Sym (Servant.API.Verbs.N:ReflectMethod[0]
+                                  <Network.HTTP.Types.Method.StdMethod>_N
+                                  <'Network.HTTP.Types.Method.POST>_N))
+                        lang1
+                        (Data.Proxy.Proxy @ * @ Servant.API.ContentTypes.NoContent)
+                        (Data.Proxy.Proxy
+                           @ GHC.Types.*
+                           @ (Servant.API.Verbs.Verb
+                                'Network.HTTP.Types.Method.POST
+                                200
+                                '[Servant.API.ContentTypes.JSON]
+                                GHC.Int.Int64))
+                        x1
+                        x3
+                        Api.User.generateJavaScript9
+                        x6 of ww7 { (#,,,,,#) ww8 ww9 ww10 ww11 ww12 ww13 ->
+                 (Servant.Foreign.Internal.Req
+                    @ Servant.API.ContentTypes.NoContent
+                    ww8
+                    ww9
+                    ww10
+                    ww11
+                    ww12
+                    ww13)
+                   `cast`
+                 (Trans
+                      (Sub (Sym (Servant.Foreign.Internal.D:R:ForeignftypeVerb[0]
+                                     <*>_N
+                                     <Network.HTTP.Types.Method.StdMethod>_N
+                                     <GHC.Int.Int64>_N
+                                     <'[Servant.API.ContentTypes.JSON]>_N
+                                     <200>_N
+                                     <'Network.HTTP.Types.Method.POST>_N
+                                     <Servant.API.ContentTypes.NoContent>_N)))
+                      (Sub (Sym (Servant.Foreign.Internal.D:R:Foreignftype:>4[0]
+                                     <*>_N
+                                     <Models.User>_N
+                                     <'[Servant.API.ContentTypes.JSON]>_N
+                                     <Servant.API.Verbs.Verb
+                                        'Network.HTTP.Types.Method.POST
+                                        200
+                                        '[Servant.API.ContentTypes.JSON]
+                                        GHC.Int.Int64>_N
+                                     <Servant.API.ContentTypes.NoContent>_N)))) } } } }) -}
+c92cbd0bf369b50c442d19c1128f30b8
+  generateJavaScript9 ::
+    GHC.Base.Maybe Servant.API.ContentTypes.NoContent
+  {- HasNoCafRefs,
+     Unfolding: (GHC.Base.Just
+                   @ Servant.API.ContentTypes.NoContent
+                   Servant.API.ContentTypes.NoContent) -}
+93ea09277696eabf05d9c9115dcbacdd
+  loginServer ::
+    Servant.Server.Internal.ServerT Api.User.LoginAPI Configs.App
+  {- Strictness: <L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Api.User.loginServer1
+                  `cast`
+                (Trans
+                     (<Api.User.LoginUser>_R
+                      ->_R Trans
+                               (<Configs.Config>_R
+                                ->_R Trans
+                                         (Sym (GHC.Types.N:IO[0]
+                                                   <Data.Either.Either
+                                                      Servant.Server.Internal.ServantErr.ServantErr
+                                                      Auth.Token.Token>_R))
+                                         (Trans
+                                              (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                        <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                        <GHC.Types.IO>_R
+                                                        <Auth.Token.Token>_N))
+                                              (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <Auth.Token.Token>_N)))
+                               (Trans
+                                    (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                              <*>_N
+                                              <Configs.Config>_R
+                                              <Servant.Server.Internal.Handler.Handler>_R
+                                              <Auth.Token.Token>_N))
+                                    (Trans
+                                         (Sym (Configs.N:App[0]) <Auth.Token.Token>_N)
+                                         (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                                        <Network.HTTP.Types.Method.StdMethod>_N
+                                                        <[GHC.Types.Char]>_N
+                                                        <'[Servant.API.ContentTypes.JSON]>_N
+                                                        <200>_N
+                                                        <'Network.HTTP.Types.Method.POST>_N
+                                                        <Configs.App>_N))))))
+                     (Trans
+                          (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m5[0]
+                                         <*>_N
+                                         <Api.User.LoginUser>_N
+                                         <'[Servant.API.ContentTypes.JSON]>_N
+                                         <Servant.API.Verbs.Verb
+                                            'Network.HTTP.Types.Method.POST
+                                            200
+                                            '[Servant.API.ContentTypes.JSON]
+                                            Auth.Token.Token>_N
+                                         <Configs.App>_N)))
+                          (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                         <*>_N
+                                         <Servant.API.ReqBody.ReqBody
+                                            '[Servant.API.ContentTypes.JSON] Api.User.LoginUser
+                                          Servant.API.Sub.:> Servant.API.Verbs.Post
+                                                               '[Servant.API.ContentTypes.JSON]
+                                                               Auth.Token.Token>_N
+                                         <"login">_N
+                                         <Configs.App>_N))))) -}
+69f54191328913969cee22570ab667f4
+  loginServer1 ::
+    Api.User.LoginUser
+    -> Configs.Config
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token #)
+  {- Arity: 3, Strictness: <L,A>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (creds :: Api.User.LoginUser)
+                   (eta :: Configs.Config)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                 Api.User.loginServer2 eta eta1) -}
+8fc4403f96f7b5ba921107759f3b9f04
+  loginServer2 ::
+    Configs.Config
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld,
+          Data.Either.Either
+            Servant.Server.Internal.ServantErr.ServantErr Auth.Token.Token #)
+  {- Arity: 2,
+     Unfolding: (Configs.$fApplicativeApp5
+                   @ Auth.Token.Token
+                   Auth.Token.tokenKey) -}
+7fef709142747874838f56bc20a5b2ca
+  loginUser :: Api.User.LoginUser -> Configs.App Auth.Token.Token
+  {- Arity: 3, Strictness: <L,A>,
+     Unfolding: InlineRule (0, True, True)
+                Api.User.loginServer1
+                  `cast`
+                (<Api.User.LoginUser>_R
+                 ->_R Trans
+                          (<Configs.Config>_R
+                           ->_R Trans
+                                    (Sym (GHC.Types.N:IO[0]
+                                              <Data.Either.Either
+                                                 Servant.Server.Internal.ServantErr.ServantErr
+                                                 Auth.Token.Token>_R))
+                                    (Trans
+                                         (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                                   <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                                   <GHC.Types.IO>_R
+                                                   <Auth.Token.Token>_N))
+                                         (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <Auth.Token.Token>_N)))
+                          (Trans
+                               (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                         <*>_N
+                                         <Configs.Config>_R
+                                         <Servant.Server.Internal.Handler.Handler>_R
+                                         <Auth.Token.Token>_N))
+                               (Sym (Configs.N:App[0]) <Auth.Token.Token>_N))) -}
+475977cce0a689816d6ea98a7634cc28
+  password :: Api.User.LoginUser -> GHC.Base.String
+  RecSel Left Api.User.LoginUser
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Api.User.LoginUser) ->
+                 case ds of wild { Api.User.Login ds1 ds2 -> ds2 }) -}
+0244956cfa296316f230b26980dc7f49
+  singleUser ::
+    GHC.Base.String
+    -> Configs.App
+         (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Arity: 1, Strictness: <L,U>,
+     Unfolding: (\ (str :: GHC.Base.String) ->
+                 let {
+                   m1 :: Configs.App
+                           (GHC.Base.Maybe
+                              (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   = Models.runDb
+                       @ Configs.App
+                       @ (GHC.Base.Maybe
+                            (Database.Persist.Class.PersistEntity.Entity Models.User))
+                       Configs.$fMonadReaderApp
+                       Configs.$fMonadIOApp
+                       (Database.Persist.Sql.Orphan.PersistQuery.$fPersistQueryReadSqlBackend_$cselectFirst
+                          @ GHC.Types.IO
+                          @ Models.User
+                          Control.Monad.IO.Class.$fMonadIOIO
+                          Api.User.allUsers2
+                            `cast`
+                          (GHC.Classes.(%,%)
+                             <Database.Persist.Class.PersistEntity.PersistEntity Models.User>_N
+                             ((Data.Type.Equality.~)
+                                <*>_N
+                                (Sym (Models.D:R:PersistEntityBackendUser[0]))
+                                (Sym (Database.Persist.Sql.Types.Internal.D:R:BaseBackendSqlBackend[0])))_N)_R
+                          (GHC.Types.:
+                             @ (Database.Persist.Class.PersistEntity.Filter Models.User)
+                             (Database.Persist.Class.PersistEntity.Filter
+                                @ Models.User
+                                @ GHC.Base.String
+                                Database.Persist.Class.PersistField.$fPersistField[]0
+                                Api.User.singleUser2
+                                  `cast`
+                                (Sym (Models.D:R:EntityFieldUsertyp0[0]) <GHC.Base.String>_N)
+                                (Data.Either.Left @ GHC.Base.String @ [GHC.Base.String] str)
+                                Database.Persist.Types.Base.Eq)
+                             (GHC.Types.[]
+                                @ (Database.Persist.Class.PersistEntity.Filter Models.User)))
+                          (GHC.Types.[]
+                             @ (Database.Persist.Class.PersistEntity.SelectOpt Models.User)))
+                 } in
+                 (\ (r1 :: Configs.Config)
+                    (eta :: GHC.Prim.State# GHC.Prim.RealWorld)[OneShot] ->
+                  case (m1
+                          `cast`
+                        (Trans
+                             (Configs.N:App[0] <GHC.Base.Maybe
+                                                  (Database.Persist.Class.PersistEntity.Entity
+                                                     Models.User)>_N)
+                             (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                  <*>_N
+                                  <Configs.Config>_R
+                                  <Servant.Server.Internal.Handler.Handler>_R
+                                  <GHC.Base.Maybe
+                                     (Database.Persist.Class.PersistEntity.Entity Models.User)>_N))
+                          r1)
+                         `cast`
+                       (Trans
+                            (Servant.Server.Internal.Handler.N:Handler[0] <GHC.Base.Maybe
+                                                                             (Database.Persist.Class.PersistEntity.Entity
+                                                                                Models.User)>_N)
+                            (Trans
+                                 (Control.Monad.Trans.Except.N:ExceptT[0]
+                                      <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                      <GHC.Types.IO>_R
+                                      <GHC.Base.Maybe
+                                         (Database.Persist.Class.PersistEntity.Entity
+                                            Models.User)>_N)
+                                 (GHC.Types.N:IO[0]
+                                      <Data.Either.Either
+                                         Servant.Server.Internal.ServantErr.ServantErr
+                                         (GHC.Base.Maybe
+                                            (Database.Persist.Class.PersistEntity.Entity
+                                               Models.User))>_R)))
+                         eta of ds1 { (#,#) ipv ipv1 ->
+                  case ipv1 of wild {
+                    Data.Either.Left e1
+                    -> (# ipv,
+                          Data.Either.Left
+                            @ Servant.Server.Internal.ServantErr.ServantErr
+                            @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                            e1 #)
+                    Data.Either.Right x
+                    -> case x of wild1 {
+                         GHC.Base.Nothing -> (# ipv, Api.User.singleUser1 #)
+                         GHC.Base.Just person
+                         -> Configs.$fApplicativeApp5
+                              @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                              person
+                              r1
+                              ipv } } })
+                   `cast`
+                 (Trans
+                      (<Configs.Config>_R
+                       ->_R Trans
+                                (Sym (GHC.Types.N:IO[0]
+                                          <Data.Either.Either
+                                             Servant.Server.Internal.ServantErr.ServantErr
+                                             (Database.Persist.Class.PersistEntity.Entity
+                                                Models.User)>_R))
+                                (Trans
+                                     (Sym (Control.Monad.Trans.Except.N:ExceptT[0]
+                                               <Servant.Server.Internal.ServantErr.ServantErr>_N
+                                               <GHC.Types.IO>_R
+                                               <Database.Persist.Class.PersistEntity.Entity
+                                                  Models.User>_N))
+                                     (Sym (Servant.Server.Internal.Handler.N:Handler[0]) <Database.Persist.Class.PersistEntity.Entity
+                                                                                            Models.User>_N)))
+                      (Trans
+                           (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                     <*>_N
+                                     <Configs.Config>_R
+                                     <Servant.Server.Internal.Handler.Handler>_R
+                                     <Database.Persist.Class.PersistEntity.Entity Models.User>_N))
+                           (Sym (Configs.N:App[0]) <Database.Persist.Class.PersistEntity.Entity
+                                                      Models.User>_N)))) -}
+29713bdd3801353649326cfd418ffd47
+  singleUser1 ::
+    Data.Either.Either
+      Servant.Server.Internal.ServantErr.ServantErr
+      (Database.Persist.Class.PersistEntity.Entity Models.User)
+  {- Unfolding: (Data.Either.Left
+                   @ Servant.Server.Internal.ServantErr.ServantErr
+                   @ (Database.Persist.Class.PersistEntity.Entity Models.User)
+                   Servant.Server.Internal.ServantErr.err404) -}
+17f95298e2d6798417956466e421a8eb
+  singleUser2 :: Models.R:EntityFieldUsertyp GHC.Base.String
+  {- HasNoCafRefs, Strictness: m2,
+     Unfolding: (Models.UserName
+                   @ GHC.Base.String
+                   Api.User.$s$WUserName2
+                     `cast`
+                   (Sym (Data.Type.Equality.N:~[0]
+                             <*>_N) <[GHC.Types.Char]>_N <[GHC.Types.Char]>_N)) -}
+1befa0aa5168e6af835ff822edf74186
+  userServer ::
+    Auth.Token.Token
+    -> Servant.Server.Internal.ServerT Api.User.UserAPI Configs.App
+  {- Arity: 1, Strictness: <L,A>m,
+     Unfolding: InlineRule (0, True, True)
+                Api.User.userServer1
+                  `cast`
+                (<Auth.Token.Token>_R
+                 ->_R Trans
+                          (Trans
+                               (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                              <Network.HTTP.Types.Method.StdMethod>_N
+                                              <[Database.Persist.Class.PersistEntity.Entity
+                                                  Models.User]>_N
+                                              <'[Servant.API.ContentTypes.JSON]>_N
+                                              <200>_N
+                                              <'Network.HTTP.Types.Method.GET>_N
+                                              <Configs.App>_N)))
+                               (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                              <*>_N
+                                              <Servant.API.Verbs.Verb
+                                                 'Network.HTTP.Types.Method.GET
+                                                 200
+                                                 '[Servant.API.ContentTypes.JSON]
+                                                 [Database.Persist.Class.PersistEntity.Entity
+                                                    Models.User]>_N
+                                              <"users">_N
+                                              <Configs.App>_N)))
+                           Servant.API.Alternative.:<|> Trans
+                                                            (Trans
+                                                                 (<[GHC.Types.Char]>_R
+                                                                  ->_R Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                                                                     <Network.HTTP.Types.Method.StdMethod>_N
+                                                                                     <Database.Persist.Class.PersistEntity.Entity
+                                                                                        Models.User>_N
+                                                                                     <'[Servant.API.ContentTypes.JSON]>_N
+                                                                                     <200>_N
+                                                                                     <'Network.HTTP.Types.Method.GET>_N
+                                                                                     <Configs.App>_N)))
+                                                                 (Trans
+                                                                      (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m11[0]
+                                                                                     <*>_N
+                                                                                     <[GHC.Types.Char]>_N
+                                                                                     <"name">_N
+                                                                                     <Servant.API.Verbs.Verb
+                                                                                        'Network.HTTP.Types.Method.GET
+                                                                                        200
+                                                                                        '[Servant.API.ContentTypes.JSON]
+                                                                                        (Database.Persist.Class.PersistEntity.Entity
+                                                                                           Models.User)>_N
+                                                                                     <Configs.App>_N)))
+                                                                      (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                                                                     <*>_N
+                                                                                     <Servant.API.Capture.Capture
+                                                                                        "name"
+                                                                                        GHC.Base.String
+                                                                                      Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                                                           '[Servant.API.ContentTypes.JSON]
+                                                                                                           (Database.Persist.Class.PersistEntity.Entity
+                                                                                                              Models.User)>_N
+                                                                                     <"users">_N
+                                                                                     <Configs.App>_N))))
+                                                             Servant.API.Alternative.:<|> Trans
+                                                                                              (<Models.User>_R
+                                                                                               ->_R Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPEVerbm0[0]
+                                                                                                                  <Network.HTTP.Types.Method.StdMethod>_N
+                                                                                                                  <GHC.Int.Int64>_N
+                                                                                                                  <'[Servant.API.ContentTypes.JSON]>_N
+                                                                                                                  <200>_N
+                                                                                                                  <'Network.HTTP.Types.Method.POST>_N
+                                                                                                                  <Configs.App>_N)))
+                                                                                              (Trans
+                                                                                                   (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m5[0]
+                                                                                                                  <*>_N
+                                                                                                                  <Models.User>_N
+                                                                                                                  <'[Servant.API.ContentTypes.JSON]>_N
+                                                                                                                  <Servant.API.Verbs.Verb
+                                                                                                                     'Network.HTTP.Types.Method.POST
+                                                                                                                     200
+                                                                                                                     '[Servant.API.ContentTypes.JSON]
+                                                                                                                     GHC.Int.Int64>_N
+                                                                                                                  <Configs.App>_N)))
+                                                                                                   (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:>m4[0]
+                                                                                                                  <*>_N
+                                                                                                                  <Servant.API.ReqBody.ReqBody
+                                                                                                                     '[Servant.API.ContentTypes.JSON]
+                                                                                                                     Models.User
+                                                                                                                   Servant.API.Sub.:> Servant.API.Verbs.Post
+                                                                                                                                        '[Servant.API.ContentTypes.JSON]
+                                                                                                                                        GHC.Int.Int64>_N
+                                                                                                                  <"users">_N
+                                                                                                                  <Configs.App>_N)))))_R
+                                                            (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:<|>m[0]
+                                                                           <"users"
+                                                                            Servant.API.Sub.:> (Servant.API.ReqBody.ReqBody
+                                                                                                  '[Servant.API.ContentTypes.JSON]
+                                                                                                  Models.User
+                                                                                                Servant.API.Sub.:> Servant.API.Verbs.Post
+                                                                                                                     '[Servant.API.ContentTypes.JSON]
+                                                                                                                     GHC.Int.Int64)>_N
+                                                                           <"users"
+                                                                            Servant.API.Sub.:> (Servant.API.Capture.Capture
+                                                                                                  "name"
+                                                                                                  GHC.Base.String
+                                                                                                Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                                                                     '[Servant.API.ContentTypes.JSON]
+                                                                                                                     (Database.Persist.Class.PersistEntity.Entity
+                                                                                                                        Models.User))>_N
+                                                                           <Configs.App>_N))))_R
+                          (Sub (Sym (Servant.Server.Internal.D:R:ServerTTYPE:<|>m[0]
+                                         <("users"
+                                           Servant.API.Sub.:> (Servant.API.Capture.Capture
+                                                                 "name" GHC.Base.String
+                                                               Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                                                    '[Servant.API.ContentTypes.JSON]
+                                                                                    (Database.Persist.Class.PersistEntity.Entity
+                                                                                       Models.User)))
+                                          Servant.API.Alternative.:<|> ("users"
+                                                                        Servant.API.Sub.:> (Servant.API.ReqBody.ReqBody
+                                                                                              '[Servant.API.ContentTypes.JSON]
+                                                                                              Models.User
+                                                                                            Servant.API.Sub.:> Servant.API.Verbs.Post
+                                                                                                                 '[Servant.API.ContentTypes.JSON]
+                                                                                                                 GHC.Int.Int64))>_N
+                                         <"users"
+                                          Servant.API.Sub.:> Servant.API.Verbs.Get
+                                                               '[Servant.API.ContentTypes.JSON]
+                                                               [Database.Persist.Class.PersistEntity.Entity
+                                                                  Models.User]>_N
+                                         <Configs.App>_N)))) -}
+1d8f1e5de54ddda9122c16a8fa019aba
+  userServer1 ::
+    Auth.Token.Token
+    -> Configs.App
+         [Database.Persist.Class.PersistEntity.Entity Models.User]
+       Servant.API.Alternative.:<|> ((GHC.Base.String
+                                      -> Configs.App
+                                           (Database.Persist.Class.PersistEntity.Entity
+                                              Models.User))
+                                     Servant.API.Alternative.:<|> (Models.User
+                                                                   -> Configs.App GHC.Int.Int64))
+  {- Arity: 1, Strictness: <L,A>m,
+     Unfolding: InlineRule (1, True, True)
+                (\ (t :: Auth.Token.Token) -> Api.User.userServer2) -}
+6cf4c74928f1b1aaba82a014e83c4286
+  userServer2 ::
+    Configs.App
+      [Database.Persist.Class.PersistEntity.Entity Models.User]
+    Servant.API.Alternative.:<|> ((GHC.Base.String
+                                   -> Configs.App
+                                        (Database.Persist.Class.PersistEntity.Entity Models.User))
+                                  Servant.API.Alternative.:<|> (Models.User
+                                                                -> Configs.App GHC.Int.Int64))
+  {- Strictness: m,
+     Unfolding: (Servant.API.Alternative.:<|>
+                   @ (Configs.App
+                        [Database.Persist.Class.PersistEntity.Entity Models.User])
+                   @ ((GHC.Base.String
+                       -> Configs.App
+                            (Database.Persist.Class.PersistEntity.Entity Models.User))
+                      Servant.API.Alternative.:<|> (Models.User
+                                                    -> Configs.App GHC.Int.Int64))
+                   Api.User.allUsers
+                   Api.User.userServer3) -}
+a1d1875425874eed547e886b24110a12
+  userServer3 ::
+    (GHC.Base.String
+     -> Configs.App
+          (Database.Persist.Class.PersistEntity.Entity Models.User))
+    Servant.API.Alternative.:<|> (Models.User
+                                  -> Configs.App GHC.Int.Int64)
+  {- Strictness: m,
+     Unfolding: (Servant.API.Alternative.:<|>
+                   @ (GHC.Base.String
+                      -> Configs.App
+                           (Database.Persist.Class.PersistEntity.Entity Models.User))
+                   @ (Models.User -> Configs.App GHC.Int.Int64)
+                   Api.User.singleUser
+                   Api.User.createUser) -}
+instance Data.Aeson.Types.FromJSON.FromJSON [Api.User.LoginUser]
+  = Api.User.$fFromJSONLoginUser
+instance GHC.Generics.Generic [Api.User.LoginUser]
+  = Api.User.$fGenericLoginUser
+instance GHC.Read.Read [Api.User.LoginUser]
+  = Api.User.$fReadLoginUser
+instance GHC.Show.Show [Api.User.LoginUser]
+  = Api.User.$fShowLoginUser
+instance Data.Aeson.Types.ToJSON.ToJSON [Api.User.LoginUser]
+  = Api.User.$fToJSONLoginUser
+family instance GHC.Generics.Rep [Api.User.LoginUser]
+  = Api.User.Rep_LoginUser
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
